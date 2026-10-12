@@ -1,0 +1,22 @@
+{
+  "name": "facade2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Experimental browser-local Façade fan project",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "dev": "wrangler dev --port 18060",
+    "test": "node --test test/*.test.mjs",
+    "qa": "node tools/qa-browser.mjs",
+    "deploy": "wrangler deploy",
+    "fetch-assets": "node tools/fetch-assets.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.0",
+    "wrangler": "4.149.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

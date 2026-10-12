@@ -1,0 +1,16 @@
+Facade 2 is an unofficial experimental fan project.
+
+Original Fa?ade: (c) 2005-2006 Procedural Arts.
+Design, writing, animation and engineering: Michael Mateas and Andrew Stern.
+Original principal voices: Chloe Johnston and Andy Bayiates.
+Generated character speech is synthesized locally from existing game references.
+No endorsement or new performances by the original actors are claimed.
+Original game material and Microsoft Comic Sans outlines retain their owners' rights.
+
+Dialogue: Qwen3.5-4B / Qwen3.5-9B and MLC WebLLM 0.2.86 (Apache-2.0).
+Voices: Chatterbox and Chatterbox Turbo ONNX (MIT), Resemble AI.
+Chatterbox license source: https://raw.githubusercontent.com/resemble-ai/chatterbox/5de7a54aa4e5e2baadb0182dde554908b48b85c2/LICENSE
+Recognition: Whisper tiny.en (MIT), ONNX Community conversion.
+Browser runtimes: Transformers.js (Apache-2.0) and ONNX Runtime (MIT).
+Exact model/runtime revisions and SHA-256 hashes are in the release manifests.
+The Turbo decoder repack shares byte-identical initializers without quantization changes.

@@ -1,0 +1,153 @@
+{
+  "model": "onnx-community/chatterbox-ONNX",
+  "revision": "3cab09af388d3f02bba43443fce88c1f4525ac43",
+  "runtime": "@huggingface/transformers@4.3.1",
+  "createdUtc": "2026-10-11T14:51:08.005Z",
+  "files": [
+    {
+      "path": "models/chatterbox/config.json",
+      "bytes": 1097,
+      "sha256": "a7d8518edd1cf6346e4d2be33201747ea4c476718db756f42e6959e4828f4955",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/config.json"
+    },
+    {
+      "path": "models/chatterbox/generation_config.json",
+      "bytes": 93,
+      "sha256": "1b6fbb953861089ebe7da64df46eeef570d53f47a44b7cc1b4d543669fc9cd50",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/generation_config.json"
+    },
+    {
+      "path": "models/chatterbox/preprocessor_config.json",
+      "bytes": 130,
+      "sha256": "1c320b2eea5f45678d17d891d51c38467775091dbf26a074635ba5e98ede5950",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/preprocessor_config.json"
+    },
+    {
+      "path": "models/chatterbox/tokenizer.json",
+      "bytes": 28543,
+      "sha256": "ecddf6aaae85e271610a2743409f7e447886957d0b0836687c1eaec5ccac2891",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/tokenizer.json"
+    },
+    {
+      "path": "models/chatterbox/tokenizer_config.json",
+      "bytes": 244,
+      "sha256": "b35967f93e30313d05fc9d520721ca9f671aaa5b3edbb03059aed3ff68b4c4c0",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/tokenizer_config.json"
+    },
+    {
+      "path": "models/chatterbox/onnx/embed_tokens.onnx",
+      "bytes": 13286,
+      "sha256": "160722ec14789f616abdb1e31916cbbf9223c03fde0ab546d64ca74fb72e430b",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/embed_tokens.onnx"
+    },
+    {
+      "path": "models/chatterbox/onnx/embed_tokens.onnx_data",
+      "bytes": 61640704,
+      "sha256": "898c563c3a5ca1b9ea10ce89b0cdcf252b0bb5ab460dfc4eadea003b56e5d2ee",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/embed_tokens.onnx_data"
+    },
+    {
+      "path": "models/chatterbox/onnx/language_model_q4f16.onnx",
+      "bytes": 229388,
+      "sha256": "3b78e9235be5e2e2a811e482399155cb30415f6d87c98c21d12bf48843fc928f",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/language_model_q4f16.onnx"
+    },
+    {
+      "path": "models/chatterbox/onnx/language_model_q4f16.onnx_data",
+      "bytes": 304737408,
+      "sha256": "2480da95471e4cd41a6b1876686e65e8a594c82459f2e5d6fd7592a5bad4e6da",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/language_model_q4f16.onnx_data"
+    },
+    {
+      "path": "models/chatterbox/onnx/conditional_decoder.onnx",
+      "bytes": 6350448,
+      "sha256": "1656d0d31332bae1854839959a3139300ebb67c178651dfa3f8c5fbfa5351351",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/conditional_decoder.onnx"
+    },
+    {
+      "path": "models/chatterbox/onnx/conditional_decoder.onnx_data",
+      "bytes": 533970816,
+      "sha256": "51d58345a272747665ec9d5bb61e01835258a940e321a288582ac4c18cf01b5a",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/conditional_decoder.onnx_data"
+    },
+    {
+      "path": "runtime/transformers.min.js",
+      "bytes": 586230,
+      "sha256": "8d6716d9086f57c30a4bf367dba61b887593573c770c454465e8019b2703e743",
+      "source": "@huggingface/transformers"
+    },
+    {
+      "path": "runtime/ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 53057,
+      "sha256": "0966b6105cd936744498aa60df7a22cbd47af3374dbc64a9ab561c08a71e3611",
+      "source": "onnxruntime-web"
+    },
+    {
+      "path": "runtime/ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 26861777,
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082",
+      "source": "onnxruntime-web"
+    },
+    {
+      "path": "conditioning/standard/manifest.json",
+      "bytes": 4208,
+      "sha256": "941e358d6bda004cb4b7c21bcbf2f1f280c0d13f64a3067e32abe78bac5f56f4",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/grace-audio_features.bin",
+      "bytes": 135168,
+      "sha256": "4ab471d6740f4657baec4d0e36246b084f2f17a4204019d49abb57b75ef79ff9",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/grace-audio_tokens.bin",
+      "bytes": 1160,
+      "sha256": "f107cdc79cd7341ad3c19fc7071471f2bf826049a04195e439e9275a1a223201",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/grace-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "5b43516af69df4b9798060cdda24c671b9e1993275046ee6718608dc104661c8",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/grace-speaker_features.bin",
+      "bytes": 92160,
+      "sha256": "1a63ffe6fcda1629459d0a6577f123d5af0953b757a05ead6550fe2ea8d76359",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/trip-audio_features.bin",
+      "bytes": 135168,
+      "sha256": "a677d7b49855c7ba962eee2c07d2bf5fe536f1b3d20b8420f2aebf80776fef80",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/trip-audio_tokens.bin",
+      "bytes": 1400,
+      "sha256": "d3158e07318b9879dd663d1461ec71a0a5525bb22cecaab1453607e771061ae6",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/trip-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "f2a0c72c519ff992ff7315f1371a6ee8810db8352b5ce9494ee915e42b0f823b",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    },
+    {
+      "path": "conditioning/standard/trip-speaker_features.bin",
+      "bytes": 111360,
+      "sha256": "e1bb71c9ba0bbcf75ab29980f73f230293e06211ac7f2e025ed2b1d04b0ca853",
+      "source": "test-artifacts/encoder-1791729904033/result.json"
+    }
+  ],
+  "totalBytes": 934955381,
+  "referenceMode": "precomputed",
+  "dtype": {
+    "embed_tokens": "fp32",
+    "language_model": "q4f16",
+    "conditional_decoder": "fp32"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules/
+.assets/
+dist/
+.wrangler/
+.local/
+test-artifacts/
+.env*
+.dev.vars*
+*.log

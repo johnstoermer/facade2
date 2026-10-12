@@ -1,0 +1,3641 @@
+{
+  "format": "facade2-release-assets-v1",
+  "files": [
+    {
+      "path": "animation-tools/out/grace.poses.bin",
+      "bytes": 4406076,
+      "sha256": "bf6abb3ba00b1d74809ef2ecdd9911a5a725bee36b2b6d42d09a7100d0eac73e"
+    },
+    {
+      "path": "animation-tools/out/manifest.json",
+      "bytes": 313113,
+      "sha256": "e08ebffc68786f6b38d23952b3a771bcc8ebb0e45787cf8c35fcdd1a9b93026a"
+    },
+    {
+      "path": "animation-tools/out/trip.poses.bin",
+      "bytes": 7128576,
+      "sha256": "05252335e2da1ac7b1af79e5762b4e73fa3082b82cd88606586c5aceb73ad547"
+    },
+    {
+      "path": "assets/audio/closedoor1.wav",
+      "bytes": 35954,
+      "sha256": "8be7531fe446fd76132a563005fe0e217390876b66d755c5b3ccfa2e10952e33"
+    },
+    {
+      "path": "assets/audio/closedoor2.wav",
+      "bytes": 41682,
+      "sha256": "5509dbf1f653b77d35fe3f8b6aa0ba8d65061c14390ea775d32b86e90a226810"
+    },
+    {
+      "path": "assets/audio/doorknock1.wav",
+      "bytes": 49822,
+      "sha256": "b381fc8412ae4300e615667ddf05df3d5f2a24356faa6f9c5786b5f509de55ae"
+    },
+    {
+      "path": "assets/audio/doorknock2.wav",
+      "bytes": 34530,
+      "sha256": "352763ab58565762b650775dfd8f38edec45ceea55c58a1ce0cdf24cbf574c42"
+    },
+    {
+      "path": "assets/audio/doorknock3.wav",
+      "bytes": 33464,
+      "sha256": "4f93005c0171f00d39ebc7a547239a3971bfeeb4c9325837876927cea02de359"
+    },
+    {
+      "path": "assets/audio/grace-00753.wav",
+      "bytes": 39730,
+      "sha256": "eaa0ce46c57f6c7822fa7f11639a33f90fb9ede5d16900c1e22316a77f526dae"
+    },
+    {
+      "path": "assets/audio/grace-00754.wav",
+      "bytes": 182080,
+      "sha256": "81a8c8be59d4f3282bd86ce3edfaa3fdc7a4d66c65b6e5455accaeb9146dd2e6"
+    },
+    {
+      "path": "assets/audio/grace-00755.wav",
+      "bytes": 117068,
+      "sha256": "ce41b99fd9d26cf881292cc31593b4ecdf60ee906ae98fbc12e780f085285550"
+    },
+    {
+      "path": "assets/audio/grace-00756.wav",
+      "bytes": 77484,
+      "sha256": "11dcbe2c520bc5e09de9a39ff7df61646f019ee594c8d4a7b86c2cd027d4b054"
+    },
+    {
+      "path": "assets/audio/grace-00757.wav",
+      "bytes": 99978,
+      "sha256": "78b880db4d845334936cfccebb89ce624ebb5d23ea34a606a1c5991fc7a6cd73"
+    },
+    {
+      "path": "assets/audio/grace-00758.wav",
+      "bytes": 99236,
+      "sha256": "d2cd4e5fa0f611764a6ea3c422d5712fe70b9696bcab8078710972c1fefc91a7"
+    },
+    {
+      "path": "assets/audio/grace-00759.wav",
+      "bytes": 97612,
+      "sha256": "4cfc5f5cbd345e50250a6fa8bed9d4cf234ff0b3deab5e4900f36f06cdc2e159"
+    },
+    {
+      "path": "assets/audio/grace-00760.wav",
+      "bytes": 67964,
+      "sha256": "32d80e708fca5b8dbda18f3cd29939d18d57374b27fa5b1073cdecd9a9704279"
+    },
+    {
+      "path": "assets/audio/grace-00761.wav",
+      "bytes": 128986,
+      "sha256": "f9b32c6dedb9e1a5bd921611b297bbe9ba05bedfbe0af7fa581f931ccdff8598"
+    },
+    {
+      "path": "assets/audio/grace-00762.wav",
+      "bytes": 110350,
+      "sha256": "6175dd73f01a48215ffba58fa182c3643e8f28d66d2c0e3eac035c63f447ace0"
+    },
+    {
+      "path": "assets/audio/grace-00763.wav",
+      "bytes": 39724,
+      "sha256": "83cf6e0d63a270e36fe5e4b621dbca09694403cf2a085665fdc2f7fbc191e6b4"
+    },
+    {
+      "path": "assets/audio/grace-00764.wav",
+      "bytes": 119222,
+      "sha256": "4a11f4d0c0075cc66e01ba9fc29eaeb10e4dbfcc69dbb3ef1114c932fd2a66d5"
+    },
+    {
+      "path": "assets/audio/grace-00765.wav",
+      "bytes": 73644,
+      "sha256": "0228559e8aff4f87842f1cf10501b371767c793b946eab515999eec614dd061f"
+    },
+    {
+      "path": "assets/audio/grace-00767.wav",
+      "bytes": 130298,
+      "sha256": "1222d381d99300f1e0ec726b599cb2a6474e2482091408834b637a4321464332"
+    },
+    {
+      "path": "assets/audio/grace-00768.wav",
+      "bytes": 254660,
+      "sha256": "3dd6837558470093b3279437a0244c3a3d921d1f9c7c2673aa9d6fa911bea8c1"
+    },
+    {
+      "path": "assets/audio/grace-00769.wav",
+      "bytes": 178572,
+      "sha256": "31e09db8d51494ee38ff9dae72074b6cf0dc4a6fd6f9b4eb183510816a24efcb"
+    },
+    {
+      "path": "assets/audio/grace-00770.wav",
+      "bytes": 205458,
+      "sha256": "ab23a9e8441610e5f13e29ee4e50996fe58f4fb5b21207cf3b0fab486dc9256d"
+    },
+    {
+      "path": "assets/audio/grace-00771.wav",
+      "bytes": 103600,
+      "sha256": "a39143ecde3edf9b5a30db8811bfc88c8e496f76e1bf97bbe957eaa7e8ab7abf"
+    },
+    {
+      "path": "assets/audio/grace-00772.wav",
+      "bytes": 94152,
+      "sha256": "bf6fbd9468d98953a54a64a5ad28111fe69ed5ececaa2b4ea27fc8a49f79e075"
+    },
+    {
+      "path": "assets/audio/grace-00773.wav",
+      "bytes": 126360,
+      "sha256": "3db851f601627fb41c24ddeb5b785b3aee53947f4a59e82d375b2b9a97f3cdda"
+    },
+    {
+      "path": "assets/audio/grace-00774.wav",
+      "bytes": 137210,
+      "sha256": "a8d7d67e0b8ea2f56fbf17e10a1053141043e9ca20f98f95086ab82114961288"
+    },
+    {
+      "path": "assets/audio/grace-00775.wav",
+      "bytes": 66702,
+      "sha256": "ea56fa26603089f41799fb8a0546863bfc4c4541bf21de83fb3d48ac32f77168"
+    },
+    {
+      "path": "assets/audio/grace-00776.wav",
+      "bytes": 67244,
+      "sha256": "bbe0d7e6ac306d86535618a7a479e7eab3f83df79ed6ac666a2cb175e229a45d"
+    },
+    {
+      "path": "assets/audio/grace-00777.wav",
+      "bytes": 74924,
+      "sha256": "b85eab6bd7dd20808e17a641fdc7130120fdd53f335326133cfbea5c326440d1"
+    },
+    {
+      "path": "assets/audio/grace-00778.wav",
+      "bytes": 78764,
+      "sha256": "8b94bee80ec59e92c463f1ad67f2bbb86984f35dff413f3ad4a649a5a5870da0"
+    },
+    {
+      "path": "assets/audio/grace-00779.wav",
+      "bytes": 96216,
+      "sha256": "ded06e5a7e59c0bc9dc7c017a59975dcdb5b5e1d3df43258a9d6f8778bf9b420"
+    },
+    {
+      "path": "assets/audio/grace-00780.wav",
+      "bytes": 82756,
+      "sha256": "dc470ac235db7e3ac4c6af980e8348bbaef22013be6ee39650875219b237a197"
+    },
+    {
+      "path": "assets/audio/grace-00781.wav",
+      "bytes": 104136,
+      "sha256": "28f51ca59496ede417c0cdfeba9fc9a4a41e5cbeada1d3721c6a212bbdbe9ab4"
+    },
+    {
+      "path": "assets/audio/grace-00782.wav",
+      "bytes": 85248,
+      "sha256": "80116cd2ccdb6bcb17dad27cc5260edd3ac98806393b3af03f5cf4444253b6e7"
+    },
+    {
+      "path": "assets/audio/grace-00783.wav",
+      "bytes": 91810,
+      "sha256": "816c8e9ca38611dfee7c7e89498cfed4364770998e6dd61ee25524267aa4146b"
+    },
+    {
+      "path": "assets/audio/grace-00784.wav",
+      "bytes": 88016,
+      "sha256": "98e42c151b8d11038f33a2cc87f41ea26455504274a5347d01107941d2c7e819"
+    },
+    {
+      "path": "assets/audio/grace-00785.wav",
+      "bytes": 85810,
+      "sha256": "988e2127624d0cbd1f4e1fc31f34120a83a112fa8c5ac0a87e69976f35940235"
+    },
+    {
+      "path": "assets/audio/grace-00786.wav",
+      "bytes": 89426,
+      "sha256": "11c3728d10856a33e133f21f262334d9cfffdc65f99f79c411d54732ebd415a5"
+    },
+    {
+      "path": "assets/audio/grace-00787.wav",
+      "bytes": 83860,
+      "sha256": "6f7adf4145ec071294b4ab422b57449ad427a7a96896eb529e2f002341b93c10"
+    },
+    {
+      "path": "assets/audio/grace-00788.wav",
+      "bytes": 102168,
+      "sha256": "524bebe753cdb52e1608283775831bd24467353bb55e733704e3f86ce3fc50ad"
+    },
+    {
+      "path": "assets/audio/grace-00789.wav",
+      "bytes": 116284,
+      "sha256": "3df4a233e4a5d7dcaba1c9d62c8fd5e64f8aa5ccfe8435f881a54cf097a60a0e"
+    },
+    {
+      "path": "assets/audio/grace-00790.wav",
+      "bytes": 148036,
+      "sha256": "144ecab47cd89d165540dddc995977aad620ca2823d0835dbc9c0f5c0e1d9715"
+    },
+    {
+      "path": "assets/audio/grace-00791.wav",
+      "bytes": 57696,
+      "sha256": "686228aa9fd033e13a679ee57aa819f6f14fb2f34eb5ee5597eabf219f26c656"
+    },
+    {
+      "path": "assets/audio/grace-00792.wav",
+      "bytes": 53804,
+      "sha256": "b6788fce0cff938936157e7966da1b00da78c68603450223bf594f0fd7577930"
+    },
+    {
+      "path": "assets/audio/grace-00793.wav",
+      "bytes": 43564,
+      "sha256": "ed131b1032aab512478bdf49fea3577e7618e84a733649652e61d7c8a7705f31"
+    },
+    {
+      "path": "assets/audio/grace-00794.wav",
+      "bytes": 73644,
+      "sha256": "cc2c704226da453ea718bd04ca6396f26e70cf0defd1c16008349c99f0d3c7dc"
+    },
+    {
+      "path": "assets/audio/grace-00795.wav",
+      "bytes": 62252,
+      "sha256": "e5019edc65c4c55cd6926a6c7a7fd2787731bf28113e0a7d35f3315f46bcaaef"
+    },
+    {
+      "path": "assets/audio/grace-00796.wav",
+      "bytes": 201462,
+      "sha256": "cae6bf1f210a3b3f4891020f898b38e2505d63c708e608d2979264a81f672cae"
+    },
+    {
+      "path": "assets/audio/grace-00797.wav",
+      "bytes": 175150,
+      "sha256": "fce6f9d4af30e4f66ece283129e82cd0ed71911b9691edf547aa76528264d396"
+    },
+    {
+      "path": "assets/audio/grace-00798.wav",
+      "bytes": 130676,
+      "sha256": "93682f2358eec21e4ccd99a5f5b1ae95aafbf4832963dbcd1967b6c0f7a512a5"
+    },
+    {
+      "path": "assets/audio/grace-00799.wav",
+      "bytes": 74284,
+      "sha256": "ddb256c568ed6cbba9b1823c74dd267e243b14812ddad064e5213fa61b0c3b7d"
+    },
+    {
+      "path": "assets/audio/grace-00800.wav",
+      "bytes": 73198,
+      "sha256": "da4af887cfb513dc93e4547a78e1f517ad8202037893f725d500e199bd590696"
+    },
+    {
+      "path": "assets/audio/grace-00801.wav",
+      "bytes": 182772,
+      "sha256": "b3e1eb127d3aba8ccfb9ef31e40fa1b07fd01a3608a5604fa97132a0067b7cf8"
+    },
+    {
+      "path": "assets/audio/grace-00802.wav",
+      "bytes": 239254,
+      "sha256": "91c7382cbfeca5bff69b64b0122fa0d2b7be695be85b580d1602daa4084c9797"
+    },
+    {
+      "path": "assets/audio/grace-00803.wav",
+      "bytes": 260248,
+      "sha256": "1356e15bc2056c78c430f85f6a08a483b376ac9c3bf4e3d61e3afccfb2aac0f2"
+    },
+    {
+      "path": "assets/audio/grace-00804.wav",
+      "bytes": 72364,
+      "sha256": "ab0228a7d1bddc3b66e1aff5e6001719401855152186168897498f359239b204"
+    },
+    {
+      "path": "assets/audio/grace-00805.wav",
+      "bytes": 20524,
+      "sha256": "ac56d35a97f407b64b2d6b3599a29df432c1940d41b68ef39fa5c19547455468"
+    },
+    {
+      "path": "assets/audio/grace-00806.wav",
+      "bytes": 99544,
+      "sha256": "a956f3b8639d167614fd81913cee5360548b9bc976d1169f1a3bd70fe8fa1c6e"
+    },
+    {
+      "path": "assets/audio/grace-00807.wav",
+      "bytes": 32684,
+      "sha256": "a12f2c8bc2a79ce5d6634061d3f4de7ca0533452ea4ef1eae2ae76ab04235211"
+    },
+    {
+      "path": "assets/audio/grace-00808.wav",
+      "bytes": 40364,
+      "sha256": "2fa34a13b0f3a16c42e39b2d834fae1cdd612004af40c5d2fe9657a03d185bdf"
+    },
+    {
+      "path": "assets/audio/grace-00809.wav",
+      "bytes": 119920,
+      "sha256": "f57d5865ceeb8ddd40e600f9f1ee8b22347785c16cc6fd4f00b846fca7ed0d9f"
+    },
+    {
+      "path": "assets/audio/grace-00810.wav",
+      "bytes": 92922,
+      "sha256": "1aa2bdf4bd4ea825ce201bb271d1d8c42a8f24308baff29914d0e0c55ea3508c"
+    },
+    {
+      "path": "assets/audio/grace-00811.wav",
+      "bytes": 35884,
+      "sha256": "944509afecd4c9b4242e0881e4da73b4fcae35e81e1eb8119e0294e12599f7a3"
+    },
+    {
+      "path": "assets/audio/grace-00812.wav",
+      "bytes": 48044,
+      "sha256": "4fd090712b798c358034ba0dae7388f38f6cebd842dbebbb984664263f0ef8c5"
+    },
+    {
+      "path": "assets/audio/grace-00813.wav",
+      "bytes": 50060,
+      "sha256": "01c12f821d23090c386d5c202a093159736fde5ca1b77f17558a176fd013776f"
+    },
+    {
+      "path": "assets/audio/grace-00814.wav",
+      "bytes": 48044,
+      "sha256": "34665ed04bfe88803a051fbc472e4ac237fdfcb04c3161c1fee915ab347b22f7"
+    },
+    {
+      "path": "assets/audio/grace-00815.wav",
+      "bytes": 89416,
+      "sha256": "ca82fba7a3427b39bc862f6905491d77ccf0ecf07b4e1b7efcac97640f4b65e1"
+    },
+    {
+      "path": "assets/audio/grace-00816.wav",
+      "bytes": 32684,
+      "sha256": "0d736b58f5c1dd24e4cefff104b4dca12707ae7b8009c9dd9a2801679d85a261"
+    },
+    {
+      "path": "assets/audio/grace-00817.wav",
+      "bytes": 60844,
+      "sha256": "5ba38a3e2e9e6b19d41d3b5aef58c3835768bc2f4f1954c27c3212c5a7f78aa2"
+    },
+    {
+      "path": "assets/audio/grace-00818.wav",
+      "bytes": 171142,
+      "sha256": "71616da7109e5232a6520e1d24168eb4236b2ddff9c1cf691e502b5ff5a4e5d5"
+    },
+    {
+      "path": "assets/audio/grace-00819.wav",
+      "bytes": 79652,
+      "sha256": "93c809e03b00c0a4b9a8f88348959d28ba947aff5df1afa8494283959e6d6608"
+    },
+    {
+      "path": "assets/audio/grace-00820.wav",
+      "bytes": 215622,
+      "sha256": "01fa618b4bd2c9d7c41610ce8dc7cb3fe896df24a11429478eebc3112467e98a"
+    },
+    {
+      "path": "assets/audio/grace-00821.wav",
+      "bytes": 21340,
+      "sha256": "b91d4969a693ddf8e99056ec5c7ff5be558d9b23ec925c964b4e90c037e476e1"
+    },
+    {
+      "path": "assets/audio/grace-00822.wav",
+      "bytes": 220570,
+      "sha256": "ab55bdd5cc891f6da380fe3476d15fe84f6ac4f822ae05b8110cd8f5d35bf401"
+    },
+    {
+      "path": "assets/audio/grace-00823.wav",
+      "bytes": 178644,
+      "sha256": "5bac0644d46e32e10037c1f1d8d4fb464e7c21a8089ac649b3e88abf72566f8d"
+    },
+    {
+      "path": "assets/audio/grace-00824.wav",
+      "bytes": 97192,
+      "sha256": "413ca573d7128370d06d22c671a367f34d948afe503f263ba568e175d0a7a1d5"
+    },
+    {
+      "path": "assets/audio/grace-00825.wav",
+      "bytes": 51364,
+      "sha256": "de7623e4b0238ad660218ba8cbd8f0cd672bbdd7fa2c3d2b2427a6c23e2edbe7"
+    },
+    {
+      "path": "assets/audio/grace-00826.wav",
+      "bytes": 70444,
+      "sha256": "f186b41684d5c40789e3f811424ab255b43da365f47f55286bf47d8b3ed08a7e"
+    },
+    {
+      "path": "assets/audio/grace-00827.wav",
+      "bytes": 51364,
+      "sha256": "f58fb0d10c17bb1eac1e25c03b091f79ad05d98c21d52e21512973a4c042efa1"
+    },
+    {
+      "path": "assets/audio/grace-00828.wav",
+      "bytes": 51244,
+      "sha256": "b56dd41019dfcda650e02aaa3d1a17621cadaba617964002b36cc6eb92b41bb9"
+    },
+    {
+      "path": "assets/audio/grace-00829.wav",
+      "bytes": 66104,
+      "sha256": "95cde8e04b3eb1636860183052a49edbd3dc1da7337129faafc88610af3b87de"
+    },
+    {
+      "path": "assets/audio/grace-00830.wav",
+      "bytes": 66604,
+      "sha256": "2965496fa3901e2d504b76c8176b16aa63c8ec6813c60d589f31035a6e02acd8"
+    },
+    {
+      "path": "assets/audio/grace-00831.wav",
+      "bytes": 58354,
+      "sha256": "2a3eee798202ae9e208849212437eb6188548fbd97409af8a32b87cb95e2566d"
+    },
+    {
+      "path": "assets/audio/grace-00832.wav",
+      "bytes": 64684,
+      "sha256": "9970397a77669db434ae5a970a3beb797e27372bb9a75ff35b3838aefc3acd41"
+    },
+    {
+      "path": "assets/audio/grace-00833.wav",
+      "bytes": 135110,
+      "sha256": "7d70c4ad47a8c4a870bb6ebc4f39902682c1c1ab9f984f16075a12690f416d7b"
+    },
+    {
+      "path": "assets/audio/grace-00834.wav",
+      "bytes": 35884,
+      "sha256": "3c37e753ecbadc27dad9d7ee9351920fe3f62cc965f3fd2c1da91bf476841851"
+    },
+    {
+      "path": "assets/audio/grace-00835.wav",
+      "bytes": 61484,
+      "sha256": "c94ecd294a468b5bd37ee77f6e1e6073eee138659aa9ebe5932566ffea6ed25f"
+    },
+    {
+      "path": "assets/audio/grace-00836.wav",
+      "bytes": 119138,
+      "sha256": "8ee7e0b1c104fad413239284d1af3be4f9b29db425805cb2580d0da4bede17d5"
+    },
+    {
+      "path": "assets/audio/grace-00837.wav",
+      "bytes": 91996,
+      "sha256": "70c610dfaf7e586ec878d8c32391f1c564ffaf9a6ba9572ddca649aa9b38ca29"
+    },
+    {
+      "path": "assets/audio/grace-00838.wav",
+      "bytes": 54444,
+      "sha256": "1760aaecdc272bbb23126511f7ef786e90d65e5d7cd099db29a19b91f7e4341f"
+    },
+    {
+      "path": "assets/audio/grace-00839.wav",
+      "bytes": 86110,
+      "sha256": "56abb9d66a278d69860a0b1a1e63f434dc35cbebf4d9409235cd49e0eda0ed63"
+    },
+    {
+      "path": "assets/audio/grace-00840.wav",
+      "bytes": 29588,
+      "sha256": "79fd14a09e9088743ff2c750b0bb01d6400838efbad8ff98e63fe1daeeba0404"
+    },
+    {
+      "path": "assets/audio/grace-00841.wav",
+      "bytes": 23724,
+      "sha256": "400afdb47d7f7a606c23f7e366bde31f8c215dcfa4fad6231c441a6b900f7967"
+    },
+    {
+      "path": "assets/audio/grace-00842.wav",
+      "bytes": 131618,
+      "sha256": "c43bfbafa420c307fd6014b62ddc46af14e0c1aa5acbef376984736d96cec1dc"
+    },
+    {
+      "path": "assets/audio/grace-00843.wav",
+      "bytes": 145818,
+      "sha256": "19240b596c6530815e0d25e66aa917418f41056f0a50a703cd6481228d5cba66"
+    },
+    {
+      "path": "assets/audio/grace-00844.wav",
+      "bytes": 91016,
+      "sha256": "d5baeb1d337d4d0955a8aba1f285bcb8414e06dc035cb07677235529bd8e7fcc"
+    },
+    {
+      "path": "assets/audio/grace-00845.wav",
+      "bytes": 89344,
+      "sha256": "2afc6157a3f3179ff07c686449cf77c6565f4d5f1cc1d3af8b238d3f763ef0c1"
+    },
+    {
+      "path": "assets/audio/grace-00846.wav",
+      "bytes": 161062,
+      "sha256": "893047afbaa621265abb92f06cf8be276200962f65bcf15f92d2a78de35fca5b"
+    },
+    {
+      "path": "assets/audio/grace-00847.wav",
+      "bytes": 123514,
+      "sha256": "5e4615762fa5f8647bd6e36747a89336814305d5ec33acf103afe466bcf1b1aa"
+    },
+    {
+      "path": "assets/audio/grace-00848.wav",
+      "bytes": 152784,
+      "sha256": "726af76cc43ee3f80e358035c20bb75b814aca8e14a901961e2cf69cd1545bae"
+    },
+    {
+      "path": "assets/audio/grace-00849.wav",
+      "bytes": 203242,
+      "sha256": "2bd941a62ed3ecd92eeec032087388f2732804d6da8b29b37b3c03dd03e5083e"
+    },
+    {
+      "path": "assets/audio/grace-00850.wav",
+      "bytes": 57644,
+      "sha256": "ba5a1cda620423152579c4b3baf32fd6f5f2b877f085c2c502b8df25f6090f7e"
+    },
+    {
+      "path": "assets/audio/grace-00851.wav",
+      "bytes": 107150,
+      "sha256": "598e9e21870011fb35ed66612fbbc9d496e35f72e3575f2ec29543f9e6f55744"
+    },
+    {
+      "path": "assets/audio/grace-00852.wav",
+      "bytes": 130666,
+      "sha256": "23738891ac55bd42d6764134e394e692be19acc154af9ffaf1b9582e59f07beb"
+    },
+    {
+      "path": "assets/audio/grace-00853.wav",
+      "bytes": 115758,
+      "sha256": "de846a0b9d067a2469f0c5a9b31d46e2f4e0bfb99d07168c3f100891e0d95dea"
+    },
+    {
+      "path": "assets/audio/grace-00854.wav",
+      "bytes": 96290,
+      "sha256": "5e82f1593c6efcf4d998ec796ca4bbf2a7446c5558cfcc7c428902b7c641249b"
+    },
+    {
+      "path": "assets/audio/grace-00855.wav",
+      "bytes": 87148,
+      "sha256": "5d9d2deb9ae100f6d5c13b14ff8bc297a5a5373f47b085c3f863a6c534f39868"
+    },
+    {
+      "path": "assets/audio/grace-00856.wav",
+      "bytes": 87678,
+      "sha256": "535a296cd7a1f573f43ab6c5f4e653fe10cdf5a36a023d795965f3fb22a33045"
+    },
+    {
+      "path": "assets/audio/grace-00857.wav",
+      "bytes": 135668,
+      "sha256": "afe9dd2ac17470a4b9da98a79c88735dd8ca478c299f28dc179cac0ebd0f90f8"
+    },
+    {
+      "path": "assets/audio/grace-00858.wav",
+      "bytes": 136218,
+      "sha256": "0b7acfcf9391f120b0377b4f9d680059f20f3855df9705f4502089a2717e72a5"
+    },
+    {
+      "path": "assets/audio/opendoor1.wav",
+      "bytes": 42356,
+      "sha256": "20b2ebb913485b75f294ef54e81519022236c62c707be1fb514a8a1dca32486b"
+    },
+    {
+      "path": "assets/audio/opendoor2.wav",
+      "bytes": 41616,
+      "sha256": "e35adcc773ba645a4c579503ad5b2dc5c68aaf4ff5356189dba52051ec374005"
+    },
+    {
+      "path": "assets/audio/trip-00753.wav",
+      "bytes": 72364,
+      "sha256": "a2c22a3d2e637885d9376e240fccaab4698d732ae41e61785e00ff9bf3359810"
+    },
+    {
+      "path": "assets/audio/trip-00754.wav",
+      "bytes": 58284,
+      "sha256": "8ac0a8f8fa4c4b31140599cd2a80145e58e1f5c771fb605292eb288da2b44a03"
+    },
+    {
+      "path": "assets/audio/trip-00755.wav",
+      "bytes": 133632,
+      "sha256": "7dc711d39c705981b2e2c94a738006bdeb628d36faf6d3f87e512f0c41db8df4"
+    },
+    {
+      "path": "assets/audio/trip-00756.wav",
+      "bytes": 54444,
+      "sha256": "6aa2518d1111b5bf2f8c68a1223373b1b89410e571771c0c446d663200f2ffed"
+    },
+    {
+      "path": "assets/audio/trip-00757.wav",
+      "bytes": 108894,
+      "sha256": "dbe5cef46f348123cdf41fce2a2d28dbd886a9b4bf04a70e86c4ce264c543046"
+    },
+    {
+      "path": "assets/audio/trip-00758.wav",
+      "bytes": 130320,
+      "sha256": "00ff6ceb905c8581da5ce2d501bf65155d0f210e567c64e9c5d638f1862e3329"
+    },
+    {
+      "path": "assets/audio/trip-00759.wav",
+      "bytes": 46124,
+      "sha256": "fcf4b33736b985a0223bcb856a7551554354819c33a5a6255850583b4815898f"
+    },
+    {
+      "path": "assets/audio/trip-00760.wav",
+      "bytes": 55240,
+      "sha256": "20ca66b988b2acb4199c2c5db1c84c8b29477441fe7ab9a1356c8254880ed2c0"
+    },
+    {
+      "path": "assets/audio/trip-00761.wav",
+      "bytes": 45484,
+      "sha256": "041f89a3a55bfa0e510c24c0ee64f3d10c66f9bfdc13cb31d5396521271d3d1d"
+    },
+    {
+      "path": "assets/audio/trip-00762.wav",
+      "bytes": 61484,
+      "sha256": "b85d66440586400fe430ce8b21ba34ee161cc5a1a290fe4993ae4e158e6f61ab"
+    },
+    {
+      "path": "assets/audio/trip-00763.wav",
+      "bytes": 55724,
+      "sha256": "ce4f5a0a00608c9d4f91801a48bbcdf5f92b03e079d9583d48d4d3f53cbcbdeb"
+    },
+    {
+      "path": "assets/audio/trip-00764.wav",
+      "bytes": 55240,
+      "sha256": "20ca66b988b2acb4199c2c5db1c84c8b29477441fe7ab9a1356c8254880ed2c0"
+    },
+    {
+      "path": "assets/audio/trip-00765.wav",
+      "bytes": 74454,
+      "sha256": "0232d23f7bdb1fce02a755dd995b4ff13eac22a9cdcc805460ff5d7048c35d3a"
+    },
+    {
+      "path": "assets/audio/trip-00766.wav",
+      "bytes": 76216,
+      "sha256": "a07a99388cc6fc3fa4098331a017ee1fac6687667f9cfb97c63d70b17c3d49e6"
+    },
+    {
+      "path": "assets/audio/trip-00767.wav",
+      "bytes": 107242,
+      "sha256": "b1fbcb1ab3035c9db3cca2b1a07639fc9ab7092780a00548a359008e2969973c"
+    },
+    {
+      "path": "assets/audio/trip-00768.wav",
+      "bytes": 82606,
+      "sha256": "93de73e3a168317f1ac39796155f2281fcb1ac195e459fd1afa28b7db6634bb5"
+    },
+    {
+      "path": "assets/audio/trip-00769.wav",
+      "bytes": 105048,
+      "sha256": "062bf63254bf69bd9816c72a8d9b28f7f999862bcc77b760068844b7d5ce8218"
+    },
+    {
+      "path": "assets/audio/trip-00770.wav",
+      "bytes": 92724,
+      "sha256": "995f210022c918ccd1cfa5629619efe189627dac49770717b5616d68f8bf2c84"
+    },
+    {
+      "path": "assets/audio/trip-00771.wav",
+      "bytes": 69164,
+      "sha256": "76492823dfb233aa1ea18aa24d400819617f054bcd19069eeba30ac3c4fd2e3e"
+    },
+    {
+      "path": "assets/audio/trip-00772.wav",
+      "bytes": 78124,
+      "sha256": "e40cadd0ebd46677cdb61b2109383e9011e931811161ea405ddd6949cd28ae5b"
+    },
+    {
+      "path": "assets/audio/trip-00773.wav",
+      "bytes": 86368,
+      "sha256": "3d2e4d459c36a541e2f280f7dd06e6d63a074b4c8df987a7e13a9feb20586ba0"
+    },
+    {
+      "path": "assets/audio/trip-00774.wav",
+      "bytes": 107214,
+      "sha256": "555db319b9b2a8b834cdf7ce0850cdac69d40fe1dae6578172ab328b98e830e0"
+    },
+    {
+      "path": "assets/audio/trip-00775.wav",
+      "bytes": 104346,
+      "sha256": "60ee1c1fe69b196dbe1d69820246773f293ea0e9fc1419907190aa873c9bc80a"
+    },
+    {
+      "path": "assets/audio/trip-00776.wav",
+      "bytes": 30124,
+      "sha256": "2b98bd66630935765c212f18f5da82a2562492cd0504499a85d42e6fd276be7a"
+    },
+    {
+      "path": "assets/audio/trip-00777.wav",
+      "bytes": 101562,
+      "sha256": "2398201796d0e026f295e9b613fd07fa85072741c09f2d28754b09ebcd3ccaa4"
+    },
+    {
+      "path": "assets/audio/trip-00778.wav",
+      "bytes": 45514,
+      "sha256": "9599c501c85171039dc32d2a4883b353acdf7e4bb3d6904aa887e2b5d5329e39"
+    },
+    {
+      "path": "assets/audio/trip-00779.wav",
+      "bytes": 44844,
+      "sha256": "07be1d38e86c4b6dcd76e5a9855a5ade1bb49e757b0d6059f8e8b9fb912b5ee8"
+    },
+    {
+      "path": "assets/audio/trip-00781.wav",
+      "bytes": 101654,
+      "sha256": "d56dcf0393dc7b2b157eaeca73d622f5a7b2d9e498ef3ec8af5b32b6f660eb49"
+    },
+    {
+      "path": "assets/audio/trip-00782.wav",
+      "bytes": 95792,
+      "sha256": "20efb0ccff21c95d3c89439e54fd69fecda670017908fc401afd7bd6a6dcd37e"
+    },
+    {
+      "path": "assets/audio/trip-00783.wav",
+      "bytes": 104834,
+      "sha256": "170e5ed067ae3ed41c9543b8132abc4c0fff60d86f69546cadc40eed2506cd35"
+    },
+    {
+      "path": "assets/audio/trip-00784.wav",
+      "bytes": 41756,
+      "sha256": "3191f2f3f6a247f85fbd2984d4e994d9c5246ac117788b75b2505ef10b394e7b"
+    },
+    {
+      "path": "assets/audio/trip-00785.wav",
+      "bytes": 44204,
+      "sha256": "009ed49058ff5a143aa13519f2b521824d6919dcc10143932d4809edfb7e2d33"
+    },
+    {
+      "path": "assets/audio/trip-00786.wav",
+      "bytes": 53248,
+      "sha256": "28159a8a02294472a8bf5bbe8e0e2ae1ef3cea87370dd7afcd38669b95f11120"
+    },
+    {
+      "path": "assets/audio/trip-00787.wav",
+      "bytes": 41004,
+      "sha256": "d5c972cd3485b459c5d27af57e20ee48a2460f9c1b0b47c0b2430bef0fb6af40"
+    },
+    {
+      "path": "assets/audio/trip-00788.wav",
+      "bytes": 49468,
+      "sha256": "cfe9a0252b7db8b8c7ade4a92e38bfb391103007b1013f661168e44b1b73ff75"
+    },
+    {
+      "path": "assets/audio/trip-00789.wav",
+      "bytes": 134642,
+      "sha256": "e7e5f7444c9bfd78bd08c6fa4cd865652f9d5d8794769888b7aa4b3a984122c7"
+    },
+    {
+      "path": "assets/audio/trip-00790.wav",
+      "bytes": 143644,
+      "sha256": "a9d03b5c5422d614bfe06f89453ce0629ab5efedc085cd7d4146f2833c40ca98"
+    },
+    {
+      "path": "assets/audio/trip-00791.wav",
+      "bytes": 96964,
+      "sha256": "a04ab1be742eab2adf75a5ced4bf1ed7b87ca502ce2156c9287c97ec856ea198"
+    },
+    {
+      "path": "assets/audio/trip-00792.wav",
+      "bytes": 108336,
+      "sha256": "9c17a6f15bfff5d0d64d2f3e57ac7d1d56dd12cd6a9c212809abce1b58e5f247"
+    },
+    {
+      "path": "assets/audio/trip-00793.wav",
+      "bytes": 141800,
+      "sha256": "5dc74e8df96e19aa3dfcdfdb40d140649a91e0ee98c8fcaca87b5226c38522ae"
+    },
+    {
+      "path": "assets/audio/trip-00794.wav",
+      "bytes": 46124,
+      "sha256": "1c194e1f016a13d84bd42b9ad2295b4291d395651b4db7a4593bd795227ebf95"
+    },
+    {
+      "path": "assets/audio/trip-00795.wav",
+      "bytes": 48684,
+      "sha256": "4851dacb13a828935e94761470a10d51146dd32df10dc12778c9f8bddcb637c1"
+    },
+    {
+      "path": "assets/audio/trip-00797.wav",
+      "bytes": 54444,
+      "sha256": "456dd99b018c8a841725175af4b6957cdca253d2732fe8c3ad7c41e9544b33ec"
+    },
+    {
+      "path": "assets/audio/trip-00798.wav",
+      "bytes": 121032,
+      "sha256": "0f4c0564b2e51cd617b7229da6ca42d80695d1cd417d13d291e429cbbd356b14"
+    },
+    {
+      "path": "assets/audio/trip-00799.wav",
+      "bytes": 122718,
+      "sha256": "825a6881b1cfd147e5ee7fbcbe6522dcb5d52c233d7cfcfd7281b4e02853c264"
+    },
+    {
+      "path": "assets/audio/trip-00800.wav",
+      "bytes": 178208,
+      "sha256": "23cec390b8a76af3bb21aaa96b9b2955ab323dc15275875dace7c5ddd5f10def"
+    },
+    {
+      "path": "assets/audio/trip-00801.wav",
+      "bytes": 174850,
+      "sha256": "ce7b7d55cfca15a9afc83afbb65881510fe88ae7972e3ae152cf8f6274241fe1"
+    },
+    {
+      "path": "assets/audio/trip-00802.wav",
+      "bytes": 140970,
+      "sha256": "7201d1ab1b2edcef886a8e287c055b4b08db03a23ea90ff5ffff302797801440"
+    },
+    {
+      "path": "assets/audio/trip-00803.wav",
+      "bytes": 105412,
+      "sha256": "d364d282c01e2f1f52c7c736f7a281017d6e2091b1a6e77db389bbad872d6040"
+    },
+    {
+      "path": "assets/audio/trip-00804.wav",
+      "bytes": 109542,
+      "sha256": "a6437568dd6ad17fa839795503ed98cac00e8433322dc8ea5f1dce653b57eaca"
+    },
+    {
+      "path": "assets/audio/trip-00805.wav",
+      "bytes": 27564,
+      "sha256": "139fe7b7759b45fbb768b7e6854cdfc1039fe0025ac9f01c7c0619eefd55d15e"
+    },
+    {
+      "path": "assets/audio/trip-00806.wav",
+      "bytes": 27564,
+      "sha256": "a01a4dd0e1488260ad4a0057cb2c017d856caa5bd1d44b45444e7f833aa456c5"
+    },
+    {
+      "path": "assets/audio/trip-00807.wav",
+      "bytes": 44844,
+      "sha256": "f53e63423368f3493ab9b9a944f13f2bcaed49248685c4034eaf5d296c10cdbe"
+    },
+    {
+      "path": "assets/audio/trip-00808.wav",
+      "bytes": 44204,
+      "sha256": "b3a6f942c47d264727c877b8dce6f9d7148dd09e17976d911805c57a6333f179"
+    },
+    {
+      "path": "assets/audio/trip-00809.wav",
+      "bytes": 121708,
+      "sha256": "126d03dbfd0461643adb4d9939a5df83a6a063ee67311af84d1dc3ed34882f9b"
+    },
+    {
+      "path": "assets/audio/trip-00810.wav",
+      "bytes": 129234,
+      "sha256": "4507ba1a0e82823a7c53e808e147a98d1ecefbb8da1edffd0b199a5be5f8824b"
+    },
+    {
+      "path": "assets/audio/trip-00811.wav",
+      "bytes": 36524,
+      "sha256": "ee9c76ce6321f532db52df1135ebe3ac91ad6c35b673b7bb0c8fb59db730c5b5"
+    },
+    {
+      "path": "assets/audio/trip-00812.wav",
+      "bytes": 54444,
+      "sha256": "5661b2a9fe27ef2080404b3d94b940dbb774052c97fc139227ff60b710e6db7f"
+    },
+    {
+      "path": "assets/audio/trip-00813.wav",
+      "bytes": 42940,
+      "sha256": "266f327880a0b41729b54dbed6537fd30179ed6b71869e044c3f036027c48e23"
+    },
+    {
+      "path": "assets/audio/trip-00814.wav",
+      "bytes": 23084,
+      "sha256": "cd5bbeaaf88921c8846b95e0e32dd481b04ab9cad941adb507ac9a022845955f"
+    },
+    {
+      "path": "assets/audio/trip-00815.wav",
+      "bytes": 54466,
+      "sha256": "57992b55e2b4d7e8d99c76ac6933381af866fa71a86f0b108400775a52f2c041"
+    },
+    {
+      "path": "assets/audio/trip-00816.wav",
+      "bytes": 68524,
+      "sha256": "3e335695e2a05cf28231982e302fb81b30d84ee4379b47c9030d161bccf20880"
+    },
+    {
+      "path": "assets/audio/trip-00817.wav",
+      "bytes": 37164,
+      "sha256": "fb03a5fe771c13a182818ce2dbdda968153ac13e9d2ca9676f297b8671b0a0c5"
+    },
+    {
+      "path": "assets/audio/trip-00818.wav",
+      "bytes": 135168,
+      "sha256": "04e948070c256dd2adc191796229a5a99fc0d401f4cc785a5777aa6a1c8d2c92"
+    },
+    {
+      "path": "assets/audio/trip-00819.wav",
+      "bytes": 46124,
+      "sha256": "c0eb2cbab12c3e75cc6d668eb845618904d5a0472f51bdb524f56f8b69bfb2cd"
+    },
+    {
+      "path": "assets/audio/trip-00820.wav",
+      "bytes": 125096,
+      "sha256": "733075c4ddf3202cd36209346cf03d8e0f2e87d0236888546f6915c3114afb6f"
+    },
+    {
+      "path": "assets/audio/trip-00821.wav",
+      "bytes": 146476,
+      "sha256": "6386440712ba52625190e2c0ceb7381acb8dc0f346987aaa54225d61ee7a4ef9"
+    },
+    {
+      "path": "assets/audio/trip-00822.wav",
+      "bytes": 163564,
+      "sha256": "b56c9e49ec6f0a7c2e832c2b9c3183ee754baef4c00ab803bfe17206c2d6e5b9"
+    },
+    {
+      "path": "assets/audio/trip-00823.wav",
+      "bytes": 198250,
+      "sha256": "cbb0b921cd274e72863674ee6e987f16734a14a07670b21ca79c7ec8a7cc5fa6"
+    },
+    {
+      "path": "assets/audio/trip-00824.wav",
+      "bytes": 105484,
+      "sha256": "45aaf4223bbea496a213267fb0bce399c0129753c4027b5ce942ee9e42544e7f"
+    },
+    {
+      "path": "assets/audio/trip-00825.wav",
+      "bytes": 158700,
+      "sha256": "887795a261f60d209dbd3cbee58eecf56fa32da018c5b031e67814f458368813"
+    },
+    {
+      "path": "assets/audio/trip-00826.wav",
+      "bytes": 58284,
+      "sha256": "198a0d1de7061da4de44849fc81ae5cc7135974623a27469e8c67d577dd76bbf"
+    },
+    {
+      "path": "assets/audio/trip-00827.wav",
+      "bytes": 187158,
+      "sha256": "c6785751d2ce588713f922f3687ca11c73d36c681a3c4f6f77b4879a89c2b49a"
+    },
+    {
+      "path": "assets/audio/trip-00828.wav",
+      "bytes": 224334,
+      "sha256": "c8ebcac475e81a7a7e2fc74ae29c00441ee38fa9d88fb0746c5b6ef093f17b07"
+    },
+    {
+      "path": "assets/audio/trip-00829.wav",
+      "bytes": 159500,
+      "sha256": "330b5477ece69483618e532117e9a446dde0e00d83cb965e433a74f7186a5d28"
+    },
+    {
+      "path": "assets/audio/trip-00830.wav",
+      "bytes": 228236,
+      "sha256": "493f506331d91a489f047ae7faf975a158b5e4a6c4d3a13ca18d63132fad150f"
+    },
+    {
+      "path": "assets/audio/trip-00831.wav",
+      "bytes": 64684,
+      "sha256": "916323f1a184906ae15ab6a0fd4b17d09c0bec7181c42d861527444d19c4ab81"
+    },
+    {
+      "path": "assets/audio/trip-00832.wav",
+      "bytes": 64044,
+      "sha256": "d23102b7c8d54a2cd94b104c17c8de164919790933a29d97709fd9e8e46fa8aa"
+    },
+    {
+      "path": "assets/audio/trip-00833.wav",
+      "bytes": 128268,
+      "sha256": "c132a7f7ed3c979ef39eb82dd19eff370806142d1c64a6ddbef8957e051c91f3"
+    },
+    {
+      "path": "assets/audio/trip-00834.wav",
+      "bytes": 174488,
+      "sha256": "495ab76ee9e3d418329c354b66d5b6ed88997e044f001fec4559ced2c0ef7349"
+    },
+    {
+      "path": "assets/audio/trip-00835.wav",
+      "bytes": 160318,
+      "sha256": "a6fdab44969561fe05f331afef15069af06328c2f9fde698eafd1157ce278a2c"
+    },
+    {
+      "path": "assets/audio/trip-00836.wav",
+      "bytes": 75676,
+      "sha256": "7f34ab35db6826333e4e771e1783d7b160aec01727510ef85a34b139587ea74a"
+    },
+    {
+      "path": "assets/audio/trip-00837.wav",
+      "bytes": 82452,
+      "sha256": "a8c9d753baaa3f5624b0314c05b309377e268fc2d272a59710a8281526d801bf"
+    },
+    {
+      "path": "assets/audio/trip-00838.wav",
+      "bytes": 67244,
+      "sha256": "06d046b794f971bd9280a50a8a8d500b032ed08b89791a37e828cb1bb707bf7a"
+    },
+    {
+      "path": "assets/audio/trip-00839.wav",
+      "bytes": 143166,
+      "sha256": "f20c52ce74651de9ce4cf865c01d5a43ad4cfc08f76da515a36cc96b9e2d7c20"
+    },
+    {
+      "path": "assets/audio/trip-00840.wav",
+      "bytes": 126202,
+      "sha256": "420a643618951873e46f72f667a77906b8be9514959da14c5bae7ab5735ea323"
+    },
+    {
+      "path": "assets/audio/trip-00841.wav",
+      "bytes": 129968,
+      "sha256": "078beab1c0acb70d75fa985f30279487262aea7788791a72356e0f9dde1966c3"
+    },
+    {
+      "path": "assets/audio/trip-00842.wav",
+      "bytes": 87522,
+      "sha256": "09b89a67640262cdb4b9693aad7d36d4b1d94e6f0a11a1de3d47eb8c1f28f764"
+    },
+    {
+      "path": "assets/audio/trip-00843.wav",
+      "bytes": 111166,
+      "sha256": "140b1da3e0a0cbc79cd7b32c7536046b429a7464d6a7e2edb0505db99875e10b"
+    },
+    {
+      "path": "assets/audio/trip-00844.wav",
+      "bytes": 179432,
+      "sha256": "81faa7db1eecb5a1f57deda01feb87d08178db2ab64afeb1fbb4aae073ee4fd8"
+    },
+    {
+      "path": "assets/audio/trip-00845.wav",
+      "bytes": 111086,
+      "sha256": "de29c84d63d2af133170fab290db41b5cf39f4d1b5f246d420112f0c45e2760a"
+    },
+    {
+      "path": "assets/audio/trip-00846.wav",
+      "bytes": 73644,
+      "sha256": "697e196782d7f962f6890812a5cd62d53e30d0ef18dede4fbe3323d93549c4b6"
+    },
+    {
+      "path": "assets/audio/trip-00847.wav",
+      "bytes": 108454,
+      "sha256": "b1f1dc464fa2f6b783e36015ddd1037b9a798a5488fa6006f88b5773c8105d01"
+    },
+    {
+      "path": "assets/audio/trip-00848.wav",
+      "bytes": 83818,
+      "sha256": "a2ad7d2b5bb5377432e39f189015942cfafaf25ff77f883f15f4a4e43caf9e0a"
+    },
+    {
+      "path": "assets/audio/trip-00849.wav",
+      "bytes": 127612,
+      "sha256": "deb32ee39dde8e019ab91f89510e01314286f90ac73abb5d27ce551a26dd78ec"
+    },
+    {
+      "path": "assets/audio/trip-00850.wav",
+      "bytes": 103742,
+      "sha256": "397faec0a09479e60cc2b78fab588b2ea88b0bf8f6a7f6c9df7592efb9e5acf3"
+    },
+    {
+      "path": "assets/audio/trip-00851.wav",
+      "bytes": 87272,
+      "sha256": "6e6ba472995159041eb1994aab8c5186f1017efde4ef321c8a8f59d4c266893b"
+    },
+    {
+      "path": "assets/audio/trip-00852.wav",
+      "bytes": 111830,
+      "sha256": "db5c4ef84d61837a5d6e8e8de08bf449b3df15e37df1622ea619f526d8523286"
+    },
+    {
+      "path": "assets/audio/trip-00853.wav",
+      "bytes": 147388,
+      "sha256": "d21eba8f01c9cdcf09912b4d34c31cdcbcbfc2f656964a8e06119b81a2201fa3"
+    },
+    {
+      "path": "assets/audio/trip-00854.wav",
+      "bytes": 117236,
+      "sha256": "479125d0e888c2037a5d237256ad949a3d948984aca63756fbda54b4c6968b5e"
+    },
+    {
+      "path": "assets/audio/trip-00855.wav",
+      "bytes": 43594,
+      "sha256": "32d0a1add1b410dbe6ce2255496e323340834a923393b94ccd565abcab8b7ca0"
+    },
+    {
+      "path": "assets/audio/trip-00856.wav",
+      "bytes": 69164,
+      "sha256": "dcd4dc95b52a3098b3bc66c4b857fa7e1d787583242aa46031573c7d019e90ed"
+    },
+    {
+      "path": "assets/audio/trip-00857.wav",
+      "bytes": 68652,
+      "sha256": "ffa3ed9d28957410cfab07201830f4a34aa8905b7f058541393d910c9c20541e"
+    },
+    {
+      "path": "assets/audio/trip-00858.wav",
+      "bytes": 68068,
+      "sha256": "43b367d05e61d630977da44477936090fbd0c7f4604de3d1f74228a34af70a87"
+    },
+    {
+      "path": "assets/audio/trip-00859.wav",
+      "bytes": 66150,
+      "sha256": "177bbe650ba0c429981fff8bab3bebf6a6760f99868842ed3aea8b5609003c25"
+    },
+    {
+      "path": "assets/audio/trip-00860.wav",
+      "bytes": 64044,
+      "sha256": "a238354e91d89b092314408508e3ece2502e3cb7072b9048e3c61bd40bb6b417"
+    },
+    {
+      "path": "assets/audio/trip-00861.wav",
+      "bytes": 105852,
+      "sha256": "95292e88a88a1ebdcebbb608267fc5f9324809c472216c940e4e6db934d8e491"
+    },
+    {
+      "path": "assets/audio/trip-00862.wav",
+      "bytes": 80830,
+      "sha256": "f841231d72069c706dba81a635f1f34f39daba633b070c086644cb6777fde94e"
+    },
+    {
+      "path": "assets/audio/trip-00863.wav",
+      "bytes": 44858,
+      "sha256": "d3e2d3ddf7b5230975b79911b5a15c3122aa76080bf4190a7614142098dc2532"
+    },
+    {
+      "path": "assets/audio/trip-00864.wav",
+      "bytes": 57726,
+      "sha256": "3ad1a41d3d5a35d066d114dcddd5aa7e162c05179c0dec87f96f9188394e35a2"
+    },
+    {
+      "path": "assets/audio/trip-00865.wav",
+      "bytes": 70444,
+      "sha256": "66511f4ed2d33d9c91e4b5f5fa56d81048d3379b2f8167559672eb66c6cbbbe9"
+    },
+    {
+      "path": "assets/audio/trip-00866.wav",
+      "bytes": 88068,
+      "sha256": "cfc4710dfb57f1e3be4bb8a5c43ad7f81181c1e3a2a04b39f4640073d930cbf3"
+    },
+    {
+      "path": "assets/audio/trip-00867.wav",
+      "bytes": 145324,
+      "sha256": "e57be279b9b243261c6037eb2f6c4f29587d9de195386eb19cbd6c3a3b88e1cd"
+    },
+    {
+      "path": "assets/audio/trip-00868.wav",
+      "bytes": 259278,
+      "sha256": "7e7ffeb82b20285b777a6c8291bb45486a32300b3a848158aae93361a10a2c15"
+    },
+    {
+      "path": "assets/audio/trip-00869.wav",
+      "bytes": 225648,
+      "sha256": "52c12299cad6a61fb1397cff3428f0c1f5d3e4e9bcb1ebee7e0a6ecbca60bc2b"
+    },
+    {
+      "path": "assets/audio/trip-00870.wav",
+      "bytes": 87458,
+      "sha256": "724dbed8f7387efea1a7d546366be12f48d4ea1637668cad05a5c907204a5cdf"
+    },
+    {
+      "path": "assets/audio/trip-00871.wav",
+      "bytes": 72364,
+      "sha256": "32db45a847ff67036e52cee1d2d63bd3a6c1a369c003a2405c65fe59a100f7f1"
+    },
+    {
+      "path": "assets/audio/trip-00872.wav",
+      "bytes": 94932,
+      "sha256": "e6e3b31594a2d2b5f98f560d3cbd9b1bc1c36074653898a3372857d9f6bc64a9"
+    },
+    {
+      "path": "assets/characters.json",
+      "bytes": 13452,
+      "sha256": "e695a9582c9b09963ea4ea359fdcd2f80e2217dfd00b879548fe4f6ad870afaf"
+    },
+    {
+      "path": "assets/door-audio.json",
+      "bytes": 2613,
+      "sha256": "69dae90ac2f8ce825b3997279daa3f4d824dd5a73de859bd50ca0945041f8739"
+    },
+    {
+      "path": "assets/motion-scripts.json",
+      "bytes": 62202,
+      "sha256": "b19a3048da98383c6ff2f47eb4211f018310d77cfa3acafac02db6252267fc09"
+    },
+    {
+      "path": "assets/opening-audio.json",
+      "bytes": 134290,
+      "sha256": "ef7475d56b7a4620580f38fdce1b72f3e774e958ca14846a1e751b10b916df6e"
+    },
+    {
+      "path": "assets/scene.json",
+      "bytes": 107603,
+      "sha256": "c72f55b1a14025117b5f164ea4668e5778fd999b4cdfe5d23e8a921f5fd25842"
+    },
+    {
+      "path": "assets/speech/runtime/ort-wasm-simd-threaded.jsep.mjs",
+      "bytes": 44484,
+      "sha256": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9"
+    },
+    {
+      "path": "assets/speech/runtime/ort-wasm-simd-threaded.jsep.wasm",
+      "bytes": 21596019,
+      "sha256": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39"
+    },
+    {
+      "path": "assets/speech/runtime/transformers.min.js",
+      "bytes": 888173,
+      "sha256": "aa5002b70e789798da263f5f99c62bd3e8fcd0c119258a493c40c180648365fa"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/added_tokens.json",
+      "bytes": 34604,
+      "sha256": "560be47bea388757f8d4cc185c5d82067426cbb6361e38016dd90ddc01ab203a",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/added_tokens.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/config.json",
+      "bytes": 2197,
+      "sha256": "251ea843b5901a99efa58c0b99b8052c6019aa3e7d2baf46693a1128ff606233",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/config.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/generation_config.json",
+      "bytes": 1646,
+      "sha256": "7b2e8451ed5f118e75fdd991409d72119d21d2fef1eba9723f68fb9c57fe5dc9",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/generation_config.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/merges.txt",
+      "bytes": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/merges.txt"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/normalizer.json",
+      "bytes": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/normalizer.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/onnx/decoder_model_merged_q4.onnx",
+      "bytes": 86712166,
+      "sha256": "57d4303f3bbc8bb4016273b172285236f5719c75e8a7d23b7265cfa1d71494a4",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/decoder_model_merged_q4.onnx"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/onnx/decoder_model_merged_quantized.onnx",
+      "bytes": 30718858,
+      "sha256": "c0592d0749413c960569e1c7fb806b060d5d18f3ebad4a95cbf9a77dc6e9be52",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/decoder_model_merged_quantized.onnx"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/onnx/encoder_model_quantized.onnx",
+      "bytes": 10124993,
+      "sha256": "e93ec822f16a8fd264e7de972ad17d615ea7334b75a52d54c50c2e18dd503a25",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/encoder_model_quantized.onnx"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/onnx/encoder_model.onnx",
+      "bytes": 32904992,
+      "sha256": "8c361b9430a5ef6619ee64b7fe06c725df19f36d508cc8b847064b34a888a3fe",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/encoder_model.onnx"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/preprocessor_config.json",
+      "bytes": 339,
+      "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/preprocessor_config.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/special_tokens_map.json",
+      "bytes": 2173,
+      "sha256": "98bdf3ec5b32e31575b02f64b0a32bde7c0449075d34484a7df9bdd3cdeb9fb9",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/special_tokens_map.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/tokenizer_config.json",
+      "bytes": 282662,
+      "sha256": "93879c3dccdd4b976f709acd85b44778873f30c275e67026f30ca1e4c975230c",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer_config.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/tokenizer.json",
+      "bytes": 2405679,
+      "sha256": "5eb60cec1e77aeeb6869a2bb5a8e01a84c3fe5d072d75369343021fe6f5310d0",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer.json"
+    },
+    {
+      "path": "assets/speech/whisper-tiny-en/vocab.json",
+      "bytes": 999186,
+      "sha256": "f6bd25a65e4e63ca31360e9fb11c7e4f9a391a78385d640acd814092dd6eee4f",
+      "source": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/vocab.json"
+    },
+    {
+      "path": "assets/textures/answeringmachine.bmp",
+      "bytes": 196664,
+      "sha256": "95eccd965173f78003e29e6095071991b77ee9e905a0dbac7bbe41807035c476"
+    },
+    {
+      "path": "assets/textures/ashtray.bmp",
+      "bytes": 196664,
+      "sha256": "56c701023059b3ab4cbc4fdb8b2e0f5161d996053baecc365eb1419de0b5039c"
+    },
+    {
+      "path": "assets/textures/bedroomdoor.bmp",
+      "bytes": 196664,
+      "sha256": "09bb25b31cf7a7dfc762bc4b7db3147c086b9a99715b04e574cef412a81e8a3f"
+    },
+    {
+      "path": "assets/textures/beer_dark_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "b4a179647fddf3881cbf431e3ccb5733e61eb24e4742fb0440ea99ef0e1adc96"
+    },
+    {
+      "path": "assets/textures/beer_dark_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "68b44ee5d9a92f19635051165102d88bc457df184221e37b3dfd90ff6386c52c"
+    },
+    {
+      "path": "assets/textures/beer_dark_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "bf5d30d0dd0afb35e55ea23dba4fc5e7d98b32c80215546c0cdcaa3ac478510c"
+    },
+    {
+      "path": "assets/textures/beer_dark_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "485077fc0aa373e636466869f9d4c7e1f7131775e52ccd25973261c168684b1e"
+    },
+    {
+      "path": "assets/textures/beer_dark_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "02fefe9ffb898e1c9215ba1340d51a0a4f692bb1ac418c6bd508e9fb7a3a92da"
+    },
+    {
+      "path": "assets/textures/beer_dark_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "1b226ca1453c5bde30d569b5608f7240491342ad800edb732e6a21f2f4125be3"
+    },
+    {
+      "path": "assets/textures/beer_dark_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "70c4d48c0adeb376f9112a70e2f4bab15d2f80cfc979d116d4adb2c02df88560"
+    },
+    {
+      "path": "assets/textures/beer_dark_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "064a54c0b25a6b10c01daf00783c22c2c8c8be69b0a1bc899320b435e07aaf5b"
+    },
+    {
+      "path": "assets/textures/beer_light_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "c4589bc88413287eec547fb90a1af27284f35ca9347a781a65627bbb3643623b"
+    },
+    {
+      "path": "assets/textures/beer_light_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "ab52d5f6012a45e145379445c6ac8471193386b8a60718096a3788f5d73b1726"
+    },
+    {
+      "path": "assets/textures/beer_light_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "6c21468c5a356097a3aee4b4b09b30496b5e945fe2e9c8d4deb27b14254cf704"
+    },
+    {
+      "path": "assets/textures/beer_light_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "3999467a175ad88ca4426caad6322dc6fba8761c3120b6517f5f2bdd87b81a56"
+    },
+    {
+      "path": "assets/textures/beer_light_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "69ed654cdf70ea18f4fea59e538e26098caab142171eb23e5540f68139f2346d"
+    },
+    {
+      "path": "assets/textures/beer_light_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "1dd077c037fe79c81bd1cd9bb05c5adcdd64752eea951b059360efab45c376f9"
+    },
+    {
+      "path": "assets/textures/beer_light_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "eb1088bb17a3f9daa961da625660853027fa02fdedb9e292dde7a25606a54f0e"
+    },
+    {
+      "path": "assets/textures/beer_light_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "8948a3fb4c452d62c0a59bc24c0a5bf8b71bd227b752df255004b7aef99a0262"
+    },
+    {
+      "path": "assets/textures/blackstripes.bmp",
+      "bytes": 196664,
+      "sha256": "6d7ac283d129eaad5aafaf0b66d5f6c0e0880f99bb4d8d475ba6d4bc7d0c3ad0"
+    },
+    {
+      "path": "assets/textures/brassbull.bmp",
+      "bytes": 196664,
+      "sha256": "6f599e692c9fa33435a3ac4b4a671040330b48705c77e106e3a0ef7c4863a423"
+    },
+    {
+      "path": "assets/textures/cola_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "06260af40e2a1f4ff5ddd4db652d3de83cc3fd56683eeb57861cef639c1e0ed5"
+    },
+    {
+      "path": "assets/textures/cola_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "37891924eefad2d3d5a2eb8f77239bc711cfb801f9e2f1c82ef3c5eeabee72e5"
+    },
+    {
+      "path": "assets/textures/cola_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "76335ea008101a22dbe48c528d2d2ffc1ad4d06a7132a298b13ddee8c559d8b3"
+    },
+    {
+      "path": "assets/textures/cola_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "8f77a51bdb61402ca191682461fa785985b030627b8428e657644429075a81e9"
+    },
+    {
+      "path": "assets/textures/cola_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "c959326fa466ae54e0cd87b65092cecab7bcd7cb3bf9eaebe11ac897794a3ff3"
+    },
+    {
+      "path": "assets/textures/cola_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "3a6beb628a0611147437ddaf9e5af032a1c165d41fc6d3cd67f82675e7096cb2"
+    },
+    {
+      "path": "assets/textures/cola_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "f9f9362a3466d27ed59e74b7cf8e70c01355045e48a67e1ec1488423ab6d11d4"
+    },
+    {
+      "path": "assets/textures/cola_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "7351ec8c05a7a9474a9f1760cff31344f90acb403970abd5c6ab165a5bbc7f92"
+    },
+    {
+      "path": "assets/textures/eightball.bmp",
+      "bytes": 196664,
+      "sha256": "40b65fe4750a2e2f98d140ecf65463df79c25a4e7ac4b66d1ab43b50bf035417"
+    },
+    {
+      "path": "assets/textures/eightball2.bmp",
+      "bytes": 196664,
+      "sha256": "e2ba1aad4a308fceac07d09c57d3ddbd1e1850308d8c64fbf3c8e62f1f6a5cdb"
+    },
+    {
+      "path": "assets/textures/eightballFadein.bmp",
+      "bytes": 786488,
+      "sha256": "84141c3b56208ce6648ec8bbede8fdca79333d5f28e3f492254fef2f5cad0886"
+    },
+    {
+      "path": "assets/textures/eightballMessages.bmp",
+      "bytes": 786488,
+      "sha256": "0764771f241f73d688d742915c58cb17de7403b7018afafb41038786e525b169"
+    },
+    {
+      "path": "assets/textures/elevator.bmp",
+      "bytes": 196664,
+      "sha256": "50e60a73cb6827992bbe405a08df9ab5d7b420748bd30160902dfb080ff85057"
+    },
+    {
+      "path": "assets/textures/elevatorButton.bmp",
+      "bytes": 49208,
+      "sha256": "67134ba01010b4b5899155681d0c3df6d3d7fc3ad71af99da88cb6f8bcabe47f"
+    },
+    {
+      "path": "assets/textures/frontdoor.bmp",
+      "bytes": 196664,
+      "sha256": "61de9907cffaf0fb5c6e6f9abfe7136b0763f2d1f7a194349ea23b7378378fa6"
+    },
+    {
+      "path": "assets/textures/gownsketch1.bmp",
+      "bytes": 196664,
+      "sha256": "de64370aa3b169b436ece70c176f75912ae09173967b454f7e055344b5efd321"
+    },
+    {
+      "path": "assets/textures/gownsketch4.bmp",
+      "bytes": 196664,
+      "sha256": "8f3ca6928aa0df4b8f005abcaf116187f32bc8191e8e861ff2e665f8dae1aec2"
+    },
+    {
+      "path": "assets/textures/instr_arrowKeys.bmp",
+      "bytes": 196664,
+      "sha256": "cf251c91941291782c71d353a730ee1adb600b97839cfa9b24725c24642a8c0d"
+    },
+    {
+      "path": "assets/textures/instr_keyboard.bmp",
+      "bytes": 196664,
+      "sha256": "c8f0b371bc3823b0d79bf9672376bef4b67bb7514175635f6137ec108f164694"
+    },
+    {
+      "path": "assets/textures/instr_mouse.bmp",
+      "bytes": 196664,
+      "sha256": "1dd9051259ab51591be732bdb26db08f99deb60cea005483fb38a7df367e0d4b"
+    },
+    {
+      "path": "assets/textures/juice_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "eb75879b2fceee9193584cf124d9fad6d60b31a66badbcd12c52122647aa3342"
+    },
+    {
+      "path": "assets/textures/juice_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "fc3a8cbb09e9d90c3292286bc73f60a49c2cd9c526a13c12372f0b45897af102"
+    },
+    {
+      "path": "assets/textures/juice_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "be41a090a9e3856d0b5a69e6e56ffd8efecfa2cbf8488030c49075dc2adcef99"
+    },
+    {
+      "path": "assets/textures/juice_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "5ae54f9f7e4173873ec3589b13f544e32709bd3fb3f9b16f8f47914d299ba28e"
+    },
+    {
+      "path": "assets/textures/juice_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "ced82ae9e5743f03e9fc9db3868034829493abace1c1142022528faf7888a51e"
+    },
+    {
+      "path": "assets/textures/juice_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "7c7a6fc60e8a9c6a5ea6e086880c5e135b0f9497e6ee94d003285291cb3f6df0"
+    },
+    {
+      "path": "assets/textures/juice_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "8884a7cee9e76a8bd17e203036cf95c3b3396e3345577cdabc38af5895e267d8"
+    },
+    {
+      "path": "assets/textures/juice_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "93805ec7cc6ddf2beb080d0c00cfedb2208f7b6e9653c28eea29d7f42933f2a3"
+    },
+    {
+      "path": "assets/textures/label_logo.bmp",
+      "bytes": 49208,
+      "sha256": "68209413886751fc08c788d7b1e00e3bf1edf4111fa89b6630d8d23f25deae98"
+    },
+    {
+      "path": "assets/textures/liquor_clear_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "346dd5020f326b990135a41a3f710b2f75cdb4ee70fc15bc68fa955da4d13bc3"
+    },
+    {
+      "path": "assets/textures/liquor_clear_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "78ac670217d750a5eb6d680483c3973df8666c09a5c58b39b0e6b7f944e5c9ea"
+    },
+    {
+      "path": "assets/textures/liquor_clear_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "2a634085ef4b1ffaec3c92fcb51d748af1b10f102ac3de555bfe5e354f2ed7bc"
+    },
+    {
+      "path": "assets/textures/liquor_clear_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "8965a2b1661e0b8dedfbfa21fbc65d4ba165abdfa2e6c52801a72523b722daea"
+    },
+    {
+      "path": "assets/textures/liquor_clear_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "0927f9cef9f90ec584eb2f25b6c8f83544f2457705a7ba59747d335bca74f078"
+    },
+    {
+      "path": "assets/textures/liquor_clear_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "32c9ec1b5a924b56df405fa16cc3f50913a1318fdc47ece0be0981af45abd7dd"
+    },
+    {
+      "path": "assets/textures/liquor_clear_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "3046e7b9f87fa2ebd4f472fa22b799122daeafb1b39dfc54ee78f58424968694"
+    },
+    {
+      "path": "assets/textures/liquor_clear_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "e1ec6387b93c6d584906866a1473ec8efb749855cd472757b7e865d09dd92b17"
+    },
+    {
+      "path": "assets/textures/liquor_empty_hold.bmp",
+      "bytes": 196664,
+      "sha256": "661a2988b11c760688a26f51f68a42652d8110636b39ad97ea260b4aeedebebb"
+    },
+    {
+      "path": "assets/textures/liquor_empty_pdrink.bmp",
+      "bytes": 196664,
+      "sha256": "42da8b8f17c2a64ede52b2b71bff58f525dfc3bcee9f503d1b6976816ae51c8b"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "46114943139a80b5783561a1d1d5322a3f2b47df592c6943712a447a8090ab0a"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "b374c9418f1ded3c00bdf4217fae2af71ed2ec6035161bd2fb289334daea9af4"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "098e13d89959ba87c472d0f271711cbbcd268d508099343df59c67a93b56f71b"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "7c26ed5560e5b61fa8400b437f5d73dc76777a189ba80c724851262e6d8ae32b"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "f5d8daa01e64c935c7f6b07640e176031efd4b7374c30b1c67abc2ae8afcb332"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "13aa6f2d6019b823d00165b6d9f9e76b71fc07f2ac7d191b64cc447b89b29da6"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "319ef556125b8c148dbd0d42b96f8c479abfd1d009ce476e427d1fcf3696deaf"
+    },
+    {
+      "path": "assets/textures/liquor_scotch_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "e5f94869a0945c6adb80691aa26b5ed8e07650629fc4f6a31f0923bed967e2c3"
+    },
+    {
+      "path": "assets/textures/littlepainting.bmp",
+      "bytes": 196664,
+      "sha256": "1179d1b1f6d8b7e38c255905c2a0683062da89bd2b36378165767a3a3892d189"
+    },
+    {
+      "path": "assets/textures/martini_classic_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "855fffc61950cb68683b5b20175fbaed330ebb2bed2ea398608f2214904c6604"
+    },
+    {
+      "path": "assets/textures/martini_classic_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "695026cb357169c12278baf5875fedd59a206ed77b91b2bcf04cc5a554185371"
+    },
+    {
+      "path": "assets/textures/martini_classic_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "2597a82139804de0cdbd04f7d2555d8d59916cfbf1ff19bdb8e8a19e856bb77f"
+    },
+    {
+      "path": "assets/textures/martini_classic_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "8ba94889435977e71823d1e0c44d7e1959c4cfc1e087a86beab4c6a7469201e9"
+    },
+    {
+      "path": "assets/textures/martini_classic_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "fd9d0d99e49ac1fb1b4d0f851fcd35fb1a9f88b7b2e0643868c57a9432cd77fe"
+    },
+    {
+      "path": "assets/textures/martini_classic_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "becf70bc56a3797b9d1c0d2e6c9b1ac9f5bb40cd75f4d12a5e0f587c456fd3db"
+    },
+    {
+      "path": "assets/textures/martini_classic_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "fb3067a96c20da87106c95e9b07a3440ad5fd8ba1b89a160787148ea5f21e45e"
+    },
+    {
+      "path": "assets/textures/martini_classic_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "d9012e6528a1149fd8c85de6280c6353fa0fd2129dce716fe642c427b1f92523"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "e08780ff4b87bfb1299d246bc7deb9955639e863822330531e4b00346e0b511c"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "d69e3b30daacde2066051c5d944232f68875052363bc0628694624ee13f9c9f6"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "4c99db1bcf3ada44ed6308703fc24a9f48b257ff26bba3fc152864fef8af343a"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "e3aadedbf9c7e45a7ec81c7d0702ee9b27996af208b157033218cb16ee7b6c33"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "8e6ed2e1b2e89543bb2e3927246bf0649f2398c80fc752a91cc19871c0dab216"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "eec294820a47faeda1b251602da6644da5d278d2cfe0be07db473732d7731a1f"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "cc3fb7c00c8c6f7bc41574f75df160688dbf9b3a44466aee531cf45f0263f929"
+    },
+    {
+      "path": "assets/textures/martini_cosmo_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "ce9c5ebccd5e23934b347c02d32a76581826a5210c258c30fe4cf2de22889c9e"
+    },
+    {
+      "path": "assets/textures/martini_empty_hold.bmp",
+      "bytes": 196664,
+      "sha256": "3b0557e46d4f5d06a003c0be229c94dfa5c969a1b91eb7c8addd5a3501fe04a3"
+    },
+    {
+      "path": "assets/textures/martini_empty_pdrink.bmp",
+      "bytes": 196664,
+      "sha256": "c2e33c654711ad10411f12122d2cde06fbdd73eb7fd704032967d9ab45ae506f"
+    },
+    {
+      "path": "assets/textures/nyc.bmp",
+      "bytes": 786488,
+      "sha256": "e2f75983ed248d9bb6c5a010651c93d188a9ed6f99582786a9ed4a58ab7505df"
+    },
+    {
+      "path": "assets/textures/painting1.bmp",
+      "bytes": 196664,
+      "sha256": "0bca127ba2bf95ad00bdc632ff465d30e49734f7ef112f0bebb1d73853a5d338"
+    },
+    {
+      "path": "assets/textures/phoneheld.bmp",
+      "bytes": 196664,
+      "sha256": "7b710bbf885096b651098f1f084b2a67f2ebc3b9c213037f9221df5f65abd401"
+    },
+    {
+      "path": "assets/textures/phoneontable.bmp",
+      "bytes": 196664,
+      "sha256": "532519e88c74b6e163c677b6f218662faacfc390a30aa0940ac4479d13a5f6d0"
+    },
+    {
+      "path": "assets/textures/pint_empty_hold.bmp",
+      "bytes": 196664,
+      "sha256": "dc7b3ecc1ebdd1b344f6b4989b21081c3e57ff731c072749d9b79cb8f66f9741"
+    },
+    {
+      "path": "assets/textures/pint_empty_pdrink.bmp",
+      "bytes": 196664,
+      "sha256": "711e1dcfc875cb7bea1c7eececb4163d4975cd3ef888f0face3ad647adb9ba67"
+    },
+    {
+      "path": "assets/textures/plant.bmp",
+      "bytes": 196664,
+      "sha256": "b1f48329bc95491b3ed49675466ae3a49e78fbff6359417c3f5edcb187bdbb1c"
+    },
+    {
+      "path": "assets/textures/post_its.bmp",
+      "bytes": 196664,
+      "sha256": "0b6a31570c63f43d714cd027673e8aa2f4401c05e992cec288bdd26933ad5a1b"
+    },
+    {
+      "path": "assets/textures/redCurtain.bmp",
+      "bytes": 196664,
+      "sha256": "c9bbd8939253f617a81986964a1401e230e3cb13e25408166ce44d72666c947d"
+    },
+    {
+      "path": "assets/textures/redwinebottle.bmp",
+      "bytes": 196664,
+      "sha256": "32c4dfddaa6dddf9f1ea828cf78f6b9fb5c6ef811ab98e8e08ac89eb59c3839b"
+    },
+    {
+      "path": "assets/textures/rug.bmp",
+      "bytes": 393272,
+      "sha256": "d900b13e5d5fba67853a7046be03b91860845869d6b2a606c436fc5fcf5ca9d4"
+    },
+    {
+      "path": "assets/textures/tipjar.bmp",
+      "bytes": 196664,
+      "sha256": "20663ade832da7237621c7c014aa53653dec1be11c0a007f40e79dad0926ffa7"
+    },
+    {
+      "path": "assets/textures/trinket1.bmp",
+      "bytes": 196664,
+      "sha256": "89ccefc3f88502a6766c6b50567a9ccd14fceca31cae359b3b618495e3d02a21"
+    },
+    {
+      "path": "assets/textures/trinket2.bmp",
+      "bytes": 196664,
+      "sha256": "982277b47e1d397012fc4dd5107fb12838defad6a048dedb61c3c50b51a4e3cd"
+    },
+    {
+      "path": "assets/textures/trinket3.bmp",
+      "bytes": 196664,
+      "sha256": "2e1f00462ad938ff40e483fec008022c0b5f476ddb7ee059f36cfe9442c23c9a"
+    },
+    {
+      "path": "assets/textures/trinket4.bmp",
+      "bytes": 196664,
+      "sha256": "bc1ad4afd592f8575b0c34376e808361d4c4d2c916f2caccfe7e5492f0df54ba"
+    },
+    {
+      "path": "assets/textures/trinket5.bmp",
+      "bytes": 196664,
+      "sha256": "d57d2c0b27eae90dc18d82f1e2d696419cd0a15e7b2b0133842f2e616d69daf3"
+    },
+    {
+      "path": "assets/textures/trinket6.bmp",
+      "bytes": 196664,
+      "sha256": "ad348d3b97a05752dbfe4f3f69122008ce1344f6c9d9917e801eec1fe0e916b4"
+    },
+    {
+      "path": "assets/textures/trinket7.bmp",
+      "bytes": 196664,
+      "sha256": "b78b87cfe5a42f01ebc9d48044ca05f420fd874d67229edd9ca5c7054f6b3b17"
+    },
+    {
+      "path": "assets/textures/trinket8.bmp",
+      "bytes": 196664,
+      "sha256": "efd8336994d20d857994e59b0363008aac528c37654264df72f28a8f8f6a98c2"
+    },
+    {
+      "path": "assets/textures/tuscany.bmp",
+      "bytes": 196664,
+      "sha256": "a68c3be08f97ea23e46fcc3061601a24450aebf09c6be44993bfa6ea2f7e8556"
+    },
+    {
+      "path": "assets/textures/water_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "526bd6322564158ad1e6a615c8ec7ae1c83ca27ed7edda4efc3ab0ae04965d16"
+    },
+    {
+      "path": "assets/textures/water_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "8a15bd49eb94d4542a862a3c63990b3cf966d73b1c99faacc21996fb1e46246d"
+    },
+    {
+      "path": "assets/textures/water_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "81e6dc7b31fd71308e304b3eb3858702420e5472c6b8f3ebc3238f1d2021cd8c"
+    },
+    {
+      "path": "assets/textures/water_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "e8f681fb604d5ccfcfcfec78ef44d13be23edf0abc254fe510056a397059e40b"
+    },
+    {
+      "path": "assets/textures/water_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "78a902c2db7868af9b950105d1784ef552a4908e5517b168dde3f4329edcd932"
+    },
+    {
+      "path": "assets/textures/water_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "f9eba49c14c09c8d61a90e6d26a824127eb8ba2693edb0d1db1b97de66545321"
+    },
+    {
+      "path": "assets/textures/water_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "24ff7bd876a5e31f6bb7a81ce77c1c987e7fa9f826f6459d1c39ea7bf7614f13"
+    },
+    {
+      "path": "assets/textures/water_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "ce6bfb4bbacc7ee5914e24dd9f9db499c499f70a1fdecd535bfc29a821570a5b"
+    },
+    {
+      "path": "assets/textures/weddingpic.bmp",
+      "bytes": 196664,
+      "sha256": "a2f182eeac77ce2cb4cf78d8ea1a136ac6328975773243016a1350dccad1af1a"
+    },
+    {
+      "path": "assets/textures/whitecabinetdoor.bmp",
+      "bytes": 196664,
+      "sha256": "9075a54c233016f43513b23aaded34553df2e264606df819e88f8ceec42d043a"
+    },
+    {
+      "path": "assets/textures/whitecabinetdoor2.bmp",
+      "bytes": 196664,
+      "sha256": "b1c49a7c17bceea22066acc3d21d6ebb887469fb98e06c4692b175ccc6720cd9"
+    },
+    {
+      "path": "assets/textures/whitewinebottle.bmp",
+      "bytes": 196664,
+      "sha256": "c37978dcd0e3b7589066f56c415d971d37ab481c4677cceebeb72feb886bc2ce"
+    },
+    {
+      "path": "assets/textures/wine_empty_hold.bmp",
+      "bytes": 196664,
+      "sha256": "6b19ce236744284f3aad1ba2c0407d0fb7156a3a8ce7b14eaa0d4c0816d0f272"
+    },
+    {
+      "path": "assets/textures/wine_empty_pdrink.bmp",
+      "bytes": 196664,
+      "sha256": "6bf956ae6c44ac09df5c69fe64bbb01fa8d231e728c6d59c5c243f42e7c55882"
+    },
+    {
+      "path": "assets/textures/wine_red_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "2234f6eb331bc24769ade007288b30df22704d9a5a10b0aaa940ef852e4fe309"
+    },
+    {
+      "path": "assets/textures/wine_red_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "efed5db70457af6b7fb4d9a7bc3dbe93f5dfc2ef4b4d8bcca4846af02779b55d"
+    },
+    {
+      "path": "assets/textures/wine_red_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "41567822dbd7d37405c2681f0f3dbf42cceb18dbdfb72094395d9055b1319297"
+    },
+    {
+      "path": "assets/textures/wine_red_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "a344dae859a97d3f5055c1289b38ea9da6f66c6b540e0fc90c60dd6958760e8f"
+    },
+    {
+      "path": "assets/textures/wine_red_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "3b03243fd59ee89ceb634dfdc45b7b49af877bfc5d4c8adb76b2387adcebe516"
+    },
+    {
+      "path": "assets/textures/wine_red_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "036a39e229f5af75626bac2d65e2e100fe6162998b69f7495323980e49491baf"
+    },
+    {
+      "path": "assets/textures/wine_red_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "28b95ec0bb70784ea90197965b19aeae5eb34788f72c35f1d80771f058d156a2"
+    },
+    {
+      "path": "assets/textures/wine_red_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "39a5454b2b045a56b208185272030b5629251c702d645cd47f9f2562a97a88e1"
+    },
+    {
+      "path": "assets/textures/wine_white_hold1.bmp",
+      "bytes": 196664,
+      "sha256": "530fa99abd61d4b4dcd3a682e4979b526f85a503daa877a0c2051820f0a63b1e"
+    },
+    {
+      "path": "assets/textures/wine_white_hold100.bmp",
+      "bytes": 196664,
+      "sha256": "6873dd6cc35613a3535544c5703d1e88f25b0c7c44176b9090f1e74fc8666c80"
+    },
+    {
+      "path": "assets/textures/wine_white_hold33.bmp",
+      "bytes": 196664,
+      "sha256": "b69e4fcc77cf30e570de1dc824b448f7d5f7ebb13a67a130e68ba39d63b9b080"
+    },
+    {
+      "path": "assets/textures/wine_white_hold66.bmp",
+      "bytes": 196664,
+      "sha256": "b5f02ebc1d0ad94a2f56268c695cea5713831e67a2a4de210259b1f72e744a6d"
+    },
+    {
+      "path": "assets/textures/wine_white_pdrink1.bmp",
+      "bytes": 196664,
+      "sha256": "c3da9e0d3138f7a9699a0889b122764f5dfb5c588b3aae5910ef3abfbe946765"
+    },
+    {
+      "path": "assets/textures/wine_white_pdrink100.bmp",
+      "bytes": 196664,
+      "sha256": "b92b50487c2d4ca41f81ddd98b2cbe3a7d786ce9481ba2ed2f18f7a49b0635dc"
+    },
+    {
+      "path": "assets/textures/wine_white_pdrink33.bmp",
+      "bytes": 196664,
+      "sha256": "aae0641b9109d83dd0905445ddfe349b6dd73871212de0d79c1112f8cfe13ac3"
+    },
+    {
+      "path": "assets/textures/wine_white_pdrink66.bmp",
+      "bytes": 196664,
+      "sha256": "f33e16b6d6f6e4dd54d600b565663762ae08a722cf9bd27a347491302e22895f"
+    },
+    {
+      "path": "assets/textures/yellowfont.bmp",
+      "bytes": 786488,
+      "sha256": "8ebcbed999b6d1e76ccdfcf6fe02b11ffe512e8a20d5ab145debdbcbea5c45fe"
+    },
+    {
+      "path": "assets/textures/yellowfont2.bmp",
+      "bytes": 786488,
+      "sha256": "b63028364b266ba0e1eaf43b39cdadeff1116daea4f17e88b0d39b0b8f395c79"
+    },
+    {
+      "path": "head-tools/out/grace.head.json",
+      "bytes": 441232,
+      "sha256": "030a323d04096a531194e6f11a0eb7d7f3a117e6cf94efd916b1e071d72cc131"
+    },
+    {
+      "path": "head-tools/out/manifest.json",
+      "bytes": 2369,
+      "sha256": "ec2db02212c5443141cfae04c83f107c577f31ca6914dbb00fffd05de91f4d1e"
+    },
+    {
+      "path": "head-tools/out/trip.head.json",
+      "bytes": 411189,
+      "sha256": "b375380224e5280980e2919dd08d9f92288a4c64e1835303e106aaeefc33208e"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/merges.txt",
+      "bytes": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/merges.txt"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/mlc-chat-config.json",
+      "bytes": 2359,
+      "sha256": "b94d53bfde5b496d8d96239bf4684e24b5394209e5aef9127866efa454395651",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/mlc-chat-config.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/model.wasm",
+      "bytes": 7466230,
+      "sha256": "552152bd76fd5432c6b88750a948ac44d038a3c570be6aa0f0e744067a9e2a25",
+      "source": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/00fe7a40e57e5e8eb9fef87526a4bf28ad5846c0/web-llm-models/v0_2_86/base/Qwen3.5-4B-q4f16_1_cs1k-webgpu.wasm"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_0.bin",
+      "bytes": 317849600,
+      "sha256": "45c2fb4d102486f2cef527705e507c8be3c96cfe3636c25763075b9dec66c971",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_0.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_1.bin",
+      "bytes": 39731200,
+      "sha256": "ca2ee8c218699635cb5bb47ead733f2ab3aad7a171759aaf6c193b8a8dac413b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_1.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_10.bin",
+      "bytes": 32440320,
+      "sha256": "9a6468a052d49929e0e3bb103e18f2429993e331ca96107b93c44224ef4ff8e5",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_10.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_11.bin",
+      "bytes": 23592960,
+      "sha256": "e9702d4e3c94ef8564aedb6a64142309a7c029509b042bbc10c28f853d28c928",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_11.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_12.bin",
+      "bytes": 29491200,
+      "sha256": "783e7982f05f6f946545edb4add7699074b61eb15d9c0489866d5f0b2f57ec93",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_12.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_13.bin",
+      "bytes": 23592960,
+      "sha256": "268d39a35ce3901f0ec52cd6c64dd545215eca4c044961e8777c51d327305fa4",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_13.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_14.bin",
+      "bytes": 23592960,
+      "sha256": "ae7e46c3a5d103f4bef30d0c32036c60077ead10cff01239f4777b61c4305146",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_14.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_15.bin",
+      "bytes": 32440320,
+      "sha256": "2f8a543ad1c9f4b51e17b533e02c238ffa157e05c901ced8940ffc8ade33d41e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_15.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_16.bin",
+      "bytes": 23592960,
+      "sha256": "895faf52d65e6255e0248cc003ca9ee51ab525be8ed555ad530de66b602db33b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_16.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_17.bin",
+      "bytes": 23592960,
+      "sha256": "1cc8b9983f21fdef5f43fbc7af3ca8de3230398c5e6944a4e87e5f06b268c2be",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_17.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_18.bin",
+      "bytes": 32440320,
+      "sha256": "64e3d28a0f7124879d95e5531cc99ba933558969cb6209b22c3cdc0220d90b96",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_18.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_19.bin",
+      "bytes": 23592960,
+      "sha256": "98130151d0c24b650325a07f5b305e983397c92951b4cca237eb84ca33dc6354",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_19.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_2.bin",
+      "bytes": 23592960,
+      "sha256": "b5dd32e2880422c7f83a7c9664efa15e4c1557376f28b62a3c078a1acb25dcb3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_2.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_20.bin",
+      "bytes": 23592960,
+      "sha256": "c875a7fd4cb468094c499517f687c7bb8dc1128ab802ca9679a80533218f7292",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_20.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_21.bin",
+      "bytes": 32440320,
+      "sha256": "6c0f0ae936cc4bb9bbddc93802abf8615d6ba3c9dec7fb8cd87d7a169355d158",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_21.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_22.bin",
+      "bytes": 23592960,
+      "sha256": "5773892f3dd91c101f2c33f15bc91c5f5abb6421cf3882bfe62ad1a5f41ad3ee",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_22.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_23.bin",
+      "bytes": 23592960,
+      "sha256": "a8882ca1548e45cb8bae9cc9bc09a8ce3f84476cc6a6f1a4ffdda7c76366c8b6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_23.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_24.bin",
+      "bytes": 32440320,
+      "sha256": "d39df994c6d8def6493bc7c888931d6f42e8f346e0c9d315c820cee53d1a13a2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_24.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_25.bin",
+      "bytes": 23592960,
+      "sha256": "e6c4439081b52bf2eb93154df881c13d6f019dce3b36188a0e04f90289ada2ea",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_25.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_26.bin",
+      "bytes": 29491200,
+      "sha256": "101d9322faca8efcb0e9ee3cc06383be9ce6e191c343c26b7daccb19504ef5da",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_26.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_27.bin",
+      "bytes": 23592960,
+      "sha256": "2e4a1158e71401239ff6324c9e22c5a4d82d09f8e0560438b29c2a36840a93f9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_27.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_28.bin",
+      "bytes": 23592960,
+      "sha256": "a2c311b612e11820e129f22b25aa0da41a4237ec7df29b321df30201b92df818",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_28.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_29.bin",
+      "bytes": 32440320,
+      "sha256": "0052fd1de0dae3f948a9f1324a5ec27510a1af382f356cf9359d080e9e87dba6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_29.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_3.bin",
+      "bytes": 23592960,
+      "sha256": "17763ee8bcc403a66af1a9b661786c2e53ee629587397be35d759e1b4426391a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_3.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_30.bin",
+      "bytes": 23592960,
+      "sha256": "573f7f4961ce69cfdc997bd2fda69db765d33b191976bb23551005dd95f5649d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_30.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_31.bin",
+      "bytes": 23592960,
+      "sha256": "9a0909c1577a45a28e7dd30c6ae8967679bda0e8ae60ca84c75d2c77d79f6a7d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_31.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_32.bin",
+      "bytes": 32440320,
+      "sha256": "ef48c6335f511e10efe2a0a091eeb11aa80c322904866f189b838c372e7cfd9c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_32.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_33.bin",
+      "bytes": 23592960,
+      "sha256": "76177c7a7cddd964a7170c489832917dd553e194530553238d9a5984c8075509",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_33.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_34.bin",
+      "bytes": 23592960,
+      "sha256": "3a0653cc7383dd5d4483997904909147748a81077bdb017dee645f63cc154b83",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_34.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_35.bin",
+      "bytes": 32440320,
+      "sha256": "401e83b1634a22f01369aeaea28cb77413c03a3d0b0208da9d4447e36100fcc4",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_35.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_36.bin",
+      "bytes": 23592960,
+      "sha256": "696af147a8e02273f57c21b50ab3fa277feb77bbb64051a5da65d3bb3aaa8305",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_36.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_37.bin",
+      "bytes": 23592960,
+      "sha256": "73b698aeb0070668a180f06f099ed08ca5f8e3d98a70e6519102ff482389e1bb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_37.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_38.bin",
+      "bytes": 23592960,
+      "sha256": "09ddc77b045d345587bb896c84a5796c301d29bee2a9be25d936c4a262c6fb7e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_38.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_39.bin",
+      "bytes": 32440320,
+      "sha256": "c148a065439e356c02cca947bb0cb5a58014c8f3dbb8e26df2852db6e5cb7ae0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_39.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_4.bin",
+      "bytes": 32440320,
+      "sha256": "81005612d20fc43087c517de104a50bc9ddede79c096b8ccc16ebc9a04621be3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_4.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_40.bin",
+      "bytes": 23592960,
+      "sha256": "38a188816154295066533d1a330bb279c3cecb5db9f30b6355c71e6e9adebb2c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_40.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_41.bin",
+      "bytes": 23592960,
+      "sha256": "58bd59224b24ead63b4fdd686e739469356715f7f07a56ccbdd0124acbf9daff",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_41.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_42.bin",
+      "bytes": 32440320,
+      "sha256": "e5391670a4b4443cb0b2acfcb06093ff7d16a9f14cec80c41ad9fb9b323e7e79",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_42.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_43.bin",
+      "bytes": 23592960,
+      "sha256": "6da53e9cace767ac5f1656edaa77449eeda77050f0f44fb1c19c9b91c3caab79",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_43.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_44.bin",
+      "bytes": 23592960,
+      "sha256": "67cf5911eb1a8c68e4c74ae4e685c522108bb5bbfcd014b921625f233ff650b5",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_44.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_45.bin",
+      "bytes": 32440320,
+      "sha256": "574e981b4664d4e346aa28b7720ca136dbc81f3a0a75a3da9b18ac5879582ba8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_45.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_46.bin",
+      "bytes": 23592960,
+      "sha256": "80d360fa4d008fb21a04b08ec61c5a7f626b28137537819688ad143149eda1f8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_46.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_47.bin",
+      "bytes": 23592960,
+      "sha256": "e5b03437eed86b7067a87b057a3a5b2b59bd6bee1e2d2bb1159a57972244772e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_47.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_48.bin",
+      "bytes": 22118400,
+      "sha256": "307ff6c9332993ae218ef3a51a4dd7acef1a2b9a44a83fab3d442ee6ee5e2a16",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_48.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_49.bin",
+      "bytes": 23592960,
+      "sha256": "b1362aad8fd7bb5fb5c16236374293179b9a02f8b93dcd112072498f2c0bfbf0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_49.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_5.bin",
+      "bytes": 23592960,
+      "sha256": "dddfd7162089f94987f98a0dd55e61304eb7af3507f87dd1e24034c0d22a9ae2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_5.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_50.bin",
+      "bytes": 28016640,
+      "sha256": "51dcd3c3d9c1b1f72c9533d7bf9fd51309d52e789a6a59e64164e724382cfd54",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_50.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_51.bin",
+      "bytes": 26542080,
+      "sha256": "6aa3c51f23f5315ab93703077ed4416c6037537317eb36b9f8713ee44e2834e1",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_51.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_52.bin",
+      "bytes": 26542080,
+      "sha256": "be3e38f82436127e6d1577ea522a5d2f8740f9da811eaf0691a57bc0beae1968",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_52.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_53.bin",
+      "bytes": 23592960,
+      "sha256": "71e56db260c0b409c8cce27e5a25c5f54b84aee62df7ae5ef68153c40dedb069",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_53.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_54.bin",
+      "bytes": 26542080,
+      "sha256": "4675a8e602e1edd95355e1685242184d19315632cce3d31d3585cdac990f8d3a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_54.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_55.bin",
+      "bytes": 26542080,
+      "sha256": "5eb404a640d20e081717cd588af9f550cb34b3b0bdd5e2bdaf09dda84c103b85",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_55.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_56.bin",
+      "bytes": 26542080,
+      "sha256": "462aa2f20578c2eb8d9a36b7e76d92e2028204fea733567ae304aa2c14dd8c92",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_56.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_57.bin",
+      "bytes": 26542080,
+      "sha256": "82d5c6acb9f8a043d20c2fe0151508ad3b154ff6f72d836344b4018b1e29e537",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_57.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_58.bin",
+      "bytes": 26542080,
+      "sha256": "acc3db015c147e5c8826ccdc634539e678dcc979872a4c30e6f06e17bc5d6273",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_58.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_59.bin",
+      "bytes": 23592960,
+      "sha256": "a16d8f2ab3ae171b8318934d153df45866bdb10e2395d3989d48c614019bb586",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_59.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_6.bin",
+      "bytes": 23592960,
+      "sha256": "30fdc6af9085da33b03a344ab63d5a3f7b6c108883ca042072b1dccbab9049b7",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_6.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_60.bin",
+      "bytes": 23592960,
+      "sha256": "9705a87210dfdac477e76898307e476fd7a9eaa6047efb6c09c46e1557ebe8f0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_60.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_61.bin",
+      "bytes": 23592960,
+      "sha256": "0aa10eaa575485ef771af44ecc0edc7467c4efb073aabd3e893bf76e56685f51",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_61.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_62.bin",
+      "bytes": 23592960,
+      "sha256": "5b82295a59b5a941e39abe4446d76b44380eb5d0c3c5db7fd8684050b42fb023",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_62.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_63.bin",
+      "bytes": 23592960,
+      "sha256": "2456c672937bfa97f45d227447d25f0b378c19834b8df6377aaf75d9dff4110a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_63.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_64.bin",
+      "bytes": 26542080,
+      "sha256": "f5eaa0ff685d6e67872f46e871f797d1abe9abcbbd3b6dfa5908d1ab09b5500e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_64.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_65.bin",
+      "bytes": 23592960,
+      "sha256": "7a003972f60f1bdd92896a86fbc91deff99b98101f07ffce9a612b4ee3cc0bd9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_65.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_66.bin",
+      "bytes": 29491200,
+      "sha256": "4394e704d985616e2ca556c5f1b6c7ec2630cfdc772d89d7890450cf4253add0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_66.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_67.bin",
+      "bytes": 29491200,
+      "sha256": "0b00dac2ac2d30fb2f0f3b49bea4834e13efd086a4d972189238813c913b753b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_67.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_68.bin",
+      "bytes": 29491200,
+      "sha256": "65ab45f192e778da464bed37554b36ecb89b6a631ac2d6f1dd453e21841733bb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_68.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_69.bin",
+      "bytes": 29491200,
+      "sha256": "a84c6cb966ba17da3c8c1d29f6abe71a308af6e61d5fc14e4923f9a84ea9b3fa",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_69.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_7.bin",
+      "bytes": 32440320,
+      "sha256": "cff6aedeced6edbae79f0e4bebd4ebc35b97cd9755914b425c9a1830aa6916ef",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_7.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_70.bin",
+      "bytes": 29491200,
+      "sha256": "cc4aeff1419b5f8f62c1ea1c721b499b1397512909fe947477bf7e0d4ec89f8e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_70.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_71.bin",
+      "bytes": 29491200,
+      "sha256": "249ae361f7fed7b311824949114e11877e0c3fd4fa4216a56fd10b16df7f96f8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_71.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_72.bin",
+      "bytes": 29491200,
+      "sha256": "065f64f2eebd90ea9d4c6351265754ea0df92cc26bfd320c98c2b232641cb9d9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_72.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_73.bin",
+      "bytes": 29491200,
+      "sha256": "dd6405fd2a32657ab6a594b5b0775fe76d040460429a370bfa5a7d41044380ec",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_73.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_74.bin",
+      "bytes": 29491200,
+      "sha256": "423ee824e03a82ae31f18a41691a9f3f67f68902cebeeafc402e7272f6b7bba9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_74.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_75.bin",
+      "bytes": 29491200,
+      "sha256": "69a4f472a8731c18077564cef71f58bc5f8a7f708c8155d9682dd01d33a2672c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_75.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_76.bin",
+      "bytes": 29491200,
+      "sha256": "82f85a3d34a818ce93505116723d01e81a21c487398f69ea8ab6f12b80acc370",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_76.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_77.bin",
+      "bytes": 21829632,
+      "sha256": "f58c400eca0e075da9e96cf243b11ae942fc266fb2173c4c17d84f360c3e1541",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_77.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_8.bin",
+      "bytes": 23592960,
+      "sha256": "d0bd1cdf1eda13540f37bb4cb708a5930bd400a19752a8253072fcb427ae5e18",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_8.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_9.bin",
+      "bytes": 23592960,
+      "sha256": "a0f50e042a37e3a27cf9be2b66bff4111340103e67fcc4e3a0ae0b63e9f03e83",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/params_shard_9.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tensor-cache-b16.json",
+      "bytes": 237559,
+      "sha256": "c49012157b553ffda0b492e8038f00e28e1df0b19c15ad6d5ae91ab54270609f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tensor-cache-b16.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tensor-cache.json",
+      "bytes": 237895,
+      "sha256": "7fa8dbe512eb4725827f7e8ccd0e6cf89425fbbb420f62edb7fcb2d6acbe8a98",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tensor-cache.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tokenizer_config.json",
+      "bytes": 16710,
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tokenizer_config.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/tokenizer.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-4B-q4f16_1-MLC/resolve/44b42469f9e192814bfd90440e3b377d89ba7a13/vocab.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/merges.txt",
+      "bytes": 3353259,
+      "sha256": "a9d356d7bdf1ef4949e3e748e95b8e10ad9d4e2e838eddc38a0a7b6b94d1db8d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/merges.txt"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/mlc-chat-config.json",
+      "bytes": 2361,
+      "sha256": "7ab996c5b5ab205ed826da3c394a3731171e31ae277e58d6dc355b427ffffb26",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/mlc-chat-config.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/model.wasm",
+      "bytes": 7488165,
+      "sha256": "84fc5ef675ea0d8770deaf9a53e81fd663299a69d3cf66e94243914779f9877f",
+      "source": "https://raw.githubusercontent.com/mlc-ai/binary-mlc-llm-libs/00fe7a40e57e5e8eb9fef87526a4bf28ad5846c0/web-llm-models/v0_2_86/base/Qwen3.5-9B-q4f16_1_cs1k-webgpu.wasm"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_0.bin",
+      "bytes": 508559360,
+      "sha256": "99c9bfacbddc4051a73dd88b68604c4ca5894d07677303efe4bc9d053efce573",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_0.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_1.bin",
+      "bytes": 63569920,
+      "sha256": "066489e4ad984e1bf2e637ca995530df403547e782aa5d81d03e16850d810ca4",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_1.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_10.bin",
+      "bytes": 50331648,
+      "sha256": "f1a2c9e574e59f0e90a28677e9fd794891b7b96475eaa1b59ca752338287a031",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_10.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_100.bin",
+      "bytes": 31981568,
+      "sha256": "6cb69cbcae5cf8a5eed848694ea24861d29233ca220f2e6a7733598f10838a9a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_100.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_101.bin",
+      "bytes": 16777216,
+      "sha256": "a2b39fc6d920cc47efa1bff6a2d7af14120f6d17f8f21dc57929eeddb18530a6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_101.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_102.bin",
+      "bytes": 16777216,
+      "sha256": "058385776b2dfe6652b1438b04fa94e1d13d3129b947acb7fd6a432a83040d2a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_102.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_103.bin",
+      "bytes": 16777216,
+      "sha256": "cb8c57dad2b88fae98ed40c3c7aa5a2b51c6bdb29571d18514cc7cbe0d25fec2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_103.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_104.bin",
+      "bytes": 16777216,
+      "sha256": "4412f4efece386b5a8c94a02bee51bbf421500c0f7bbdbbf7b05c77e14a99e18",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_104.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_105.bin",
+      "bytes": 16777216,
+      "sha256": "7da698b5f404299374c0e0af6a61df1fe65c89de5612c9a19c07a0e38e37d513",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_105.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_106.bin",
+      "bytes": 16777216,
+      "sha256": "c8fb8a844c4073a0cff937fab84f4e2cbb9012a297a4dc46c218bde1571f79f2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_106.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_107.bin",
+      "bytes": 31457280,
+      "sha256": "0841b6559702d886fd89c92c91675be978efb973220d6008437d6089efbebef2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_107.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_108.bin",
+      "bytes": 30408704,
+      "sha256": "8d569e6af2907acf3cb768d7dfcdf87a6f9aaee6036110f6cfe8d3dd5cdcae3d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_108.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_109.bin",
+      "bytes": 28311552,
+      "sha256": "35e1192c29151a1412664b6b6e4cd54b9665f5b0b41863521ec03b1089e5ebb4",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_109.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_11.bin",
+      "bytes": 25165824,
+      "sha256": "39c68aacaa40f246e85f31e5562f7c00d19a3b52023284cef09ef90a9d95aff8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_11.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_110.bin",
+      "bytes": 28311552,
+      "sha256": "b4e9dc90cbf4e87ac3cb2f80f751aa7aae08f6890fb511772804414b92be429e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_110.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_111.bin",
+      "bytes": 28311552,
+      "sha256": "d92be5689f0aadd451ea9ba16d9cb6e6b1ed1818510930a098f182ac4994971e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_111.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_112.bin",
+      "bytes": 28311552,
+      "sha256": "be6b075134a0e8f9ebc1fd31a3c710a27d89ac0d093f10180fe65769a69a09f2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_112.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_113.bin",
+      "bytes": 28311552,
+      "sha256": "db44f81110411012f69293ef72b4a2ac72cf54cd2bc0e96602bbb62a7b5fae2d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_113.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_114.bin",
+      "bytes": 28311552,
+      "sha256": "c3022bb2e03021e1faa74f845ddf169aa4407a2a8868a343ad8b9ad71cc06974",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_114.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_115.bin",
+      "bytes": 28311552,
+      "sha256": "fc9cc3f879b1f2e0d6ef69adf85fb294c9ad59e966fad8a23db6652c9f030b2d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_115.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_116.bin",
+      "bytes": 28311552,
+      "sha256": "e638eef9b13158e9d4230e93e5ca45dd150c47f73a6e2c0c20ad2bdf95b03ee9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_116.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_117.bin",
+      "bytes": 28311552,
+      "sha256": "ff72ef161305d24f10d2ef09e882f173cab969b4b857ef3c6923939cd1556192",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_117.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_118.bin",
+      "bytes": 28311552,
+      "sha256": "9569a1f26a4fc818d18850bc1d9c4f462f572428de4cf5976021984fd2391f3e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_118.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_119.bin",
+      "bytes": 28311552,
+      "sha256": "c386feafc208db646772b4989e0d37943695e8d6c95ecabc492fd99bd84c01cf",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_119.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_12.bin",
+      "bytes": 50331648,
+      "sha256": "3b0f3d33092f83f6538ecbadbae0970e08862d971105a4cedad751808ec35627",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_12.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_120.bin",
+      "bytes": 28311552,
+      "sha256": "6194f95162b56608dbe16591b65d8807ffa66b342051bc6c221b49198af6c2a5",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_120.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_121.bin",
+      "bytes": 28311552,
+      "sha256": "56cd3a8d89c028e9123b0eaa0ad022187c1ad113211b69316a8abc2c1a393a8d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_121.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_122.bin",
+      "bytes": 28311552,
+      "sha256": "4dba2d3cfed0dbfc378c0b567c85a6b729d000f56d575e3e70648574c12e8227",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_122.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_123.bin",
+      "bytes": 28311552,
+      "sha256": "fce3ec4f1efa773b2337dc47ffd1e7a288350f97678ac04e4f4a21d53b5d3044",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_123.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_124.bin",
+      "bytes": 28311552,
+      "sha256": "e0aeb5c6b18d4c50aa44a12b1709ddf4b962c7be449a8635c556e3f05993b31e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_124.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_125.bin",
+      "bytes": 28311552,
+      "sha256": "20fe5023991753bf8a7c3be9940e0c2cd640ba10d825ed66fcac1a28377e1b30",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_125.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_126.bin",
+      "bytes": 24536064,
+      "sha256": "22ff5f24ecb0c30f800b3a48019f5173d5a737023e71ae3f453c32ee12209c36",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_126.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_13.bin",
+      "bytes": 25165824,
+      "sha256": "6f55a704c888ad43ca7203514707ed16d87f84cb4f1feb373e0364cd07f9cbf8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_13.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_14.bin",
+      "bytes": 31457280,
+      "sha256": "7f0019c53dbec0e6a4d6f023e9ab3d3acd3b584f7e6d01541f896a4636fdcc33",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_14.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_15.bin",
+      "bytes": 50331648,
+      "sha256": "bf52173503c60c5594d2ddec16b1d0ae0832bb7d2ff316a1af53525572b2b1e6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_15.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_16.bin",
+      "bytes": 25165824,
+      "sha256": "7016fa5f3e9d578e7dd2b529cea6d43661b19c29541c899515461ddc94db291c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_16.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_17.bin",
+      "bytes": 50331648,
+      "sha256": "5c6127b78491e19a29b82cccd384727017dae5cef7c4ee20460d078a3d3c4f24",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_17.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_18.bin",
+      "bytes": 50331648,
+      "sha256": "42fe658a0ec081f31d3a15f7f8941c30bb8cd87f3a298ff95068873266b77ecf",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_18.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_19.bin",
+      "bytes": 25165824,
+      "sha256": "15f0e70f329e2f27de086625121824bbfedbeb4cfc89d058c6fac0965e7d68cf",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_19.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_2.bin",
+      "bytes": 508559360,
+      "sha256": "0e7597ac7d4c96f662a9391a9513ee9615b526beff9cf30bc5ebe396ea984627",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_2.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_20.bin",
+      "bytes": 50331648,
+      "sha256": "9b12fb7f1292bb987fb6f7f6092e1e63631f0f91eada06b466f85998881fc364",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_20.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_21.bin",
+      "bytes": 28311552,
+      "sha256": "5e08633e1f867a41c0d87143ca5daa9091fc211f06300629fccfc6cfb7a1add0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_21.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_22.bin",
+      "bytes": 31457280,
+      "sha256": "e93a082c3a5e46361d43cfe74b4ed5a1349bf946cbb81cde9997e0b567c7f99a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_22.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_23.bin",
+      "bytes": 50331648,
+      "sha256": "2f58eca29dcb9ba41524fa48a05d7a877b8a87c1c76198e190035d84382c77a3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_23.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_24.bin",
+      "bytes": 25165824,
+      "sha256": "946609adcd6f98776cbccec710381c662c7ba46367b14e012ac6089b5af09f3f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_24.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_25.bin",
+      "bytes": 50331648,
+      "sha256": "1937d616c6413c9744e3e85a9dbaf1ca7a6b8e836b44b6338b1599f77add0103",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_25.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_26.bin",
+      "bytes": 25165824,
+      "sha256": "eac710edf71dd7320d241b9f7896e8b7789fb23b76f07b8191f38c6e5c04cac3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_26.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_27.bin",
+      "bytes": 50331648,
+      "sha256": "2f52f802eb2eb65bb800303b1c7791190d02926b336ae2b34d6dfcfaa4148638",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_27.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_28.bin",
+      "bytes": 25165824,
+      "sha256": "5e00358ab7379a5819ae2572f5c7fa1f54121407fbaddb23523d9109250cdd6b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_28.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_29.bin",
+      "bytes": 50331648,
+      "sha256": "e83440fa595355acb6e76fd957d6b4eb9011c89da1d71e86e2a311d8d5a7b401",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_29.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_3.bin",
+      "bytes": 63569920,
+      "sha256": "513bf75926e38c1c7101ab280e21958e3f839500f4e26910820b7ac545e91a94",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_3.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_30.bin",
+      "bytes": 31457280,
+      "sha256": "fa387229346eac0212ae3fdd1288a7a1155fdef1c20fe546a3df07fadd463cdd",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_30.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_31.bin",
+      "bytes": 31457280,
+      "sha256": "4267832fa7118594e92c5639ba6c6deac4137a3d9a3b7754096ee860646b3893",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_31.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_32.bin",
+      "bytes": 50331648,
+      "sha256": "a70dff46398b21b5e1f0993c1e031f0867b562331e2068cff73f6bbd312f8743",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_32.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_33.bin",
+      "bytes": 25165824,
+      "sha256": "ca6da500ac4b7e4e7591202d941ffb70b789de765e8eab5212e484c7996f29b3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_33.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_34.bin",
+      "bytes": 50331648,
+      "sha256": "0159e71994c39bd0a105ec696e6b760a6e2623e8a19874979e0e7d8a2221dd5f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_34.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_35.bin",
+      "bytes": 25165824,
+      "sha256": "7850e71c8be848b66a926c9d8c52fe82527e9c394ed1b69b0dc294c1aa6ef5a9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_35.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_36.bin",
+      "bytes": 50331648,
+      "sha256": "5c730cc3847d351279257198f21fc375cb33b40f3fe1b6039150025a9bc341fb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_36.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_37.bin",
+      "bytes": 25165824,
+      "sha256": "270ce9d1493066d91956a5c907d19565afcd1f8d76696e42d38117209e586ea3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_37.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_38.bin",
+      "bytes": 50331648,
+      "sha256": "6fbf6acbe51a5086f8bea16c48347c970dce4d15239a257096cff2a1d5d87afd",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_38.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_39.bin",
+      "bytes": 31457280,
+      "sha256": "06044ba7e1d43fb817876b21fe72f1d76e5defc006bff84abc45ccbe44d9f2a7",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_39.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_4.bin",
+      "bytes": 50331648,
+      "sha256": "93521334192ca357829f449a2fa42ee7a2620d9fd9c57ae1000521178c2c342d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_4.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_40.bin",
+      "bytes": 31457280,
+      "sha256": "1bfcd76f59a7153e44b75c4db83e36ef2940af7ffc835580b9a62b95ec235bee",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_40.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_41.bin",
+      "bytes": 50331648,
+      "sha256": "201e5a78a975474324ee1e42945cfec82d3154adc9a8dad91d5263800c1f45a8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_41.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_42.bin",
+      "bytes": 31457280,
+      "sha256": "377c10905e08dbfe5368b03fd00fad56f9da0db662751acfb32fd2b72bf371cb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_42.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_43.bin",
+      "bytes": 31457280,
+      "sha256": "68fb6acf71357c1d4cc67327978c8796b06e25e41dbe445a26b192b11532f32e",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_43.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_44.bin",
+      "bytes": 50331648,
+      "sha256": "89ed701ae9258fc5817d50e1875d7e710fa4abe39d2cd308d23bdf2a13202e9d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_44.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_45.bin",
+      "bytes": 25165824,
+      "sha256": "8fce06e2c33e31af599217c3607ba5d553b51c68964680bf9f406cf3a1b75f38",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_45.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_46.bin",
+      "bytes": 50331648,
+      "sha256": "0c2f9e91cb2c5b16bd4dcd0c2bc68c36b88ba71fd5f620cda0275d3102d043dc",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_46.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_47.bin",
+      "bytes": 25165824,
+      "sha256": "100abef05a8197bc49965c2a015cfbc3c83d2cfdcf7b47002788417fbc2bd47d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_47.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_48.bin",
+      "bytes": 50331648,
+      "sha256": "65793c796a69225410a5fd32f79e7efafa0376add45373b50ec27b1206e5d10c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_48.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_49.bin",
+      "bytes": 25165824,
+      "sha256": "e7de2cc2c386eb28daadc5def1ced0cff6bf9031817f235f1737020259129b52",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_49.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_5.bin",
+      "bytes": 28311552,
+      "sha256": "42f0976c82a4356ab67ef9ebd25025f3d5d347244971c464048465b5fb428c7f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_5.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_50.bin",
+      "bytes": 50331648,
+      "sha256": "1a84ad9c0ed8b13cf606be2203c66caa213ddfc0ed325c0efc49a7bac029e908",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_50.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_51.bin",
+      "bytes": 31457280,
+      "sha256": "7aa4ee36bbb2c0809b93683d2270ae54d5ffef8252e6296b068c38944b9d32b8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_51.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_52.bin",
+      "bytes": 31457280,
+      "sha256": "b60a841420008d35dfa9d32fc68b7b1e82857cc2c7a131e7d9556de289abe8c7",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_52.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_53.bin",
+      "bytes": 50331648,
+      "sha256": "106b97906a24d1c257d5ce499ae8a3a605dfa79a3f3a8b8c148123fdc9efd12f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_53.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_54.bin",
+      "bytes": 50331648,
+      "sha256": "c6bc3a44f9cac5f385147423f1c910024d0cf07c059a282d23d8147b15fc5b61",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_54.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_55.bin",
+      "bytes": 25165824,
+      "sha256": "8dc0ed39f9a40e98b3e1ffdc9256967133fd27018a8503c8765054277687caf7",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_55.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_56.bin",
+      "bytes": 50331648,
+      "sha256": "33cf836d4af8b6d9f40c58c3420d113abf27f202f9cfb97cef80f49819ecda88",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_56.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_57.bin",
+      "bytes": 25165824,
+      "sha256": "ba354a80464137aeeb73a4e5ae72f06930ff0180456392148716a0d283dd7e85",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_57.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_58.bin",
+      "bytes": 50331648,
+      "sha256": "d8e68b9ed41bfbff15fea7c28a9687543ad89945a6606b8c6593391709387136",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_58.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_59.bin",
+      "bytes": 28311552,
+      "sha256": "e069d6bc9cdcd94f6b14458a3c1697d98dd9e0d50271c9dcec519e9d5deaec9d",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_59.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_6.bin",
+      "bytes": 31457280,
+      "sha256": "354589db532d5aa3293599494e9b6d489dd7ca05af8f64980119d3b528cd5a5f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_6.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_60.bin",
+      "bytes": 31457280,
+      "sha256": "e57dc924df5610b43164f9390e3fd6f1c6928255261ec2a828494995dab6e574",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_60.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_61.bin",
+      "bytes": 50331648,
+      "sha256": "b41a5169d6a7adc7c667d077bd8e0cc2d1f512eb15acb1d491b300ed8c344af4",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_61.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_62.bin",
+      "bytes": 25165824,
+      "sha256": "89803d69a6e8b360837c1ebf7bba8798945ce35ee12ee27fdf2f5ce0631b9bbb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_62.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_63.bin",
+      "bytes": 50331648,
+      "sha256": "99b07244d59bd5ed24c58acc790d01f442f8ec74b07b0fe29f05d6d33093fec6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_63.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_64.bin",
+      "bytes": 25165824,
+      "sha256": "3e897bf4de61cdcd4b09195f14b8b9723f478174cea56d721ac024ceac0803a2",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_64.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_65.bin",
+      "bytes": 50331648,
+      "sha256": "6f125cd3302ed9ad542c6d7906e305b631c11d70174fb80d5df3b6ea4c81f5a9",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_65.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_66.bin",
+      "bytes": 25165824,
+      "sha256": "bf3bc21b8464ee658f17e4de4cd7909d93ca8eea2e5ffa5c960cb6e23706a918",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_66.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_67.bin",
+      "bytes": 50331648,
+      "sha256": "43a5d973cd3541be1bf7ae03f722615643188097d407149038a3d48e20e9d015",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_67.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_68.bin",
+      "bytes": 31457280,
+      "sha256": "dfbcbdfa674f9016a381b15c6f7f936062fd340467270a73d94d079449d9f221",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_68.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_69.bin",
+      "bytes": 31457280,
+      "sha256": "7e7bf21f2652f257ebb6c79a57f6cf042209b106fa7ac133c71e7174bd34e8ad",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_69.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_7.bin",
+      "bytes": 50331648,
+      "sha256": "d70e712f0937516b67e0247e0f52d27cd2029d92e665147d241d5ca018c7d263",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_7.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_70.bin",
+      "bytes": 50331648,
+      "sha256": "71d3423499c060b879d3f43b171a81198503fa78c63d3da1062e4ca2ff4c9531",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_70.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_71.bin",
+      "bytes": 25165824,
+      "sha256": "a02639fbbbcd51225a16ec50de1e42e5596a531b0f5a802f74dc235b348d5335",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_71.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_72.bin",
+      "bytes": 50331648,
+      "sha256": "e28a944241c8322c2dcb3adadcbdd7d9ffc582da5da94259cf132305ecf015f3",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_72.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_73.bin",
+      "bytes": 25165824,
+      "sha256": "f44446b26b484e222c9ddd95790dee0e392171314c68f64bfafd8c93ce5922da",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_73.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_74.bin",
+      "bytes": 50331648,
+      "sha256": "39f7d11136f573005d1d370216ceb533f266d22c5bc95fdd9d18f2900dda7b69",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_74.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_75.bin",
+      "bytes": 16777216,
+      "sha256": "6eae9922df59973faefcca7dc498b78c39881434b825ac917bbf2e42912ea135",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_75.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_76.bin",
+      "bytes": 20971520,
+      "sha256": "9309b0fee97a2110873d5d358f4b6cef5c4181083ce81a4830e76a66f64514ba",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_76.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_77.bin",
+      "bytes": 16777216,
+      "sha256": "88d441fb2dc287c7d5f832ae83899d43c0e4fcd8f63dd3d4b603fab92a8c7fe0",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_77.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_78.bin",
+      "bytes": 33030144,
+      "sha256": "60c2af6784ce52ee8caa6ea3f6668ee568c6afae17057e0eb662f60f3ff70fbd",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_78.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_79.bin",
+      "bytes": 20971520,
+      "sha256": "d7a08b895b1c5da9b0062f88372cc5d56090caf093fa04df140c91a2109eb4ff",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_79.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_8.bin",
+      "bytes": 25165824,
+      "sha256": "465ced27381925f22b69ace654b29139d5bba5983db45953d7f009e828f6e725",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_8.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_80.bin",
+      "bytes": 16777216,
+      "sha256": "912fe030dc5bf547e7844df6af4b3da0d8f19bb0ed22f4e05f09280d6191f45a",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_80.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_81.bin",
+      "bytes": 16777216,
+      "sha256": "71e26889ed9adda927047096f58a2e175c563e5bbd10ac900c868860d7b18105",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_81.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_82.bin",
+      "bytes": 16777216,
+      "sha256": "2266262bfe94d64834043cade2a40d4b0cc2429370e42350afdfeaf74ca35fa6",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_82.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_83.bin",
+      "bytes": 32505856,
+      "sha256": "755717812ca652d281f0d018328de2c8b82d4729f9d0bf9e6b7cb1c678231392",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_83.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_84.bin",
+      "bytes": 16777216,
+      "sha256": "493924c8de710b15a826a0121da98fddc0af4fd67f406c96db8ba373a68c083f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_84.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_85.bin",
+      "bytes": 16777216,
+      "sha256": "afc67fda709e6900b9a023fada320ca6e0a8e98cdd1fd220d1c1cc76fa0e7015",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_85.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_86.bin",
+      "bytes": 16777216,
+      "sha256": "51165a312fd496ceadf09a5d63d88e35954bff4aabe6da7da561871a0e768199",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_86.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_87.bin",
+      "bytes": 20971520,
+      "sha256": "abf76213caa3a442ed44cd318a4b256aaecd7f279c7cb8e327ab793d27efc739",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_87.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_88.bin",
+      "bytes": 31981568,
+      "sha256": "642b6d8a3cc278a033d1e17433977d725751b36d728730dacfe1c5e7c21ae349",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_88.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_89.bin",
+      "bytes": 16777216,
+      "sha256": "d7e0135bdd11353c68771d6b5272011bb7b9049a9527f9525a75df757d1b6128",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_89.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_9.bin",
+      "bytes": 25165824,
+      "sha256": "66af91ffd57bb27404775d6bbbfbbd77a9399075103e00b63871d8c299858d1c",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_9.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_90.bin",
+      "bytes": 20971520,
+      "sha256": "6d157a005b1273bda5969203e4acf71f3cfed1744b0c1aede2617bf07febc280",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_90.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_91.bin",
+      "bytes": 16777216,
+      "sha256": "889945a48d1a944403a7caca691e8e2bd987c5387d7e7af76b30339d1d94263b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_91.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_92.bin",
+      "bytes": 16777216,
+      "sha256": "c8dc7d3d3f69cc1311b9489936f6c5372ff18c1f1cf8b9584da32d3787de8e21",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_92.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_93.bin",
+      "bytes": 33030144,
+      "sha256": "f3030fd09b6afe082b8a40538935e7c015387523a28811342831c05132376ecb",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_93.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_94.bin",
+      "bytes": 16777216,
+      "sha256": "57c3dba979592879165b0fbd9d0575d72ce4f71392dc3a598e9d95b48201c774",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_94.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_95.bin",
+      "bytes": 20971520,
+      "sha256": "b263ee6d1de139f83a1fbf5adeca6272203601aef72287499c82f3ba794ea878",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_95.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_96.bin",
+      "bytes": 16777216,
+      "sha256": "65fb8bf644023bc7216f23b8a171888ed437ff65883596807cfdc4644c62980b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_96.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_97.bin",
+      "bytes": 16777216,
+      "sha256": "73a93b3c301bc11c355f6a14f6659cbef332d45b42663b0045b8228a96abc023",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_97.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_98.bin",
+      "bytes": 16777216,
+      "sha256": "030609c16c912fb1af38bf943ef91801aeb9450510735e6f0dbfeaf9fddf510f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_98.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_99.bin",
+      "bytes": 16777216,
+      "sha256": "9931778dc355c6b504361fcb40cb435fc1dd390d83e17c7d287b22b6002430b5",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/params_shard_99.bin"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tensor-cache-b16.json",
+      "bytes": 249447,
+      "sha256": "17b752c1d5480a86eec8ef5fbaeda364cfbfc70a64ada8bdb8bb258b2595f74f",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tensor-cache-b16.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tensor-cache.json",
+      "bytes": 249783,
+      "sha256": "1cca350dd64144c41fa57bd457b9b2520a2206101c92e53fb429251782fbe71b",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tensor-cache.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tokenizer_config.json",
+      "bytes": 16710,
+      "sha256": "316230d6a809701f4db5ea8f8fc862bc3a6f3229c937c174e674ff3ca0a64ac8",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tokenizer_config.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tokenizer.json",
+      "bytes": 12807982,
+      "sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/tokenizer.json"
+    },
+    {
+      "path": "local-dialogue-audition/models/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/vocab.json",
+      "bytes": 6722759,
+      "sha256": "ce99b4cb2983d118806ce0a8b777a35b093e2000a503ebde25853284c9dfa003",
+      "source": "https://huggingface.co/mlc-ai/Qwen3.5-9B-q4f16_1-MLC/resolve/c7c5d3f5a81e37b8facbb72970940a1b131314a8/vocab.json"
+    },
+    {
+      "path": "local-dialogue-audition/vendor/web-llm-0.2.86.js",
+      "bytes": 6817339,
+      "sha256": "ae2642e73a4a9896c21efb3a067c4666446f8b49cbe2012f4b576f5d83d5f206"
+    },
+    {
+      "path": "ui-tools/atlas-data.json",
+      "bytes": 56175,
+      "sha256": "74e8a58abb45cb53da50228d71d5d1ce770d2de36ebf525ebc931bc56a71abb5"
+    },
+    {
+      "path": "ui-tools/atlas-yellowfont.bmp",
+      "bytes": 786488,
+      "sha256": "8ebcbed999b6d1e76ccdfcf6fe02b11ffe512e8a20d5ab145debdbcbea5c45fe"
+    },
+    {
+      "path": "ui-tools/atlas-yellowfont2.bmp",
+      "bytes": 786488,
+      "sha256": "b63028364b266ba0e1eaf43b39cdadeff1116daea4f17e88b0d39b0b8f395c79"
+    },
+    {
+      "path": "ui-tools/out/comic-bold.json",
+      "bytes": 448396,
+      "sha256": "ff70aac099e972e7c8ae396ad84d2490950d4fff095c681d3071de316ebae0dc"
+    },
+    {
+      "path": "ui-tools/out/ui-data.json",
+      "bytes": 19222,
+      "sha256": "16b3317a84c16fb1c7d8ef2892e49cba30a7cfd1b17e695792f79bf8674684d0"
+    },
+    {
+      "path": "ui-tools/out/ui-manifest.json",
+      "bytes": 1220,
+      "sha256": "b51baa6290a0ed9253a7663ff8eb298ba25284311236bb4e2a6e59e0c8ed2418"
+    },
+    {
+      "path": "ui-tools/pages-data.json",
+      "bytes": 47025,
+      "sha256": "7906b11975e2cfc0813c108be5f5580dd64793fd25921cf8265c1531267314b3"
+    },
+    {
+      "path": "voice-audition/./references/grace-reference.wav",
+      "bytes": 277178,
+      "sha256": "300616d22626af70ef21b36c3113ccb5a546e52c2cf555d197652307c9b371e6"
+    },
+    {
+      "path": "voice-audition/./references/trip-reference.wav",
+      "bytes": 334734,
+      "sha256": "ed1f9809a232c74df56b4e1085ac5d638f006fa6c4e66a4e52804063c7756f62"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/grace-audio_features.bin",
+      "bytes": 135168,
+      "sha256": "4ab471d6740f4657baec4d0e36246b084f2f17a4204019d49abb57b75ef79ff9"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/grace-audio_tokens.bin",
+      "bytes": 1160,
+      "sha256": "f107cdc79cd7341ad3c19fc7071471f2bf826049a04195e439e9275a1a223201"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/grace-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "5b43516af69df4b9798060cdda24c671b9e1993275046ee6718608dc104661c8"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/grace-speaker_features.bin",
+      "bytes": 92160,
+      "sha256": "1a63ffe6fcda1629459d0a6577f123d5af0953b757a05ead6550fe2ea8d76359"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/manifest.json",
+      "bytes": 4208,
+      "sha256": "941e358d6bda004cb4b7c21bcbf2f1f280c0d13f64a3067e32abe78bac5f56f4"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/trip-audio_features.bin",
+      "bytes": 135168,
+      "sha256": "a677d7b49855c7ba962eee2c07d2bf5fe536f1b3d20b8420f2aebf80776fef80"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/trip-audio_tokens.bin",
+      "bytes": 1400,
+      "sha256": "d3158e07318b9879dd663d1461ec71a0a5525bb22cecaab1453607e771061ae6"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/trip-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "f2a0c72c519ff992ff7315f1371a6ee8810db8352b5ce9494ee915e42b0f823b"
+    },
+    {
+      "path": "voice-audition/conditioning/standard/trip-speaker_features.bin",
+      "bytes": 111360,
+      "sha256": "e1bb71c9ba0bbcf75ab29980f73f230293e06211ac7f2e025ed2b1d04b0ca853"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/grace-audio_features.bin",
+      "bytes": 598016,
+      "sha256": "4220bcb9c6afcf0b789ca7225e2fa42a8831f8b2eda2a57913ab025f2846dc44"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/grace-audio_tokens.bin",
+      "bytes": 1160,
+      "sha256": "151bdfd822297b5a416d679feb5d648e1a271e5cdbd4cb4b4c3ea649ff15b55e"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/grace-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "4be40454d2f28762ab48b8afe2715296d3b5af9dcc24025c95e5315d5d1ea64c"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/grace-speaker_features.bin",
+      "bytes": 92160,
+      "sha256": "e4409730b982de202538e15d2904b9ffa286752e17bf309036fa3a052156e255"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/manifest.json",
+      "bytes": 4253,
+      "sha256": "5897e4a136b8b8cee8c15107e4dcdd33829230887f0d42fd388cbf81e911b97d"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/trip-audio_features.bin",
+      "bytes": 618496,
+      "sha256": "560cd0779e65c996e9c855a2ff36fa15ce76896a51d4629c06faec249aa5a9fb"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/trip-audio_tokens.bin",
+      "bytes": 1400,
+      "sha256": "47dcf274086763f1c49855a807874af6d2ca0533361d160b4be9ffe27d61db33"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/trip-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "86e65b9238b50335df3009e87e996f2c228370c275174b87c563aec660608cd1"
+    },
+    {
+      "path": "voice-audition/conditioning/turbo/trip-speaker_features.bin",
+      "bytes": 111360,
+      "sha256": "c10c95637fbed190a912b0025278388f90dc95091195a70d287ccd2f9c11c506"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/config.json",
+      "bytes": 1188,
+      "sha256": "6b52ed838c3bc347ef519659d82fbd35b9ee805fc7a6da92fc46bc58dfa08770",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/generation_config.json",
+      "bytes": 55,
+      "sha256": "91d2e5ff0fd172d5e8ac4818ef8bcd9b9ee4f7e562831edc8cc3b3702e64f923",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/generation_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/conditional_decoder_dedup.onnx",
+      "bytes": 1859770,
+      "sha256": "954e3ec671112c352f3017300cc25db72dc13821b6f11d342fbd475470234bc2"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/conditional_decoder_dedup.onnx_data",
+      "bytes": 533712768,
+      "sha256": "25dea75f99d865e05296d46c24eb889497cf1d7470fb03638ae4038a160d9f07"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/embed_tokens_q4f16.onnx",
+      "bytes": 2548,
+      "sha256": "e5c9507c89e770e35d68bdd669e4ae44b34272232e84f010f2c97959feae79b3",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/embed_tokens_q4f16.onnx"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/embed_tokens_q4f16.onnx_data",
+      "bytes": 33648688,
+      "sha256": "37e96447b5f3ef46f46fb35cc599cfcb95b277e5528cc0c89bab78169da620ef",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/embed_tokens_q4f16.onnx_data"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/language_model_q4f16.onnx",
+      "bytes": 276803,
+      "sha256": "4c5d83674c52bb71683a1ea1f60e2608b80cda48aafce67e8f8c03162c474ad5",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/language_model_q4f16.onnx"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/onnx/language_model_q4f16.onnx_data",
+      "bytes": 183981430,
+      "sha256": "f084f21f977e365e76e622d2958c309ff894537f7b7133ac7fc5ce8fc055d6f9",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/language_model_q4f16.onnx_data"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/preprocessor_config.json",
+      "bytes": 130,
+      "sha256": "1c320b2eea5f45678d17d891d51c38467775091dbf26a074635ba5e98ede5950",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/preprocessor_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/tokenizer_config.json",
+      "bytes": 414,
+      "sha256": "0d637373c70a54c3c7202c0c12b40ff4f346c329960283f5a88031717d73c66f",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/tokenizer_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox-turbo/tokenizer.json",
+      "bytes": 3562272,
+      "sha256": "3f04e34bea22f9144d1a19151154095bc9ce0430bf421304f5797e716288a906",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/tokenizer.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/config.json",
+      "bytes": 1097,
+      "sha256": "a7d8518edd1cf6346e4d2be33201747ea4c476718db756f42e6959e4828f4955",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/generation_config.json",
+      "bytes": 93,
+      "sha256": "1b6fbb953861089ebe7da64df46eeef570d53f47a44b7cc1b4d543669fc9cd50",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/generation_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/conditional_decoder.onnx",
+      "bytes": 6350448,
+      "sha256": "1656d0d31332bae1854839959a3139300ebb67c178651dfa3f8c5fbfa5351351",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/conditional_decoder.onnx"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/conditional_decoder.onnx_data",
+      "bytes": 533970816,
+      "sha256": "51d58345a272747665ec9d5bb61e01835258a940e321a288582ac4c18cf01b5a",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/conditional_decoder.onnx_data"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/embed_tokens.onnx",
+      "bytes": 13286,
+      "sha256": "160722ec14789f616abdb1e31916cbbf9223c03fde0ab546d64ca74fb72e430b",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/embed_tokens.onnx"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/embed_tokens.onnx_data",
+      "bytes": 61640704,
+      "sha256": "898c563c3a5ca1b9ea10ce89b0cdcf252b0bb5ab460dfc4eadea003b56e5d2ee",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/embed_tokens.onnx_data"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/language_model_q4f16.onnx",
+      "bytes": 229388,
+      "sha256": "3b78e9235be5e2e2a811e482399155cb30415f6d87c98c21d12bf48843fc928f",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/language_model_q4f16.onnx"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/onnx/language_model_q4f16.onnx_data",
+      "bytes": 304737408,
+      "sha256": "2480da95471e4cd41a6b1876686e65e8a594c82459f2e5d6fd7592a5bad4e6da",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/onnx/language_model_q4f16.onnx_data"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/preprocessor_config.json",
+      "bytes": 130,
+      "sha256": "1c320b2eea5f45678d17d891d51c38467775091dbf26a074635ba5e98ede5950",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/preprocessor_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/tokenizer_config.json",
+      "bytes": 244,
+      "sha256": "b35967f93e30313d05fc9d520721ca9f671aaa5b3edbb03059aed3ff68b4c4c0",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/tokenizer_config.json"
+    },
+    {
+      "path": "voice-audition/models/chatterbox/tokenizer.json",
+      "bytes": 28543,
+      "sha256": "ecddf6aaae85e271610a2743409f7e447886957d0b0836687c1eaec5ccac2891",
+      "source": "https://huggingface.co/onnx-community/chatterbox-ONNX/resolve/3cab09af388d3f02bba43443fce88c1f4525ac43/tokenizer.json"
+    },
+    {
+      "path": "voice-audition/references/references.json",
+      "bytes": 9668,
+      "sha256": "60476870e885749c155cffb270409aad57e42d3334e408815fa8179b1dc5efeb"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 53057,
+      "sha256": "0966b6105cd936744498aa60df7a22cbd47af3374dbc64a9ab561c08a71e3611"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 26861777,
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.jspi.mjs",
+      "bytes": 50918,
+      "sha256": "6b37a3974dbd96a752fdc1805e1bdc2dca3ead7e380703c092240c2352c71dbf"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.jspi.wasm",
+      "bytes": 16811691,
+      "sha256": "173146c55eb8c7e01f8be3f7b7376fbde14118d91607583ab7caf4feac98e59c"
+    },
+    {
+      "path": "voice-audition/runtime/ort.jspi.bundle.min.mjs",
+      "bytes": 116069,
+      "sha256": "7dc069f7e7b95ad01013ad4ea02b161e410788f183c5dbd2ddc5c5c05d9d85da"
+    },
+    {
+      "path": "voice-audition/runtime/transformers.min.js",
+      "bytes": 586230,
+      "sha256": "8d6716d9086f57c30a4bf367dba61b887593573c770c454465e8019b2703e743"
+    }
+  ],
+  "totalBytes": 9439738532
+}

@@ -1,0 +1,189 @@
+{
+  "model": "ResembleAI/chatterbox-turbo-ONNX",
+  "revision": "d21799bd0354adb85e348b8a0442a8405110a2cf",
+  "runtime": "@huggingface/transformers@4.3.1",
+  "createdUtc": "2026-10-11T18:24:08.585Z",
+  "dtype": {
+    "embed_tokens": "q4f16",
+    "language_model": "q4f16",
+    "conditional_decoder": "fp32"
+  },
+  "files": [
+    {
+      "path": "models/chatterbox-turbo/config.json",
+      "bytes": 1188,
+      "sha256": "6b52ed838c3bc347ef519659d82fbd35b9ee805fc7a6da92fc46bc58dfa08770",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/config.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/generation_config.json",
+      "bytes": 55,
+      "sha256": "91d2e5ff0fd172d5e8ac4818ef8bcd9b9ee4f7e562831edc8cc3b3702e64f923",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/generation_config.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/preprocessor_config.json",
+      "bytes": 130,
+      "sha256": "1c320b2eea5f45678d17d891d51c38467775091dbf26a074635ba5e98ede5950",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/preprocessor_config.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/tokenizer.json",
+      "bytes": 3562272,
+      "sha256": "3f04e34bea22f9144d1a19151154095bc9ce0430bf421304f5797e716288a906",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/tokenizer.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/tokenizer_config.json",
+      "bytes": 414,
+      "sha256": "0d637373c70a54c3c7202c0c12b40ff4f346c329960283f5a88031717d73c66f",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/tokenizer_config.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/embed_tokens_q4f16.onnx",
+      "bytes": 2548,
+      "sha256": "e5c9507c89e770e35d68bdd669e4ae44b34272232e84f010f2c97959feae79b3",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/embed_tokens_q4f16.onnx"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/embed_tokens_q4f16.onnx_data",
+      "bytes": 33648688,
+      "sha256": "37e96447b5f3ef46f46fb35cc599cfcb95b277e5528cc0c89bab78169da620ef",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/embed_tokens_q4f16.onnx_data"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/language_model_q4f16.onnx",
+      "bytes": 276803,
+      "sha256": "4c5d83674c52bb71683a1ea1f60e2608b80cda48aafce67e8f8c03162c474ad5",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/language_model_q4f16.onnx"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/language_model_q4f16.onnx_data",
+      "bytes": 183981430,
+      "sha256": "f084f21f977e365e76e622d2958c309ff894537f7b7133ac7fc5ce8fc055d6f9",
+      "source": "https://huggingface.co/ResembleAI/chatterbox-turbo-ONNX/resolve/d21799bd0354adb85e348b8a0442a8405110a2cf/onnx/language_model_q4f16.onnx_data"
+    },
+    {
+      "path": "runtime/transformers.min.js",
+      "bytes": 586230,
+      "sha256": "8d6716d9086f57c30a4bf367dba61b887593573c770c454465e8019b2703e743",
+      "source": "@huggingface/transformers"
+    },
+    {
+      "path": "conditioning/turbo/manifest.json",
+      "bytes": 4253,
+      "sha256": "5897e4a136b8b8cee8c15107e4dcdd33829230887f0d42fd388cbf81e911b97d",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/grace-audio_features.bin",
+      "bytes": 598016,
+      "sha256": "4220bcb9c6afcf0b789ca7225e2fa42a8831f8b2eda2a57913ab025f2846dc44",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/grace-audio_tokens.bin",
+      "bytes": 1160,
+      "sha256": "151bdfd822297b5a416d679feb5d648e1a271e5cdbd4cb4b4c3ea649ff15b55e",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/grace-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "4be40454d2f28762ab48b8afe2715296d3b5af9dcc24025c95e5315d5d1ea64c",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/grace-speaker_features.bin",
+      "bytes": 92160,
+      "sha256": "e4409730b982de202538e15d2904b9ffa286752e17bf309036fa3a052156e255",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/trip-audio_features.bin",
+      "bytes": 618496,
+      "sha256": "560cd0779e65c996e9c855a2ff36fa15ce76896a51d4629c06faec249aa5a9fb",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/trip-audio_tokens.bin",
+      "bytes": 1400,
+      "sha256": "47dcf274086763f1c49855a807874af6d2ca0533361d160b4be9ffe27d61db33",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/trip-speaker_embeddings.bin",
+      "bytes": 768,
+      "sha256": "86e65b9238b50335df3009e87e996f2c228370c275174b87c563aec660608cd1",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "conditioning/turbo/trip-speaker_features.bin",
+      "bytes": 111360,
+      "sha256": "c10c95637fbed190a912b0025278388f90dc95091195a70d287ccd2f9c11c506",
+      "source": "test-artifacts/encoder-1791732595277/result.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/conditional_decoder_dedup.onnx",
+      "bytes": 1859770,
+      "sha256": "954e3ec671112c352f3017300cc25db72dc13821b6f11d342fbd475470234bc2",
+      "source": "Lossless derivation by voice-audition/prepare-turbo-dedup.mjs; see conditional_decoder_dedup.manifest.json"
+    },
+    {
+      "path": "models/chatterbox-turbo/onnx/conditional_decoder_dedup.onnx_data",
+      "bytes": 533712768,
+      "sha256": "25dea75f99d865e05296d46c24eb889497cf1d7470fb03638ae4038a160d9f07",
+      "source": "Lossless derivation by voice-audition/prepare-turbo-dedup.mjs; see conditional_decoder_dedup.manifest.json"
+    },
+    {
+      "path": "runtime/ort.jspi.bundle.min.mjs",
+      "bytes": 116069,
+      "sha256": "7dc069f7e7b95ad01013ad4ea02b161e410788f183c5dbd2ddc5c5c05d9d85da",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    },
+    {
+      "path": "runtime/ort-wasm-simd-threaded.jspi.mjs",
+      "bytes": 50918,
+      "sha256": "6b37a3974dbd96a752fdc1805e1bdc2dca3ead7e380703c092240c2352c71dbf",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    },
+    {
+      "path": "runtime/ort-wasm-simd-threaded.jspi.wasm",
+      "bytes": 16811691,
+      "sha256": "173146c55eb8c7e01f8be3f7b7376fbde14118d91607583ab7caf4feac98e59c",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    }
+  ],
+  "totalBytes": 776039355,
+  "referenceMode": "precomputed",
+  "decoderPackaging": {
+    "method": "Byte-identical duplicate initializer sharing; no quantization or operator change",
+    "manifest": "models/chatterbox-turbo/onnx/conditional_decoder_dedup.manifest.json",
+    "source": {
+      "model": "ResembleAI/chatterbox-turbo-ONNX",
+      "revision": "d21799bd0354adb85e348b8a0442a8405110a2cf",
+      "graphSha256": "8c43f3a1d0ddb1a86e226a244d7cda5396c67f5c6412789c23900c646e3ffc50",
+      "dataSha256": "05f162a519f3e9abaf0b7337ae037f4af8b2b30c4455d39b2c61ed3a9b2b5476",
+      "graphBytes": 1889468,
+      "dataBytes": 768593792
+    },
+    "removedInitializerCount": 336,
+    "savedBytes": 234910722
+  },
+  "fallbackRuntime": [
+    {
+      "path": "runtime/ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 53057,
+      "sha256": "0966b6105cd936744498aa60df7a22cbd47af3374dbc64a9ab561c08a71e3611",
+      "source": "onnxruntime-web"
+    },
+    {
+      "path": "runtime/ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 26861777,
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082",
+      "source": "onnxruntime-web"
+    }
+  ],
+  "fallbackTotalBytes": 785975511,
+  "runtimeSelection": "JSPI when available for fixed Turbo voices; Asyncify otherwise. Only the selected runtime downloads."
+}

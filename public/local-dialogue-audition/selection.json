@@ -1,0 +1,5 @@
+{
+  "defaultModel": "Qwen3.5-4B-q4f16_1-MLC",
+  "schedule": "sequence",
+  "status": "Experimental browser-local dialogue. See the public repository for limitations."
+}

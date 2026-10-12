@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "facade2",
+  "account_id": "c2f42b41a986631aa62907bf3772e973",
+  "main": "cloudflare/worker.js",
+  "compatibility_date": "2026-10-11",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "html_handling": "none",
+    "not_found_handling": "none"
+  },
+  "workers_dev": true,
+  "routes": [{"pattern": "facade2.com", "custom_domain": true}]
+}

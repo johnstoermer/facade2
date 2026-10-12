@@ -1,0 +1,127 @@
+{
+  "format": "facade-browser-speech-webgpu-assets-v1",
+  "model": "onnx-community/whisper-tiny.en",
+  "revision": "2575352d61be1bf7225cf8f8b268a4678025fc58",
+  "runtime": "@huggingface/transformers@4.3.1",
+  "dtype": {
+    "encoder_model": "fp32",
+    "decoder_model_merged": "q4"
+  },
+  "artifacts": [
+    {
+      "path": "whisper-tiny-en/config.json",
+      "bytes": 2197,
+      "sha256": "251ea843b5901a99efa58c0b99b8052c6019aa3e7d2baf46693a1128ff606233",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/config.json"
+    },
+    {
+      "path": "whisper-tiny-en/generation_config.json",
+      "bytes": 1646,
+      "sha256": "7b2e8451ed5f118e75fdd991409d72119d21d2fef1eba9723f68fb9c57fe5dc9",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/generation_config.json"
+    },
+    {
+      "path": "whisper-tiny-en/preprocessor_config.json",
+      "bytes": 339,
+      "sha256": "a6a76d28c93edb273669eb9e0b0636a2bddbb1272c3261e47b7ca6dfdbac1b8d",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/preprocessor_config.json"
+    },
+    {
+      "path": "whisper-tiny-en/tokenizer.json",
+      "bytes": 2405679,
+      "sha256": "5eb60cec1e77aeeb6869a2bb5a8e01a84c3fe5d072d75369343021fe6f5310d0",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer.json"
+    },
+    {
+      "path": "whisper-tiny-en/tokenizer_config.json",
+      "bytes": 282662,
+      "sha256": "93879c3dccdd4b976f709acd85b44778873f30c275e67026f30ca1e4c975230c",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/tokenizer_config.json"
+    },
+    {
+      "path": "whisper-tiny-en/normalizer.json",
+      "bytes": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/normalizer.json"
+    },
+    {
+      "path": "whisper-tiny-en/special_tokens_map.json",
+      "bytes": 2173,
+      "sha256": "98bdf3ec5b32e31575b02f64b0a32bde7c0449075d34484a7df9bdd3cdeb9fb9",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/special_tokens_map.json"
+    },
+    {
+      "path": "whisper-tiny-en/added_tokens.json",
+      "bytes": 34604,
+      "sha256": "560be47bea388757f8d4cc185c5d82067426cbb6361e38016dd90ddc01ab203a",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/added_tokens.json"
+    },
+    {
+      "path": "whisper-tiny-en/merges.txt",
+      "bytes": 456318,
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/merges.txt"
+    },
+    {
+      "path": "whisper-tiny-en/vocab.json",
+      "bytes": 999186,
+      "sha256": "f6bd25a65e4e63ca31360e9fb11c7e4f9a391a78385d640acd814092dd6eee4f",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/vocab.json"
+    },
+    {
+      "path": "whisper-tiny-en/onnx/encoder_model.onnx",
+      "bytes": 32904992,
+      "sha256": "8c361b9430a5ef6619ee64b7fe06c725df19f36d508cc8b847064b34a888a3fe",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/encoder_model.onnx"
+    },
+    {
+      "path": "whisper-tiny-en/onnx/decoder_model_merged_q4.onnx",
+      "bytes": 86712166,
+      "sha256": "57d4303f3bbc8bb4016273b172285236f5719c75e8a7d23b7265cfa1d71494a4",
+      "url": "https://huggingface.co/onnx-community/whisper-tiny.en/resolve/2575352d61be1bf7225cf8f8b268a4678025fc58/onnx/decoder_model_merged_q4.onnx"
+    }
+  ],
+  "sharedRuntime": [
+    {
+      "path": "voice-audition/runtime/transformers.min.js",
+      "bytes": 586230,
+      "sha256": "8d6716d9086f57c30a4bf367dba61b887593573c770c454465e8019b2703e743",
+      "source": "@huggingface/transformers"
+    },
+    {
+      "path": "voice-audition/runtime/ort.jspi.bundle.min.mjs",
+      "bytes": 116069,
+      "sha256": "7dc069f7e7b95ad01013ad4ea02b161e410788f183c5dbd2ddc5c5c05d9d85da",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.jspi.mjs",
+      "bytes": 50918,
+      "sha256": "6b37a3974dbd96a752fdc1805e1bdc2dca3ead7e380703c092240c2352c71dbf",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.jspi.wasm",
+      "bytes": 16811691,
+      "sha256": "173146c55eb8c7e01f8be3f7b7376fbde14118d91607583ab7caf4feac98e59c",
+      "source": "onnxruntime-web@1.31.0-dev.20260914-8d85527a0"
+    }
+  ],
+  "fallbackRuntime": [
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 53057,
+      "sha256": "0966b6105cd936744498aa60df7a22cbd47af3374dbc64a9ab561c08a71e3611",
+      "source": "onnxruntime-web"
+    },
+    {
+      "path": "voice-audition/runtime/ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 26861777,
+      "sha256": "49871f5a4409519797e127440868a6d1923339d9185907f301a5b2a1d90af082",
+      "source": "onnxruntime-web"
+    }
+  ],
+  "runtimeSelection": "JSPI when available for fixed Turbo voices; Asyncify otherwise. Only the selected runtime downloads.",
+  "modelBytes": 123854628,
+  "sharedRuntimeBytes": 17564908
+}
