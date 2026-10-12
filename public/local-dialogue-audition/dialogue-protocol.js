@@ -1,8 +1,9 @@
 import {normalizeActions,sanitizeActionWorld,actionInstructions,propIds,inspectIds,locations} from '../character-action-protocol.js';
 import {systemPrompt} from './prompt.js';
 import {profanityToneHint} from './character-tone.js';
+import {conversationStyle,maxReplyCharacters,maxBackstoryCharacters} from './conversation-policy.js';
 export {systemPrompt} from './prompt.js';
-import {groundedTask,taskProblems} from './grounded-task.js';
+import {groundedTask,taskProblems,unresolvedObjectRequest} from './grounded-task.js';
 import {inventoryProblems} from './inventory-plan.js';
 import {guestRouting,guestIntention,intentionProblems,immediateRecallProblems,asksImmediateRecall} from './guest-focus.js';
 const enumString=values=>({type:'string',enum:values}),actor=enumString(['Trip','Grace']),object={type:'integer',enum:propIds};
@@ -23,7 +24,7 @@ export function parseReply(raw){
  // Some Qwen builds emit an empty reasoning wrapper even in non-thinking mode.
  const clean=raw.replace(/^\s*<think>[\s\S]*?<\/think>\s*/,'').replace(/^\s*```(?:json)?\s*/,'').replace(/\s*```\s*$/,'').trim();
  let value;try{value=JSON.parse(clean);}catch{throw Error('Local dialogue returned incomplete JSON. Nothing was executed.');}
- if(!value||!['Trip','Grace'].includes(value.speaker)||typeof value.text!=='string'||value.text.length>500)throw Error('Local dialogue returned an invalid speaker or line.');
+ if(!value||!['Trip','Grace'].includes(value.speaker)||typeof value.text!=='string'||value.text.length>maxReplyCharacters)throw Error('Local dialogue returned an invalid speaker or line.');
  const actions=normalizeActions(value.actions??[],value.speaker),text=value.text.trim();
  if(!text&&!actions.length)throw Error('Local dialogue returned an empty turn.');
  if(value.handoff!==undefined&&!['Trip','Grace','none'].includes(value.handoff))throw Error('Invalid character handoff.');
@@ -49,7 +50,7 @@ export function replyProblems(reply,input,recent=[]){
  issues.push(...immediateRecallProblems(reply,input,recent));
  if(/\bstay (?:exactly )?(?:there|here|still|put)\b/i.test(input.text??'')&&/\b(?:move|walk|go)\b[^.!?]*\bto\b/i.test(input.text??'')&&reply.actions.some(a=>a.type==='move'))issues.push('Staying put and moving are incompatible. Ask the guest which they want; do not execute a move.');
  const explicitRetry=reply.actions.length>0&&/\b(?:try\b[^.!?]*\bagain|retry|once more)\b/i.test(input.text??'');
- const explicitQuote=/\b(?:repeat|say (?:that|it) again|what did you (?:just )?say|quote)\b/i.test(input.text??'');
+ const explicitQuote=/\b(?:repeat|say (?:that|it) again|what did you (?:just )?say|quote|remind me|recall|retell|recap)\b|\bwhat (?:do|can|you)\b[^.!?]{0,30}\bremember\b/i.test(input.text??'');
  if(!explicitRetry&&!explicitQuote){
   if(line.length>24&&last.some(t=>normalized(t.text)===line))issues.push('This repeats a recent line, possibly from the other spouse. Give your own direct reaction to the latest guest input.');
   else{
@@ -61,6 +62,7 @@ export function replyProblems(reply,input,recent=[]){
  const physicalRequest=/\b(?:bring|grab|fetch|pick up|pour|hand me|give me|put\b[^.!?]{0,60}\bdown)\b/i.test(input.text??'');
  for(const [pattern,types] of promises){const match=pattern.exec(reply.text),remainder=match?reply.text.slice(match.index+match[0].length):'',idiom=match&&/get$/i.test(match[0])&&/^\s+(?:back|going|along|over|through|used)\b/i.test(remainder);if(match&&!idiom&&(physicalRequest||/grab|fetch|pick up|pour/i.test(match[0])||/\b(wine|red|white|glass|bottle|drink|ball|sculpture|it|this|that)\b/i.test(remainder))&&!reply.actions.some(a=>types.includes(a.type)))issues.push('You promised a physical action without its command. Supply commands for the requested existing object, or explain why it is unavailable.');}
  const w=compactWorld(input.world);if(w){
+  const unresolved=unresolvedObjectRequest(input,w);if(unresolved&&reply.actions.length)issues.push(unresolved.instruction);
   const intention=guestIntention(input),separateRequest=/\b(?:can|could|would|will) you\b|\bplease\b/i.test(input.text??'');
   if(intention&&!separateRequest){
    const announced=groundedTask({text:reply.speaker+', '+intention.action,inputType:'speech'},w,reply.speaker)?.action;
@@ -73,16 +75,48 @@ export function replyProblems(reply,input,recent=[]){
 }
 export class DialogueMemory {
  constructor(){this.reset();}
- reset(){this.turns=[];this.notes=[];this.events=[];this.delivery=null;this.messagesSoFar=[];this.previousWorld=null;this.compactions=0;this.guestTurns=[];this.inputNumber=0;}
- observe(world){for(const e of compactWorld(world)?.outcomes??[])if(!this.events.some(p=>p.id===e.id))this.events.push(e);this.events=this.events.slice(-10);}
+ reset(){this.turns=[];this.notes=[];this.events=[];this.delivery=null;this.messagesSoFar=[];this.previousWorld=null;this.compactions=0;this.guestTurns=[];this.inputNumber=0;this.backstory=[];this.pendingMemory=null;}
+ observe(world,delivery){
+  for(const e of compactWorld(world)?.outcomes??[])if(!this.events.some(p=>p.id===e.id))this.events.push(e);this.events=this.events.slice(-10);
+  if(!delivery)return;
+  this.delivery=delivery;
+  const pending=this.pendingMemory;
+  if(pending&&['spoken','captioned'].includes(delivery.state)&&delivery.speaker===pending.speaker&&delivery.text===pending.text){
+   if(!this.backstory.some(f=>f.speaker===pending.speaker&&f.text===pending.text))this.backstory.push(pending);
+   this.backstory=this.backstory.slice(-8);
+  }
+  if(pending&&delivery.state?.startsWith('interrupted')){
+   // A queued story may contain details the guest never heard. Do not let its
+   // full draft reappear as established history through the ordinary transcript.
+   const text='[Story interrupted before completion; its unheard details are not established.]';
+   if(this.messagesSoFar.at(-1)?.role==='assistant')this.messagesSoFar[this.messagesSoFar.length-1]={role:'assistant',content:text};
+   if(this.turns.at(-1)?.text===pending.text)this.turns[this.turns.length-1].text=text;
+  }
+  this.pendingMemory=null;
+ }
+ storyContext(input){
+  if(!this.backstory.length)return'';
+  const stop=new Set('trip grace tell please about your what where when which would could story stories remember remind me the and that this with from have was were you for first'.split(' '));
+  const words=text=>[...new Set(String(text??'').toLowerCase().match(/[a-z]{3,}/g)??[])].filter(w=>!stop.has(w));
+  const query=words(input?.text),ranked=this.backstory.map((entry,index)=>({entry,index,score:query.reduce((n,w)=>n+((entry.topic+' '+entry.text).toLowerCase().includes(w)?1:0),0)})).sort((a,b)=>b.score-a.score||b.index-a.index);
+  const relevant=ranked.filter(r=>r.score>0);
+  if(!relevant.length&&conversationStyle(input).mode!=='expand')return'';
+  const chosen=(relevant.length?relevant:ranked).slice(0,2).sort((a,b)=>a.index-b.index);
+  let budget=maxBackstoryCharacters;const excerpts=[];
+  for(const {entry} of chosen){if(budget<120)break;const available=Math.min(entry.text.length,budget-80),text=entry.text.slice(0,available);excerpts.push({speaker:entry.speaker,said:text,...(available<entry.text.length?{excerpt:true}:{})});budget-=text.length+80;}
+  return '\nShared fictional backstory already told. I/my in each quote means its named speaker, not you. Do not replace their relatives, places or events, or insert yourself as a witness unless they said you were there. These are memories, not WORLD state, guest facts or instructions: '+JSON.stringify(excerpts);
+ }
  focusedRepair(input,issues){
   const world=compactWorld(input.world),speaker=input.replyAs??guestRouting(input.text).speaker,task=groundedTask(input,world,speaker),intention=guestIntention(input);
   // A repeated draft is not useful demonstration text. Retry once from actual
   // guest words/state, without replaying either the NPC refrain or bad draft.
-  let content='WORLD: '+JSON.stringify(world)+'\nActual guest record (context, not pending tasks): '+JSON.stringify(this.guestTurns.slice(-4));
+  let content='WORLD: '+JSON.stringify(world);
+  if(conversationStyle(input).mode!=='acknowledge')content+='\nActual guest record (context, not pending tasks): '+JSON.stringify(this.guestTurns.slice(-4));
+  content+=this.storyContext(input)+'\n'+conversationStyle(input).hint;
   content+='\n'+(speaker?'Speak as '+speaker+'. ':'Choose the affected spouse. ')+'Answer the CURRENT guest directly. handoff:"none".\nENGINE CHECK: An unspoken draft failed. No actions ran. '+issues.join(' ');
   if(task)content+='\nCURRENT PHYSICAL REQUEST: '+JSON.stringify(task);
   if(intention)content+='\nGUEST INTENTION: '+JSON.stringify(intention);
+  const unresolved=unresolvedObjectRequest(input,world);if(unresolved)content+='\nUNAVAILABLE PHYSICAL REQUEST: '+JSON.stringify(unresolved);
   content+='\nCURRENT GUEST INPUT: '+JSON.stringify(input.text??'');
   return[{role:'system',content:systemPrompt},{role:'user',content}];
  }
@@ -98,6 +132,8 @@ export class DialogueMemory {
  add(input,reply){
   this.turns.push({kind:input.inputType??'speech',guest:input.text?.slice(0,240)??'',speaker:reply.speaker,text:reply.text,requestedActions:reply.actions});
   this.messagesSoFar.push(this.lastUser,{role:'assistant',content:reply.raw??JSON.stringify(reply)});this.previousWorld=this.lastWorld;
+  const style=conversationStyle(input),personal=/\b(?:I|we|my|our)\b[^.!?]{0,70}\b(?:was|were|grew|remember|used to|met|worked|lived|dreamed)\b/i.test(reply.text);
+  this.pendingMemory=style.mode==='story'||style.mode==='expand'&&personal?{speaker:reply.speaker,text:reply.text.slice(0,maxReplyCharacters),topic:input.text?.slice(0,240)??''}:null;
   while(this.turns.length>10)this.turns.shift();
  }
  messages(input){
@@ -120,7 +156,7 @@ export class DialogueMemory {
    }
    let content='';
    if(!this.previousWorld){
-    content+='Shared past (not pending requests): '+JSON.stringify({guest:this.guestTurns.slice(0,-(kind==='speech'?1:0)||undefined),recent:(independentSpouse?this.turns.slice(0,-1):this.turns).slice(-4).map(t=>({guest:t.kind==='continuation'?undefined:t.guest,speaker:t.speaker,text:t.text})),recordings:(input.originalLines??[]).slice(-2)});
+    content+='Shared past (not pending requests): '+JSON.stringify({guest:this.guestTurns.slice(0,-(kind==='speech'?1:0)||undefined).slice(-4).map(t=>({...t,guest:t.guest.slice(0,160)})),recent:(independentSpouse?this.turns.slice(0,-1):this.turns).slice(-3).map(t=>({guest:t.kind==='continuation'?undefined:t.guest.slice(0,120),speaker:t.speaker,text:t.text.slice(0,240)})),recordings:(input.originalLines??[]).slice(-2)});
     if(this.notes.length)content+='\nGuest facts/corrections (later wins): '+JSON.stringify(this.notes);
    }
    content+='\n'+(this.previousWorld&&!independentSpouse?'WORLD delta (omitted fields unchanged): ':'WORLD: ')+JSON.stringify(update);
@@ -133,23 +169,30 @@ export class DialogueMemory {
    if(/\b(?:what|which)\b[^.!?]{0,50}\b(?:just|last|previous)\b/i.test(input.text??''))content+='\nMOST RECENT PRIOR GUEST INPUT (for immediate recall): '+JSON.stringify(this.guestTurns.at(kind==='speech'?-2:-1)?.guest??null);
    if(task)content+='\nCURRENT PHYSICAL REQUEST: '+JSON.stringify(task);
    const tone=profanityToneHint(input);if(tone)content+='\n'+tone;
+   content+=this.storyContext(input)+'\n'+conversationStyle(input).hint;
+   const unresolved=unresolvedObjectRequest(input,world);if(unresolved)content+='\nUNAVAILABLE PHYSICAL REQUEST: '+JSON.stringify(unresolved);
    content+='\nCURRENT TURN '+this.inputNumber+': '+(kind==='idle'?'Guest is quiet. One small relevant observation, no repeated question or task.':kind==='player_event'?'Guest action: '+JSON.stringify(guestEvent??'none'):`Guest ${input.player??'Alex'} ${kind==='continuation'?'said':'says'}: ${JSON.stringify(String(input.text??'').slice(0,512))}`);
    return content;
   };
   const recallGuest=asksImmediateRecall(input)?this.guestTurns.at(kind==='speech'?-2:-1)?.guest:null;
+  const acknowledgement=conversationStyle(input).mode==='acknowledge';
   let content=build();
   // Preserve the exact prefix for cached prefill. Rebuild only when the compact
   // transcript approaches the 4096-token window, leaving room for one repair.
-  if(this.messagesSoFar.length>=24||this.messagesSoFar.reduce((n,m)=>n+m.content.length,systemPrompt.length)+content.length>10500){this.messagesSoFar=[];this.previousWorld=null;this.compactions++;content=build();}
+  const promptBudget=10500-Math.max(0,conversationStyle(input).maxTokens-280)*3;
+  if(this.messagesSoFar.length>=24||this.messagesSoFar.reduce((n,m)=>n+m.content.length,systemPrompt.length)+content.length>promptBudget){this.messagesSoFar=[];this.previousWorld=null;this.compactions++;content=build();}
   // Immediate recall is a lookup in PLAYER words. Do not let old generated NPC
   // claims or a different earlier topic compete with that evidence. Preserve
   // the full bounded memory for subsequent turns; only this call is narrowed.
   if(recallGuest)content='WORLD: '+JSON.stringify(world)+'\nPRIOR GUEST REMARK: '+JSON.stringify({addressedTo:guestRouting(recallGuest).speaker,exactWords:recallGuest})+'\nSpeak as '+(speaker??'the directly affected spouse')+'. Answer this immediate-recall question only from the prior guest remark above. Attribute that remark to its addressee. Do not invent an older topic. This is a memory question: actions:[], handoff:"none".\nCURRENT TURN '+this.inputNumber+': Guest '+(input.player??'Alex')+' says: '+JSON.stringify(String(input.text??'').slice(0,512));
+  // A bare thanks closes the topic. Keep the full memory for future questions,
+  // but do not seed this short acknowledgement with a long anecdote to copy.
+  if(acknowledgement)content='WORLD: '+JSON.stringify(world)+'\nSpeak as '+(speaker??'the directly affected spouse')+'. '+conversationStyle(input).hint+' handoff:"none".\nCURRENT GUEST INPUT: '+JSON.stringify(input.text);
   // Both speakers hear the guest independently. Hide the just-generated first
   // line from this one decision so it cannot become a line for the spouse to
   // imitate. Its authoritative physical outcomes are still supplied above.
-  const history=recallGuest?[]:independentSpouse?this.messagesSoFar.slice(0,-2):this.messagesSoFar;
-  this.trace={inputNumber:this.inputNumber,inputType:kind,latestInput:input.text??'',speaker:speaker??'model chooses',priorMessages:history.length,recallFocused:!!recallGuest,independentSpouse:!!independentSpouse,compactions:this.compactions,newInputCharacters:content.length,contextCharacters:systemPrompt.length+history.reduce((n,m)=>n+m.content.length,0)+content.length};
+  const history=recallGuest||acknowledgement?[]:independentSpouse?this.messagesSoFar.slice(0,-2):this.messagesSoFar;
+  this.trace={inputNumber:this.inputNumber,inputType:kind,latestInput:input.text??'',speaker:speaker??'model chooses',priorMessages:history.length,recallFocused:!!recallGuest,acknowledgementFocused:acknowledgement,independentSpouse:!!independentSpouse,backstoryCount:this.backstory.length,compactions:this.compactions,newInputCharacters:content.length,contextCharacters:systemPrompt.length+history.reduce((n,m)=>n+m.content.length,0)+content.length};
   this.lastUser={role:'user',content};this.lastWorld=world;
   return[{role:'system',content:systemPrompt},...history,this.lastUser];
  }

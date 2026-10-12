@@ -12,6 +12,7 @@
     "qa:controls": "node tools/qa-controls.mjs",
     "qa:dialogue": "node tools/qa-dialogue.mjs",
     "qa:tone": "node tools/qa-tone.mjs",
+    "qa:agency": "node tools/qa-agency.mjs",
     "deploy": "wrangler deploy",
     "fetch-assets": "node tools/fetch-assets.mjs"
   },

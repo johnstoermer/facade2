@@ -1,6 +1,8 @@
 import {MLCEngine} from './vendor/web-llm-0.2.86.js';
-import {parseReply,replyProblems,DialogueMemory,responseSchema} from './dialogue-protocol.js';
+import {parseReply,replyProblems,DialogueMemory,responseSchema,compactWorld} from './dialogue-protocol.js';
 import {asksImmediateRecall} from './guest-focus.js';
+import {conversationStyle} from './conversation-policy.js';
+import {unresolvedObjectRequest} from './grounded-task.js';
 let engine=null,model=null,run=0,loading=null,generating=false,adapterInfo=null;
 const memory=new DialogueMemory(),send=(type,data={})=>postMessage({type,...data});
 const devices=[];
@@ -30,7 +32,7 @@ async function load(id){
 self.onmessage=async({data})=>{
  const {type,id}=data;
  if(type==='cancel'){run++;if(engine)engine.interruptGenerate();send('cancelled',{id,retainedModel:!!model});return;}
- if(type==='observe'){memory.observe(data.world);if(data.delivery)memory.delivery=data.delivery;return;}
+ if(type==='observe'){memory.observe(data.world,data.delivery);return;}
  if(type==='reset'){memory.reset();if(engine&&!generating)await engine.resetChat(true);send('result',{id,result:true});return;}
  if(type==='unload'){run++;engine?.interruptGenerate();if(engine)await engine.unload();engine=null;model=null;memory.reset();send('result',{id,result:true});return;}
  try{
@@ -44,10 +46,10 @@ self.onmessage=async({data})=>{
     let schema={...responseSchema,properties:{...responseSchema.properties}};
     if(['Trip','Grace'].includes(data.input?.replyAs))schema.properties.speaker={const:data.input.replyAs};
     schema.properties.handoff={const:'none'};
-    if(data.input&&asksImmediateRecall(data.input))schema.properties.actions={type:'array',maxItems:0,items:responseSchema.properties.actions.items};
+    if(data.input&&(asksImmediateRecall(data.input)||unresolvedObjectRequest(data.input,compactWorld(data.input.world))))schema.properties.actions={type:'array',maxItems:0,items:responseSchema.properties.actions.items};
     for(let attempt=0;attempt<2;attempt++){
     raw='';firstTokenMs=null;usage=null;finishReason=null;const attemptStarted=performance.now();
-    const stream=await engine.chat.completions.create({messages:repairMessages,temperature:attempt ? .3 : data.temperature??.6,top_p:data.topP??.8,presence_penalty:data.presencePenalty??.25,frequency_penalty:0,max_tokens:data.maxTokens??280,stream:true,stream_options:{include_usage:true},response_format:data.grammar===false?undefined:{type:'json_object',schema:JSON.stringify(schema)},extra_body:{enable_thinking:data.thinking??false,enable_latency_breakdown:true}});
+    const stream=await engine.chat.completions.create({messages:repairMessages,temperature:attempt ? .3 : data.temperature??.6,top_p:data.topP??.8,presence_penalty:data.presencePenalty??.25,frequency_penalty:0,max_tokens:data.maxTokens??conversationStyle(data.input).maxTokens,stream:true,stream_options:{include_usage:true},response_format:data.grammar===false?undefined:{type:'json_object',schema:JSON.stringify(schema)},extra_body:{enable_thinking:data.thinking??false,enable_latency_breakdown:true}});
     for await(const chunk of stream){
      if(token!==run){engine.interruptGenerate();continue;}
      const part=chunk.choices?.[0]?.delta?.content??'';if(part){if(firstTokenMs===null)firstTokenMs=performance.now()-attemptStarted;raw+=part;send('token',{id,part});}

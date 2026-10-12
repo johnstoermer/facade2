@@ -1,6 +1,23 @@
 // Narrow aid for unambiguous, directly addressed physical requests. This is not
 // a general natural-language parser and never executes actions. The model still
 // has to return a validated plan; ambiguous speech remains a dialogue decision.
+export function unresolvedObjectRequest(input,world){
+ if(!world||['idle','player_event','continuation'].includes(input.inputType))return null;
+ const text=String(input.text??'').trim().replace(/^(?:Trip|Tripp|Trick|Grace)\b[,!\s]*/i,'').replace(/^(?:(?:can|could|would|will) you\s+)?(?:please\s+)?/i,'');
+ const match=/^(?:pick up|grab|fetch|get|put down|put|set down|give|bring|pour|drink|shake)\s+(.+)/i.exec(text);
+ if(!match||/\b(?:and|then)\b/i.test(text))return null;
+ const noun=match[1].replace(/^(?:me|us)\s+/i,'').split(/\s+(?:from|to|on|onto|into|in|at|with|for)\s+/i)[0].replace(/[.!?]+$/,'').replace(/^(?:(?:a|an|the|my|your|our|his|her)\s+)+/i,'').toLowerCase().trim();
+ if(!noun||/^(?:it|this|that|them|one|something|anything)$/i.test(noun))return null;
+ // "Give me an explanation" and similar requests are conversation, not missing
+ // inventory. Leave them to the dialogue model without the physical-item gate.
+ if(/^(?:(?:some|another|brief|quick|detailed|short|long|honest|personal)\s+)*(?:advice|explanation|answer|example|opinion|reason|summary|rundown|history|story|backstory|idea|insight|recommendation|lesson|definition|question|hint|perspective|context|information|info|argument|proof|description|joke)s?\b/i.test(noun)||/^up to (?:speed|date)\b/i.test(noun))return null;
+ const normalize=s=>s.toLowerCase().replace(/[^a-z0-9]/g,''),key=normalize(noun);
+ const exact=world.objects.some(o=>normalize(o.name)===key||key==='object'+o.id);
+ const aliases=[[/^red(?: wine)?(?: bottle)?$/, [12]],[/^white(?: wine)?(?: bottle)?$/, [13]],[/^(?:wine|bottle|wine bottle)$/, [12,13]],[/^(?:martini )?glass$/, [14,15,16,17]],[/^(?:advice|magic|eight|8)[ -]?ball$/, [23]],[/^(?:brass )?bull(?: sculpture)?$/, [24]]];
+ const known=exact||aliases.some(([pattern,ids])=>pattern.test(noun)&&world.objects.some(o=>ids.includes(o.id)))||/^glass\s*(1[4-7])$/.test(noun)&&world.objects.some(o=>o.id===Number(noun.match(/\d+/)[0]));
+ if(known)return null;
+ return{requested:noun,instruction:'This named item cannot be matched to an available WORLD object. It may exist in a story, but no story creates an item here. Explain that you cannot provide/use it here or ask which available item the guest means. Do not substitute a trinket, invent its location, promise to fetch it, or issue actions. actions:[]'};
+}
 export function groundedTask(input,world,speaker=input.replyAs){
  if(!world||input.inputType==='continuation'||input.inputType==='idle'||input.inputType==='player_event')return null;
  let text=String(input.text??'').trim();const address=/^(Trip|Tripp|Trick|Grace)\b[,!\s]*/i.exec(text);
