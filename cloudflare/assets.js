@@ -19,12 +19,13 @@ function sliceStream(stream,start,end){
     cancel(reason){return reader.cancel(reason);}
   });
 }
-export function createAssetHandler(largeFiles){
+export function createAssetHandler(largeFiles,remoteFiles={}){
   return async function fetchAsset(request,env){
     if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
     const url=new URL(request.url);let path;
     try{path=decodeURIComponent(url.pathname);}catch{return new Response('Invalid path',{status:400});}
     if(path.startsWith('/auth/')||path.startsWith('/api/')||path==='/account-result.html')return Response.json({error:'This game runs locally in your browser. No account is required.'},{status:410});
+    if(Object.hasOwn(remoteFiles,path))return new Response(null,{status:302,headers:{Location:remoteFiles[path],'Cache-Control':'public, max-age=3600','X-Content-Type-Options':'nosniff'}});
     const file=Object.hasOwn(largeFiles,path)?largeFiles[path]:null;
     if(!file){if(path==='/')url.pathname='/index.html';return env.ASSETS.fetch(new Request(url,request));}
     const etag='"'+file.sha256+'"';

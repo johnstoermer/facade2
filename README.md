@@ -2,7 +2,7 @@
 
 An experimental, unofficial browser-local fan project based on Façade. Target website: [facade2.com](https://facade2.com).
 
-Players need a compatible browser, with no account, API key, subscription, or installed game. Rendering, dialogue, speech recognition, and generated character voices run on the player's device. Cloudflare serves the code and download files.
+Players need a compatible browser, with no account, API key, subscription, or installed game. Rendering, dialogue, speech recognition, and generated character voices run on the player's device. Cloudflare serves the game and corrected voice files. Unchanged open-model weights download from pinned public Hugging Face revisions and are cached in the browser; that host performs no inference for this game.
 
 ## Playing
 
@@ -40,7 +40,7 @@ Asset download requires an available published asset origin. Maintainers with th
 
 With the development server running, `npm run qa` opens a separate headless Chrome profile, checks compact layouts and movement, warms the actual models, and tests a spoken reply from each character. It blocks microphone capture. Set `CHROME_PATH` for another Chrome installation; pass a site URL to test a deployment, or `--ui-only` to skip model loading. Results and screenshots stay in the ignored `test-artifacts/` directory.
 
-Builds verify every binary hash. Cloudflare's per-file limit is handled by packaging large files in 24 MiB segments; the download handler reconstructs their HTTP response without changing the model bytes. It supports HEAD, conditional requests, byte ranges, cancellation, and explicit failure. This is file delivery only; inference and gameplay are not run on the server.
+Builds verify every binary hash. The complete asset set is 9.44 GB, including optional models; about 698 MB is hosted on Cloudflare. Unchanged large model assets redirect to their exact pinned upstream URLs. The corrected Turbo decoder stays on Cloudflare. Its per-file limit is handled by packaging large local files in 24 MiB segments; the download handler reconstructs their HTTP response without changing the model bytes. It supports HEAD, conditional requests, byte ranges, cancellation, and explicit failure. This is file delivery only; inference and gameplay are not run on the server.
 
 `wrangler.jsonc` pins the runtime and custom domain. After authenticating the domain's Cloudflare account, `npm run deploy` uploads the release. DNS/domain association and a successful live browser test must be verified before calling a release live. Deployment is currently manual; pushing Git does not deploy automatically.
 

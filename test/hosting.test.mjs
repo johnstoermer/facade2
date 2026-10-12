@@ -21,6 +21,14 @@ function binding({missing=-1,ignoreRange=false}={}){
   }}};
 }
 const request=(path='/model.bin',options)=>new Request('https://facade2.com'+path,options);
+test('only configured model downloads redirect; input cannot select another host',async()=>{
+  const target='https://huggingface.co/example/model/resolve/'+'a'.repeat(40)+'/weights.bin';
+  const remoteHandler=createAssetHandler({}, {'/weights.bin':target});
+  for(const method of ['GET','HEAD']){const response=await remoteHandler(request('/weights.bin',{method}),binding());assert.equal(response.status,302);assert.equal(response.headers.get('Location'),target);assert.equal(await response.text(),'');}
+  assert.equal((await remoteHandler(request('/weights.bin?url=https://untrusted.example'),binding())).headers.get('Location'),target);
+  assert.equal((await remoteHandler(request('/https://untrusted.example'),binding())).status,404);
+  assert.equal((await remoteHandler(request('/weights.bin',{method:'POST'}),binding())).status,405);
+});
 test('large model response preserves every byte across segment boundaries',async()=>{
   const env=binding(),response=await handler(request(),env);
   assert.equal(response.status,200);assert.equal(response.headers.get('Content-Length'),String(data.length));
