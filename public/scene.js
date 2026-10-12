@@ -243,7 +243,7 @@ async function boot() {
     nameLabel();for(const [i,button] of nameButtons.entries()){button.hidden=false;button.onclick=()=>{state.ui.name.cooldown=0;state.ui.step(i?{right:true}:{left:true});nameLabel();};}
     document.querySelector('#reset').textContent='Restart';
     document.title='Facade 2';
-    canvas.setAttribute('aria-label','Facade 2. WASD moves, left and right arrows turn. Enter opens typing. Click the front door to knock.');
+    canvas.setAttribute('aria-label','Facade 2. W and S walk forward and backward. A and D turn left and right. Arrow keys also work. Enter opens typing. Click the front door to knock.');
   }
   document.querySelector('#reset').onclick=()=>{if(state.opening){state.conversation?.reset();state.opening.reset();state.ui.reset();nameLabel();voiceButton.hidden=false;for(const button of nameButtons)button.hidden=false;document.body.classList.remove('playing');state.conversation?.controls();}else state.reset();canvas.focus();};
   for(const button of document.querySelectorAll('#movement button')){
@@ -318,14 +318,10 @@ async function boot() {
     state.behavior?.update(t);
     state.conversation?.update(t);
     if(state.keys.size&&(state.ui?.active||document.hidden||document.querySelector('dialog[open]')))state.keys.clear();
-    const turn=Number(state.keys.has('ArrowRight'))-Number(state.keys.has('ArrowLeft'));
+    const turn=Number(state.keys.has('ArrowRight')||state.keys.has('d'))-Number(state.keys.has('ArrowLeft')||state.keys.has('a'));
     const walk=Number(state.keys.has('ArrowUp')||state.keys.has('w'))-Number(state.keys.has('ArrowDown')||state.keys.has('s'));
-    const strafe=Number(state.keys.has('d'))-Number(state.keys.has('a'));
     state.camera.yaw+=turn*65*dt;
-    if(walk||strafe){
-      const step=75*dt/Math.hypot(walk,strafe),sin=Math.sin(state.camera.yaw*nativeRad),cos=Math.cos(state.camera.yaw*nativeRad);
-      state.move((sin*walk+cos*strafe)*step,(-cos*walk+sin*strafe)*step);
-    }
+    if(walk)state.move(Math.sin(state.camera.yaw*nativeRad)*walk*75*dt,-Math.cos(state.camera.yaw*nativeRad)*walk*75*dt);
     if(state.speech&&state.audio.status==='playing'){
       const seconds=Math.max(0,Math.min(state.audio.duration,state.audio.context.currentTime-state.audio.started));
       state.speech.face.sample(seconds*1000);state.speech.face.apply(state.speech.actor);rememberCues(state.speech.face);

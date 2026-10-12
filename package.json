@@ -6,9 +6,12 @@
   "description": "Experimental browser-local Façade fan project",
   "scripts": {
     "build": "node tools/build.mjs",
-    "dev": "wrangler dev --port 18060",
+    "dev": "wrangler dev --port 18060 --local-upstream 127.0.0.1",
     "test": "node --test test/*.test.mjs",
     "qa": "node tools/qa-browser.mjs",
+    "qa:controls": "node tools/qa-controls.mjs",
+    "qa:dialogue": "node tools/qa-dialogue.mjs",
+    "qa:tone": "node tools/qa-tone.mjs",
     "deploy": "wrangler deploy",
     "fetch-assets": "node tools/fetch-assets.mjs"
   },

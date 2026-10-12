@@ -185,7 +185,7 @@ export class BrowserConversation {
   }
   update(now){
     const stage=this.scene.opening.stage;
-    if(stage!==this.stage){this.stage=stage;this.holdMic();this.controls();if(stage==='apartment')$('status').textContent='WASD move · ← → turn · Enter to talk';}
+    if(stage!==this.stage){this.stage=stage;this.holdMic();this.controls();if(stage==='apartment')$('status').textContent='W/S walk · A/D turn · Enter to talk';}
     const reply=this.reply;
     if(this.pendingActionEvents.length&&now-this.actionEventAt>850&&now-this.lastActionReaction>4000&&!document.hidden&&this.model!=='recordings'&&!this.pending&&!this.reply&&!this.scene.behavior?.busy&&!busyAudio(this.scene)&&stage==='apartment'&&!document.querySelector('dialog[open]')){this.lastActionReaction=now;this.send('React to the guest action in the scene.',{playerEvent:true});}
     if(this.idleEnabled&&this.idleCount<1&&now>this.nextIdleAt&&this.dialogue.model&&!this.dialogue.draining&&!document.hidden&&!this.pending&&!this.reply&&!this.scene.behavior?.busy&&!this.pendingActionEvents.length&&!busyAudio(this.scene)&&stage==='apartment'&&!this.draft&&!document.querySelector('dialog[open]')&&!['transcribing','preparing','starting'].includes(this.speech.status)&&(!this.speech.requested||!this.speech.heardAt)){this.idleCount++;this.nextIdleAt=now+45000;this.send('',{idle:true});}

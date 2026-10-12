@@ -1,5 +1,6 @@
 import {MLCEngine} from './vendor/web-llm-0.2.86.js';
 import {parseReply,replyProblems,DialogueMemory,responseSchema} from './dialogue-protocol.js';
+import {asksImmediateRecall} from './guest-focus.js';
 let engine=null,model=null,run=0,loading=null,generating=false,adapterInfo=null;
 const memory=new DialogueMemory(),send=(type,data={})=>postMessage({type,...data});
 const devices=[];
@@ -43,6 +44,7 @@ self.onmessage=async({data})=>{
     let schema={...responseSchema,properties:{...responseSchema.properties}};
     if(['Trip','Grace'].includes(data.input?.replyAs))schema.properties.speaker={const:data.input.replyAs};
     schema.properties.handoff={const:'none'};
+    if(data.input&&asksImmediateRecall(data.input))schema.properties.actions={type:'array',maxItems:0,items:responseSchema.properties.actions.items};
     for(let attempt=0;attempt<2;attempt++){
     raw='';firstTokenMs=null;usage=null;finishReason=null;const attemptStarted=performance.now();
     const stream=await engine.chat.completions.create({messages:repairMessages,temperature:attempt ? .3 : data.temperature??.6,top_p:data.topP??.8,presence_penalty:data.presencePenalty??.25,frequency_penalty:0,max_tokens:data.maxTokens??280,stream:true,stream_options:{include_usage:true},response_format:data.grammar===false?undefined:{type:'json_object',schema:JSON.stringify(schema)},extra_body:{enable_thinking:data.thinking??false,enable_latency_breakdown:true}});
@@ -57,7 +59,7 @@ self.onmessage=async({data})=>{
     attempts.push({firstTokenMs,responseMs:performance.now()-attemptStarted,issues,raw});
     if(!issues.length)break;
     if(attempt===1){if(!data.messages)memory.failed(data.input);const e=Error('Local reply could not produce a fresh, valid plan. No commands were executed. Please rephrase.');e.raw=raw;e.metrics={...metrics,attempts};throw e;}
-    repairMessages=[...messages,{role:'assistant',content:raw},{role:'user',content:'ENGINE CHECK: This draft was not spoken and no actions were executed. Fix these problems: '+issues.join(' ')+' Return a fresh complete compact JSON turn for the same latest input. WORLD is unchanged.'}];
+    repairMessages=!data.messages&&issues.some(p=>/repeat|stock phrase|announced plan|immediate recall/i.test(p))?memory.focusedRepair(data.input,issues):[...messages,{role:'assistant',content:raw},{role:'user',content:'ENGINE CHECK: This draft was not spoken and no actions were executed. Fix these problems: '+issues.join(' ')+' Return a fresh complete compact JSON turn for the same latest input. WORLD is unchanged.'}];
     }
     metrics.attempts=attempts;metrics.firstTokenMs=attempts[0].firstTokenMs;
     if(!data.messages)memory.add(data.input,{...reply,raw});

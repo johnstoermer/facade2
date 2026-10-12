@@ -45,7 +45,7 @@
   @media (pointer: coarse) { body.playing #movement { display: grid; } }
   @media (max-height: 240px) { dialog { padding: 6px; } dialog p { margin: 4px 0; } .dialog-header { margin-bottom: 4px; } }
 </style>
-<main><div class="game-surface"><canvas id="game" width="1016" height="734" tabindex="0" aria-label="Facade 2 apartment scene. WASD moves, left and right arrows turn. Enter opens typing."></canvas><canvas id="ui" width="1016" height="734" aria-hidden="true"></canvas>
+<main><div class="game-surface"><canvas id="game" width="1016" height="734" tabindex="0" aria-label="Facade 2 apartment scene. W and S walk forward and backward. A and D turn left and right. Arrow keys also work. Enter opens typing."></canvas><canvas id="ui" width="1016" height="734" aria-hidden="true"></canvas>
 <div class="game-hud" aria-label="Game controls">
  <span id="status" role="status">Loading scene…</span><button id="game-menu-button" type="button" aria-haspopup="dialog">Menu</button>
  <span id="movement" aria-label="Movement"><button type="button" data-key="ArrowLeft" aria-label="Turn left">←</button><button type="button" data-key="ArrowUp" aria-label="Move forward">↑</button><button type="button" data-key="ArrowDown" aria-label="Move backward">↓</button><button type="button" data-key="ArrowRight" aria-label="Turn right">→</button></span>
@@ -56,7 +56,7 @@
 <dialog id="game-menu" aria-labelledby="game-menu-title">
  <div class="dialog-header"><strong id="game-menu-title">Facade 2</strong><button id="game-menu-close" type="button">Back</button></div>
  <div class="menu-options"><button id="dialogue-button" type="button">Dialogue</button><button id="character-voice-button" type="button" hidden>Voice</button><button id="reset" type="button">Restart</button></div>
- <p>WASD move · ← → turn<br>Enter to talk</p>
+ <p>W/S walk · A/D turn<br>Enter to talk</p>
 </dialog>
 <dialog id="dialogue-dialog" aria-labelledby="dialogue-title">
   <div class="dialog-header"><strong id="dialogue-title">Local dialogue</strong><button id="dialogue-close" type="button">Close</button></div>

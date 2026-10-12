@@ -31,7 +31,7 @@ export class ApartmentOpening {
     if(generation!==this.generation)return false;
     this.started=true;this.player=player;
     for(const actor of this.scene.actors)playMotion(actor,actor===this.trip?1:2,{layer:1,loop:true});
-    this.status('hallway','WASD move · ← → turn · Click the door to knock');return true;
+    this.status('hallway','W/S walk · A/D turn · Click the door to knock');return true;
   }
   wait(ms){return new Promise(resolve=>this.waiters.push({at:performance.now()+ms,resolve}));}
   async speak(actor,script,generation=this.generation){

@@ -39,16 +39,18 @@ export function intentionProblems(reply,input){
  const verb=/^[a-z]+/i.exec(intention.action)?.[0]?.toLowerCase();
  if(!verb||/\b(?:with you|alongside you|join you)\b/i.test(reply.text))return[];
  const claimed=new RegExp("\\bI(?:'ll| will| won't| will not| can't| cannot| am going to|'m going to| am not going to|'m not going to)\\s+(?:just\\s+)?"+verb+'\\b','i');
- return claimed.test(clean(reply.text))?['The announced plan belongs to the GUEST. React to them doing it (you/your), rather than saying you will or cannot do their action yourself.']:[];
+ const delegated=new RegExp("\\byou(?: want| need| expect| ask|'re asking| are asking) me to\\s+"+verb+'\\b','i');
+ return claimed.test(clean(reply.text))||delegated.test(clean(reply.text))?['The announced plan belongs to the GUEST. React to them doing it (you/your), rather than saying you will or cannot do their action yourself.']:[];
 }
 // A narrow guard for immediate verbatim/topic recall, not a semantic evaluator
 // for arbitrary questions. The evidence comes from actual player input.
+export function asksImmediateRecall(input){return /\bwhat\s+(?:did|have)\s+I\s+just\s+(?:say|said|ask|asked|tell|told|mention|mentioned|criticiz\w*|request\w*)\b/i.test(input.text??'');}
 export function immediateRecallProblems(reply,input,recent){
- if(!/\bwhat\s+(?:did|have)\s+I\s+just\s+(?:say|said|ask|asked|tell|told|mention|mentioned|criticiz\w*|request\w*)\b/i.test(input.text??''))return[];
+ if(!asksImmediateRecall(input))return[];
  const previous=recent.findLast(t=>t.kind==='speech'&&t.guest)?.guest;
  if(!previous)return[];
  const stop=new Set('trip tripp trick grace please your yours you youre yourself im ive ill its this that those these the and but for with from have has had was were are am did do dont didnt said say told tell just what which who going would could should will want'.split(' '));
  const terms=[...new Set(clean(previous).toLowerCase().match(/[a-z]{3,}/g)??[])].filter(t=>!stop.has(t));
- if(!terms.length||terms.some(t=>new RegExp('\\b'+t+'(?:s|es)?\\b','i').test(reply.text)))return[];
+ if(!terms.length||terms.some(t=>new RegExp('\\b'+t+'(?:s|es)?\\b','i').test(reply.text)&&!new RegExp("\\b(?:not|wasn't|weren't|didn't)\\b[^.!?]{0,25}\\b"+t+'\\b','i').test(reply.text)))return[];
  return['Answer the immediate recall question using the most recent guest remark, not an older topic. That remark was exactly '+JSON.stringify(previous)+'. Name its specific subject in your answer.'];
 }

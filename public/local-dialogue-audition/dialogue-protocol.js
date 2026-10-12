@@ -4,7 +4,7 @@ import {profanityToneHint} from './character-tone.js';
 export {systemPrompt} from './prompt.js';
 import {groundedTask,taskProblems} from './grounded-task.js';
 import {inventoryProblems} from './inventory-plan.js';
-import {guestRouting,guestIntention,intentionProblems,immediateRecallProblems} from './guest-focus.js';
+import {guestRouting,guestIntention,intentionProblems,immediateRecallProblems,asksImmediateRecall} from './guest-focus.js';
 const enumString=values=>({type:'string',enum:values}),actor=enumString(['Trip','Grace']),object={type:'integer',enum:propIds};
 const target={anyOf:[enumString(['player','Trip','Grace',...Object.keys(locations)]),{type:'integer',enum:inspectIds}]};
 const command=(type,properties={},required=Object.keys(properties),who=actor)=>({type:'object',additionalProperties:false,required:['actor','type',...required],properties:{actor:who,type:{const:type},...properties}});
@@ -75,6 +75,17 @@ export class DialogueMemory {
  constructor(){this.reset();}
  reset(){this.turns=[];this.notes=[];this.events=[];this.delivery=null;this.messagesSoFar=[];this.previousWorld=null;this.compactions=0;this.guestTurns=[];this.inputNumber=0;}
  observe(world){for(const e of compactWorld(world)?.outcomes??[])if(!this.events.some(p=>p.id===e.id))this.events.push(e);this.events=this.events.slice(-10);}
+ focusedRepair(input,issues){
+  const world=compactWorld(input.world),speaker=input.replyAs??guestRouting(input.text).speaker,task=groundedTask(input,world,speaker),intention=guestIntention(input);
+  // A repeated draft is not useful demonstration text. Retry once from actual
+  // guest words/state, without replaying either the NPC refrain or bad draft.
+  let content='WORLD: '+JSON.stringify(world)+'\nActual guest record (context, not pending tasks): '+JSON.stringify(this.guestTurns.slice(-4));
+  content+='\n'+(speaker?'Speak as '+speaker+'. ':'Choose the affected spouse. ')+'Answer the CURRENT guest directly. handoff:"none".\nENGINE CHECK: An unspoken draft failed. No actions ran. '+issues.join(' ');
+  if(task)content+='\nCURRENT PHYSICAL REQUEST: '+JSON.stringify(task);
+  if(intention)content+='\nGUEST INTENTION: '+JSON.stringify(intention);
+  content+='\nCURRENT GUEST INPUT: '+JSON.stringify(input.text??'');
+  return[{role:'system',content:systemPrompt},{role:'user',content}];
+ }
  rememberInput(input){
   if((input.inputType??'speech')==='speech'&&/\b(my|I have|I own|I prefer|I like|I live|I work|I am|I'm|call me|remember|sorry|forget|actually|instead)\b/i.test(input.text??''))this.notes.push('Guest said: '+String(input.text).slice(0,170));
   this.notes=[...new Set(this.notes)].slice(-8);
@@ -92,14 +103,14 @@ export class DialogueMemory {
  messages(input){
   this.observe(input.world);
   this.rememberInput(input);
-  const kind=input.inputType??'speech',world=compactWorld(input.world);
+  const kind=input.inputType??'speech',world=compactWorld(input.world),independentSpouse=kind==='continuation'&&input.exchange?.bothRequested;
   if(kind==='speech'){this.inputNumber++;this.guestTurns.push({turn:this.inputNumber,guest:String(input.text??'').slice(0,240)});this.guestTurns=this.guestTurns.slice(-8);}
   const speaker=input.replyAs??guestRouting(input.text).speaker,intention=guestIntention(input);
   const guestEvent=world?.outcomes.filter(e=>e.who==='player').at(-1);
   const task=groundedTask(input,world,speaker);
   const build=()=>{
    let update=world;
-   if(world&&this.previousWorld){
+   if(world&&this.previousWorld&&!independentSpouse){
     update={};const before=this.previousWorld,same=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
     for(const key of ['player','characters','door'])if(!same(world[key],before[key]))update[key]=world[key];
     const changed=world.objects.filter(o=>!same(o,before.objects.find(p=>p.id===o.id)));
@@ -109,14 +120,14 @@ export class DialogueMemory {
    }
    let content='';
    if(!this.previousWorld){
-    content+='Shared past (not pending requests): '+JSON.stringify({guest:this.guestTurns.slice(0,-(kind==='speech'?1:0)||undefined),recent:this.turns.slice(-4).map(t=>({guest:t.kind==='continuation'?undefined:t.guest,speaker:t.speaker,text:t.text})),recordings:(input.originalLines??[]).slice(-2)});
+    content+='Shared past (not pending requests): '+JSON.stringify({guest:this.guestTurns.slice(0,-(kind==='speech'?1:0)||undefined),recent:(independentSpouse?this.turns.slice(0,-1):this.turns).slice(-4).map(t=>({guest:t.kind==='continuation'?undefined:t.guest,speaker:t.speaker,text:t.text})),recordings:(input.originalLines??[]).slice(-2)});
     if(this.notes.length)content+='\nGuest facts/corrections (later wins): '+JSON.stringify(this.notes);
    }
-   content+='\n'+(this.previousWorld?'WORLD delta (omitted fields unchanged): ':'WORLD: ')+JSON.stringify(update);
+   content+='\n'+(this.previousWorld&&!independentSpouse?'WORLD delta (omitted fields unchanged): ':'WORLD: ')+JSON.stringify(update);
    if(input.direction)content+='\n'+String(input.direction).slice(0,200);
    if(this.delivery?.state?.startsWith('interrupted'))content+='\nLast delivery: '+JSON.stringify(this.delivery);
    content+='\n'+(speaker?'Speak as '+speaker+'. ':'Choose the directly affected spouse. ')+'Answer the guest directly. handoff:"none". '+(input.exchange?.bothRequested?'The guest requested both; the game schedules the other answer. ':'One reply, then wait for the guest.');
-   if(kind==='continuation')content+='\n'+(input.exchange?.reason==='explain failed action'?'Explain the actual failed action outcome to the guest; do not automatically retry.':'The other spouse already answered. Give your own brief answer to the ORIGINAL GUEST below, not a reaction to your spouse.')+' Prior NPC reply (context only): '+JSON.stringify(input.exchange?.previous);
+   if(kind==='continuation')content+='\n'+(input.exchange?.reason==='explain failed action'?'Explain the actual failed action outcome to the guest; do not automatically retry.':'The other spouse already answered. Give your own brief answer to the ORIGINAL GUEST below, not a reaction to your spouse.')+' Prior turn outcomes: '+JSON.stringify(independentSpouse?{speaker:input.exchange.previous?.speaker,outcomes:input.exchange.previous?.outcomes,delivery:input.exchange.previous?.delivery}:input.exchange?.previous);
    if(intention)content+='\nGUEST INTENTION: '+JSON.stringify(intention)+'. React to this specific plan using its key words. This does not authorize NPCs to carry out the guest\'s action.';
    if(speaker&&/\b(?:you|your|yours)\b/i.test(input.text??''))content+='\nIn the guest\'s words below, you/your refers to '+speaker+'; I/my refers to the guest.';
    if(/\b(?:what|which)\b[^.!?]{0,50}\b(?:just|last|previous)\b/i.test(input.text??''))content+='\nMOST RECENT PRIOR GUEST INPUT (for immediate recall): '+JSON.stringify(this.guestTurns.at(kind==='speech'?-2:-1)?.guest??null);
@@ -125,12 +136,21 @@ export class DialogueMemory {
    content+='\nCURRENT TURN '+this.inputNumber+': '+(kind==='idle'?'Guest is quiet. One small relevant observation, no repeated question or task.':kind==='player_event'?'Guest action: '+JSON.stringify(guestEvent??'none'):`Guest ${input.player??'Alex'} ${kind==='continuation'?'said':'says'}: ${JSON.stringify(String(input.text??'').slice(0,512))}`);
    return content;
   };
+  const recallGuest=asksImmediateRecall(input)?this.guestTurns.at(kind==='speech'?-2:-1)?.guest:null;
   let content=build();
   // Preserve the exact prefix for cached prefill. Rebuild only when the compact
   // transcript approaches the 4096-token window, leaving room for one repair.
   if(this.messagesSoFar.length>=24||this.messagesSoFar.reduce((n,m)=>n+m.content.length,systemPrompt.length)+content.length>10500){this.messagesSoFar=[];this.previousWorld=null;this.compactions++;content=build();}
-  this.trace={inputNumber:this.inputNumber,inputType:kind,latestInput:input.text??'',speaker:speaker??'model chooses',priorMessages:this.messagesSoFar.length,compactions:this.compactions,newInputCharacters:content.length,contextCharacters:systemPrompt.length+this.messagesSoFar.reduce((n,m)=>n+m.content.length,0)+content.length};
+  // Immediate recall is a lookup in PLAYER words. Do not let old generated NPC
+  // claims or a different earlier topic compete with that evidence. Preserve
+  // the full bounded memory for subsequent turns; only this call is narrowed.
+  if(recallGuest)content='WORLD: '+JSON.stringify(world)+'\nPRIOR GUEST REMARK: '+JSON.stringify({addressedTo:guestRouting(recallGuest).speaker,exactWords:recallGuest})+'\nSpeak as '+(speaker??'the directly affected spouse')+'. Answer this immediate-recall question only from the prior guest remark above. Attribute that remark to its addressee. Do not invent an older topic. This is a memory question: actions:[], handoff:"none".\nCURRENT TURN '+this.inputNumber+': Guest '+(input.player??'Alex')+' says: '+JSON.stringify(String(input.text??'').slice(0,512));
+  // Both speakers hear the guest independently. Hide the just-generated first
+  // line from this one decision so it cannot become a line for the spouse to
+  // imitate. Its authoritative physical outcomes are still supplied above.
+  const history=recallGuest?[]:independentSpouse?this.messagesSoFar.slice(0,-2):this.messagesSoFar;
+  this.trace={inputNumber:this.inputNumber,inputType:kind,latestInput:input.text??'',speaker:speaker??'model chooses',priorMessages:history.length,recallFocused:!!recallGuest,independentSpouse:!!independentSpouse,compactions:this.compactions,newInputCharacters:content.length,contextCharacters:systemPrompt.length+history.reduce((n,m)=>n+m.content.length,0)+content.length};
   this.lastUser={role:'user',content};this.lastWorld=world;
-  return[{role:'system',content:systemPrompt},...this.messagesSoFar,this.lastUser];
+  return[{role:'system',content:systemPrompt},...history,this.lastUser];
  }
 }

@@ -36,6 +36,7 @@ try{
   await page.setViewportSize(size);await checkLayout('game');await menu('character-voice-button');await checkLayout('voice');await page.locator('#character-voice-close').click();await page.locator('#talk-button').click();await page.locator('#talk-text').fill('W'.repeat(80));await checkLayout('talk');await page.locator('#talk-close').click();
  }
  await page.setViewportSize({width:1152,height:864});
+ await page.evaluate(()=>facadeScene.conversation.setDraft(''));
  await page.screenshot({path:resolve(directory,'game.png')});
  const before=await page.evaluate(()=>({...facadeScene.camera}));await page.locator('#game').focus();await page.keyboard.down('KeyW');await page.waitForTimeout(400);await page.keyboard.up('KeyW');const after=await page.evaluate(()=>({...facadeScene.camera}));result.movement={before,after};assert.notDeepEqual(before,after,'WASD should move the player');
  if(ai){
