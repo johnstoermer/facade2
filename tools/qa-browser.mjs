@@ -3,7 +3,7 @@ import {mkdir,writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import assert from 'node:assert/strict';
 
-const origin=process.argv[2]??'http://127.0.0.1:18060';
+const origin=process.argv.slice(2).find(argument=>!argument.startsWith('--'))??'http://127.0.0.1:18060';
 const ai=!process.argv.includes('--ui-only');
 const directory=resolve('test-artifacts','hosting-'+Date.now());
 await mkdir(directory,{recursive:true});
@@ -45,7 +45,7 @@ try{
   clearInterval(progress);assert.equal(result.preparation.ok,true);assert.equal(result.preparation.run.completed,true);console.log('PREPARED',Math.round(result.preparation.run.totalMs));await save();
   for(const text of ['Trip, thank you for inviting me. How are you?','Grace, how do you feel about your painting?']){
    const reply=await page.evaluate(async text=>{const c=facadeScene.conversation,at=performance.now();const ok=await c.send(text);return{ok,ms:performance.now()-at,exchange:c.lastExchange,reply:c.lastReply,error:c.error,failure:c.lastFailure};},text);
-   result.replies.push({input:text,...reply});console.log('REPLY',JSON.stringify(reply));await save();assert.equal(reply.ok,true,reply.error);assert.equal(reply.reply?.spoken,true,reply.error);
+   result.replies.push({input:text,...reply});console.log('REPLY',JSON.stringify({ok:reply.ok,speaker:reply.reply?.speaker,text:reply.reply?.text,spoken:reply.reply?.spoken,timings:reply.reply?.timings,error:reply.error}));await save();assert.equal(reply.ok,true,reply.error);assert.equal(reply.reply?.spoken,true,reply.error);
   }
  }
  result.microphoneRequests=await page.evaluate(()=>window.microphoneRequests);assert.equal(result.microphoneRequests,0);assert.deepEqual(result.errors,[]);result.passed=true;
