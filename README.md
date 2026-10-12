@@ -1,6 +1,6 @@
 # Facade 2
 
-An experimental, unofficial browser-local fan project based on Façade. Target website: [facade2.com](https://facade2.com).
+An experimental, unofficial browser-local fan project based on Façade. Play at [facade2.com](https://facade2.com).
 
 Players need a compatible browser, with no account, API key, subscription, or installed game. Rendering, dialogue, speech recognition, and generated character voices run on the player's device. Cloudflare serves the game and corrected voice files. Unchanged open-model weights download from pinned public Hugging Face revisions and are cached in the browser; that host performs no inference for this game.
 
@@ -23,6 +23,8 @@ Characters are encouraged to respond rudely and use profanity when insulted dire
 This is a development slice, not the original complete drama engine or an official sequel. Original visuals and recordings are reused, but pixel-perfect native rendering and all original behavior are not established. Generated dialogue can be repetitive, misread context, or choose an invalid plan. The game checks supported commands, ownership, reachability, and actual outcomes.
 
 Local AI requires hardware WebGPU with `shader-f16` and substantial memory. Layout support on small screens does not establish that a phone can run the models. Recognition has a local CPU fallback; dialogue and generated voices report failures rather than silently using a cloud service. Captions and original recordings remain available.
+
+The deployed site passed 13 hosting checks and an owned Chrome smoke test on an RTX 4080 SUPER: 30 layouts down to 320×200, WASD movement, actual Qwen/Turbo/recognition warmup, and a generated spoken reply with a successful gesture from each character. No physical microphone was accessed. This verifies that the deployed pipeline works; it is not a comprehensive conversation-quality or performance benchmark. Model replies can still misidentify who they are addressing.
 
 ## Source and development
 
