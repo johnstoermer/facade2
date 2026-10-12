@@ -23,6 +23,7 @@ export function createAssetHandler(largeFiles,remoteFiles={}){
   return async function fetchAsset(request,env){
     if(!['GET','HEAD'].includes(request.method))return new Response('Method not allowed',{status:405,headers:{Allow:'GET, HEAD'}});
     const url=new URL(request.url);let path;
+    if(url.protocol==='http:'&&!['localhost','127.0.0.1','[::1]'].includes(url.hostname)){url.protocol='https:';return Response.redirect(url.href,308);}
     try{path=decodeURIComponent(url.pathname);}catch{return new Response('Invalid path',{status:400});}
     if(path.startsWith('/auth/')||path.startsWith('/api/')||path==='/account-result.html')return Response.json({error:'This game runs locally in your browser. No account is required.'},{status:410});
     if(Object.hasOwn(remoteFiles,path))return new Response(null,{status:302,headers:{Location:remoteFiles[path],'Cache-Control':'public, max-age=3600','X-Content-Type-Options':'nosniff'}});

@@ -21,6 +21,10 @@ function binding({missing=-1,ignoreRange=false}={}){
   }}};
 }
 const request=(path='/model.bin',options)=>new Request('https://facade2.com'+path,options);
+test('public entry uses HTTPS while local development remains reachable',async()=>{
+  const response=await handler(new Request('http://facade2.com/?test=1'),binding());assert.equal(response.status,308);assert.equal(response.headers.get('Location'),'https://facade2.com/?test=1');
+  assert.equal((await handler(new Request('http://127.0.0.1:18060/'),binding())).status,200);
+});
 test('only configured model downloads redirect; input cannot select another host',async()=>{
   const target='https://huggingface.co/example/model/resolve/'+'a'.repeat(40)+'/weights.bin';
   const remoteHandler=createAssetHandler({}, {'/weights.bin':target});
